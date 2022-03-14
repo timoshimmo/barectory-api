@@ -1,0 +1,3159 @@
+[
+  {
+    "id": 1,
+    "name": "MARTINI® Rosso Vermouth",
+    "slug": "martini-rosso",
+    "description": "Martini Rosso Vermouth is a light, balanced and scarlet-hued Italian sweet red vermouth. This famous drink was first created by the Martini family in the ancient town of Pessione, nestling in the foothills of the Alps near Turin. The exquisite red vermouth has remained inextricably linked to the Italian passions of food, entertaining friends and motor racing, since 1863",
+    "type_id": 1,
+    "price": 2,
+    "shop_id": 6,
+    "sale_price": 1.6,
+    "sku": "1",
+    "quantity": 18,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "1lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "1",
+      "original": "https://assets.bacardicontenthub.com/m/4ef1e3bb5369270b/Medium_1600_PNG-IPX.png",
+      "thumbnail": "https://assets.bacardicontenthub.com/m/4ef1e3bb5369270b/Medium_1600_PNG-IPX.png"
+    },
+    "gallery": [
+      {
+        "id": "573",
+        "original": "https://assets.bacardicontenthub.com/m/4ef1e3bb5369270b/Medium_1600_PNG-IPX.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/4ef1e3bb5369270b/Medium_1600_PNG-IPX.png"
+      },
+      {
+        "id": "574",
+        "original": "https://assets.bacardicontenthub.com/m/1a39ef6b8355d7ab/Large_3000_PNG-FY21_MARTINI_Rosso_IBX_1L_15.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/1a39ef6b8355d7ab/Large_3000_PNG-FY21_MARTINI_Rosso_IBX_1L_15.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:24:53.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Vermouth",
+        "slug": "vermouth",
+        "icon": null,
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 1,
+          "category_id": 1
+        }
+      },
+      {
+        "id": 2,
+        "name": "Fruits",
+        "slug": "fruits",
+        "icon": null,
+        "image": [],
+        "details": null,
+        "parent": 1,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:22:04.000000Z",
+        "updated_at": "2021-03-08T07:22:04.000000Z",
+        "deleted_at": null,
+        "parent_id": 1,
+        "pivot": {
+          "product_id": 1,
+          "category_id": 2
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 2,
+    "name": "MARTINI® Bianco Vermouth",
+    "slug": "martini-bianco",
+    "description": "MARTINI Bianco Vermouth is based on an original recipe passed down for generations.  Natural ingredients, including up to 40 hand-selected botanicals, are used in a signature method called 'macerato a la girata lenta'.",
+    "type_id": 1,
+    "price": 0.6,
+    "shop_id": 6,
+    "sale_price": 4500,
+    "sku": "2",
+    "quantity": 10,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "2lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "2",
+      "original": "https://assets.bacardicontenthub.com/m/58855fe016f9a48b/Medium_1600_PNG-IPX.png",
+      "thumbnail": "https://assets.bacardicontenthub.com/m/58855fe016f9a48b/Medium_1600_PNG-IPX.png"
+    },
+    "gallery": [
+      {
+        "id": "576",
+        "original": "https://assets.bacardicontenthub.com/m/58855fe016f9a48b/Medium_1600_PNG-IPX.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/58855fe016f9a48b/Medium_1600_PNG-IPX.png"
+      },
+      {
+        "id": "577",
+        "original": "https://assets.bacardicontenthub.com/m/7b9d842d90e97d28/Large_3000_PNG-FY21_MARTINI_Bianco_IBX_1L_15.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/7b9d842d90e97d28/Large_3000_PNG-FY21_MARTINI_Bianco_IBX_1L_15.png"
+      },
+      {
+        "id": "578",
+        "original": "https://assets.bacardicontenthub.com/m/4dcad54b17075011/Large_3000_PNG-FY21_CH_Martini_Martini-Bianco_EIP_100cl.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/4dcad54b17075011/Large_3000_PNG-FY21_CH_Martini_Martini-Bianco_EIP_100cl.png"
+      },
+      {
+        "id": "738",
+        "original": "https://assets.bacardicontenthub.com/m/3c0c68157b442fb8/Large_3000_PNG-FY21_CH_Martini_Martini-Bianco_LNP_100cl.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/3c0c68157b442fb8/Large_3000_PNG-FY21_CH_Martini_Martini-Bianco_LNP_100cl.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:26:13.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Vermouth",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "vermouth",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Barectory",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Vermouth",
+        "slug": "vermouth",
+        "icon": null,
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 2,
+          "category_id": 1
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 3,
+    "name": "MARTINI® Extra Dry Vermouth",
+    "slug": "martini-extra-dry",
+    "description": "Martini: A true Italian icon, enjoyed the world over and known as the charismatic drink of the truly stylish. Martini has been at the heart of excellence in Wine production for over 150 years, ever since being founded in 1863. Martini Extra Dry Vermouth is crafted using hand-selected botanicals from across the world’s gardens.",
+    "type_id": 1,
+    "price": 3,
+    "shop_id": 6,
+    "sale_price": null,
+    "sku": "3",
+    "quantity": 30,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "1lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "3",
+      "original": "https://assets.bacardicontenthub.com/m/7372e057ceb69401/Large_3000_PNG-FY21_MARTINI_Dry_IPX_1L_18.png",
+      "thumbnail": "https://assets.bacardicontenthub.com/m/7372e057ceb69401/Large_3000_PNG-FY21_MARTINI_Dry_IPX_1L_18.png"
+    },
+    "gallery": [
+      {
+        "id": "580",
+        "original": "https://assets.bacardicontenthub.com/m/7372e057ceb69401/Large_3000_PNG-FY21_MARTINI_Dry_IPX_1L_18.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/7372e057ceb69401/Large_3000_PNG-FY21_MARTINI_Dry_IPX_1L_18.png"
+      },
+      {
+        "id": "581",
+        "original": "https://assets.bacardicontenthub.com/m/e511cd14d9fc44cd/Large_3000_PNG-FY21_MARTINI_Dry_IBX_1L_18.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/e511cd14d9fc44cd/Large_3000_PNG-FY21_MARTINI_Dry_IBX_1L_18.png"
+      },
+      {
+        "id": "740",
+        "original": "https://assets.bacardicontenthub.com/m/d7c8dbc083bea026/Large_3000_PNG-FY21_DE_Martini_Martini-Extra-Dry_EIP_100cl_18.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/d7c8dbc083bea026/Large_3000_PNG-FY21_DE_Martini_Martini-Extra-Dry_EIP_100cl_18.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:40:00.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Barectory",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Vermouth",
+        "slug": "vermouth",
+        "icon": null,
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 3,
+          "category_id": 1
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 4,
+    "name": "WILLIAM LAWSON'S™ Finest Blend",
+    "slug": "williams-lawson",
+    "description": "Nothing should come between a man and our whisky. No peaty overtones. No smoky aroma. No bouncer saying you’re wearing the wrong shoes. Nothing to stop you enjoying its big, bold fruity flavour. Its taste of toasted cereal. Hint of juicy apple. And dollop of chewy toffee. But don’t just take our word, take a sip. Or two.",
+    "type_id": 1,
+    "price": 5,
+    "shop_id": 6,
+    "sale_price": 3,
+    "sku": "4",
+    "quantity": 17,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "1lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "4",
+      "original": "https://toppng.com/uploads/preview/size-william-lawson-william-lawsons-blended-whisky-11563204756nezuyxav1x.png",
+      "thumbnail": "https://toppng.com/uploads/preview/size-william-lawson-william-lawsons-blended-whisky-11563204756nezuyxav1x.png"
+    },
+    "gallery": [
+      {
+        "id": "582",
+        "original": "https://toppng.com/uploads/preview/size-william-lawson-william-lawsons-blended-whisky-11563204756nezuyxav1x.png",
+        "thumbnail": "https://toppng.com/uploads/preview/size-william-lawson-william-lawsons-blended-whisky-11563204756nezuyxav1x.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:42:32.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Fruits & Vegetables",
+        "slug": "fruits-vegetables",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 4,
+          "category_id": 1
+        }
+      },
+      {
+        "id": 3,
+        "name": "Vegetables",
+        "slug": "vegetables",
+        "icon": null,
+        "image": {
+          "id": null,
+          "original": null,
+          "thumbnail": null
+        },
+        "details": null,
+        "parent": 1,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:57:48.000000Z",
+        "updated_at": "2021-03-09T11:51:24.000000Z",
+        "deleted_at": null,
+        "parent_id": 1,
+        "pivot": {
+          "product_id": 4,
+          "category_id": 3
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 5,
+    "name": "DEWAR'S® White Label Blended Scotch Whisky",
+    "slug": "dewars-white-label",
+    "description": "Dewar's® White Label Blended Scotch Whisky was created by the eponymous Dewar family. It is famous for its ‘double-aged’ blend, with six months of marrying in oak casks after initial maturation and blending. This Scotch whisky's unique taste and experience is one of the world’s most popular and awarded whiskies.",
+    "type_id": 1,
+    "price": 6,
+    "shop_id": 6,
+    "sale_price": 5,
+    "sku": "5",
+    "quantity": 18,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "1lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "5",
+      "original": "https://assets.bacardicontenthub.com/m/ae31b5075289ab1b/Large_3000_PNG-FY21_DEWARS_White_Label_IPX_750ml.png",
+      "thumbnail": "https://assets.bacardicontenthub.com/m/ae31b5075289ab1b/Large_3000_PNG-FY21_DEWARS_White_Label_IPX_750ml.png"
+    },
+    "gallery": [
+      {
+        "id": "585",
+        "original": "https://assets.bacardicontenthub.com/m/ae31b5075289ab1b/Large_3000_PNG-FY21_DEWARS_White_Label_IPX_750ml.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/ae31b5075289ab1b/Large_3000_PNG-FY21_DEWARS_White_Label_IPX_750ml.png"
+      },
+      {
+        "id": "586",
+        "original": "https://assets.bacardicontenthub.com/m/97a463c46ca58f58/Large_3000_PNG-FY21_DEWARS_White_Label_IBX_750ml.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/97a463c46ca58f58/Large_3000_PNG-FY21_DEWARS_White_Label_IBX_750ml.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:44:09.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 3,
+        "name": "Vegetables",
+        "slug": "vegetables",
+        "icon": null,
+        "image": {
+          "id": null,
+          "original": null,
+          "thumbnail": null
+        },
+        "details": null,
+        "parent": 1,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:57:48.000000Z",
+        "updated_at": "2021-03-09T11:51:24.000000Z",
+        "deleted_at": null,
+        "parent_id": 1,
+        "pivot": {
+          "product_id": 5,
+          "category_id": 3
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 6,
+    "name": "DEWAR'S® 12 Year Old Blended Scotch Whisky",
+    "slug": "dewars-blended-scotch",
+    "description": "Dewar's® 12 Year Old Blended Scotch Whisky was created by the eponymous Dewar family. It is famous for its ‘double-aged’ blend, with six months of marrying in oak casks after initial maturation and blending. This Scotch whisky's unique taste and experience is one of the world’s most popular and awarded whiskies",
+    "type_id": 1,
+    "price": 3,
+    "shop_id": 6,
+    "sale_price": 2.5,
+    "sku": "6",
+    "quantity": 50,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "1lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "6",
+      "original": "https://assets.bacardicontenthub.com/m/dcc973f4c32cd0bb/Large_3000_PNG-FY21_Dewars_12years_IPX_75cl.png",
+      "thumbnail": "https://assets.bacardicontenthub.com/m/dcc973f4c32cd0bb/Large_3000_PNG-FY21_Dewars_12years_IPX_75cl.png"
+    },
+    "gallery": [
+      {
+        "id": "590",
+        "original": "https://assets.bacardicontenthub.com/m/dcc973f4c32cd0bb/Large_3000_PNG-FY21_Dewars_12years_IPX_75cl.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/dcc973f4c32cd0bb/Large_3000_PNG-FY21_Dewars_12years_IPX_75cl.png"
+      },
+      {
+        "id": "591",
+        "original": "https://assets.bacardicontenthub.com/m/4bfd83adc19fad56/Large_3000_PNG-FY21_Dewars_12years_IBX_75cl.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/4bfd83adc19fad56/Large_3000_PNG-FY21_Dewars_12years_IBX_75cl.png"
+      },
+      {
+        "id": "592",
+        "original": "https://assets.bacardicontenthub.com/m/808e8647cec27b17/Large_3000_PNG-FY21_Dewars_12years_BIP_75cl.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/808e8647cec27b17/Large_3000_PNG-FY21_Dewars_12years_BIP_75cl.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:45:18.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Fruits & Vegetables",
+        "slug": "fruits-vegetables",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 6,
+          "category_id": 1
+        }
+      },
+      {
+        "id": 2,
+        "name": "Fruits",
+        "slug": "fruits",
+        "icon": null,
+        "image": [],
+        "details": null,
+        "parent": 1,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:22:04.000000Z",
+        "updated_at": "2021-03-08T07:22:04.000000Z",
+        "deleted_at": null,
+        "parent_id": 1,
+        "pivot": {
+          "product_id": 6,
+          "category_id": 2
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 7,
+    "name": "ERISTOFF™ Premium Vodka",
+    "slug": "eristoff-vodka",
+    "description": "Based on a secret recipe created back in 1806 in Georgia, historically referred to as ‘The Land Of The Wolf’, Eristoff is a triple distilled premium vodka made from 100% pure grain.",
+    "type_id": 1,
+    "price": 5,
+    "shop_id": 6,
+    "sale_price": 4,
+    "sku": "7",
+    "quantity": 50,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "1lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "7",
+      "original": "https://assets.bacardicontenthub.com/m/c624c8da4f1c45b5/Large_3000_PNG-F20_Eristoff_Brut_IPX_70cl.png",
+      "thumbnail": "https://assets.bacardicontenthub.com/m/c624c8da4f1c45b5/Large_3000_PNG-F20_Eristoff_Brut_IPX_70cl.png"
+    },
+    "gallery": [
+      {
+        "id": "593",
+        "original": "https://assets.bacardicontenthub.com/m/c624c8da4f1c45b5/Large_3000_PNG-F20_Eristoff_Brut_IPX_70cl.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/c624c8da4f1c45b5/Large_3000_PNG-F20_Eristoff_Brut_IPX_70cl.png"
+      },
+      {
+        "id": "594",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/593/Sweet-Corn-2.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/593/conversions/Sweet-Corn-2-thumbnail.jpg"
+      },
+      {
+        "id": "595",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/594/Sweet-Corn.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/594/conversions/Sweet-Corn-thumbnail.jpg"
+      },
+      {
+        "id": "744",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/743/Corn_dlrtbv.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/743/conversions/Corn_dlrtbv-thumbnail.jpg"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:48:20.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Fruits & Vegetables",
+        "slug": "fruits-vegetables",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 7,
+          "category_id": 1
+        }
+      },
+      {
+        "id": 3,
+        "name": "Vegetables",
+        "slug": "vegetables",
+        "icon": null,
+        "image": {
+          "id": null,
+          "original": null,
+          "thumbnail": null
+        },
+        "details": null,
+        "parent": 1,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:57:48.000000Z",
+        "updated_at": "2021-03-09T11:51:24.000000Z",
+        "deleted_at": null,
+        "parent_id": 1,
+        "pivot": {
+          "product_id": 7,
+          "category_id": 3
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 8,
+    "name": "GREY GOOSE® Premium Vodka",
+    "slug": "grey-goose-premium",
+    "description": "Grey Goose is a premium flavoured vodka, born from an extraordinary passion for spirit-making. It is created using only the finest French ingredients – the highest-grade wheat and pristine limestone-filtered spring water. It is a spirit of uncommon brilliance, unrivalled craftsmanship and signature smoothness and is an excellent choice as a gift.",
+    "type_id": 1,
+    "price": 2.5,
+    "shop_id": 6,
+    "sale_price": null,
+    "sku": "8",
+    "quantity": 25,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "2.5lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "8",
+      "original": "https://assets.bacardicontenthub.com/m/4748f1d2113471ca/Large_3000_PNG-GG_Original_IPX_1L.png",
+      "thumbnail": "https://assets.bacardicontenthub.com/m/4748f1d2113471ca/Large_3000_PNG-GG_Original_IPX_1L.png"
+    },
+    "gallery": [
+      {
+        "id": "596",
+        "original": "https://assets.bacardicontenthub.com/m/4748f1d2113471ca/Large_3000_PNG-GG_Original_IPX_1L.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/4748f1d2113471ca/Large_3000_PNG-GG_Original_IPX_1L.png"
+      },
+      {
+        "id": "597",
+        "original": "https://assets.bacardicontenthub.com/m/753e0555cf701f4c/Large_3000_PNG-FY21_GreyGoose_Original_IBX_1L.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/753e0555cf701f4c/Large_3000_PNG-FY21_GreyGoose_Original_IBX_1L.png"
+      },
+      {
+        "id": "598",
+        "original": "https://assets.bacardicontenthub.com/m/cd7bd4fe0a929d6c/Large_3000_PNG-FY21_DE_GreyGoose_Original_EIP_1L.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/cd7bd4fe0a929d6c/Large_3000_PNG-FY21_DE_GreyGoose_Original_EIP_1L.png"
+      },
+      {
+        "id": "745",
+        "original": "https://assets.bacardicontenthub.com/m/47fa5f59c69f2112/Large_3000_PNG-GreyGoose_Original_LNP2_BlackRussian.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/47fa5f59c69f2112/Large_3000_PNG-GreyGoose_Original_LNP2_BlackRussian.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:49:18.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Vodka",
+        "slug": "vodka",
+        "icon": null,
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 8,
+          "category_id": 1
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 9,
+    "name": "BOMBAY SAPPHIRE® Gin",
+    "slug": "bombay-sapphire",
+    "description": "Bombay Sapphire® Gin is a uniquely balanced premium gin, leading the gin revival worldwide. It is recognisable by its exquisite bottle shape and distinctive sapphire-blue livery",
+    "type_id": 1,
+    "price": 5,
+    "shop_id": 6,
+    "sale_price": 4,
+    "sku": "11",
+    "quantity": 50,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "1lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "12",
+      "original": "https://assets.bacardicontenthub.com/m/b40fa24e3cf78856/Large_3000_PNG-FY21_BOMBAY_Sapphire_IPX_75cl.png",
+      "thumbnail": "https://assets.bacardicontenthub.com/m/b40fa24e3cf78856/Large_3000_PNG-FY21_BOMBAY_Sapphire_IPX_75cl.png"
+    },
+    "gallery": [
+      {
+        "id": "748",
+        "original": "https://assets.bacardicontenthub.com/m/b40fa24e3cf78856/Large_3000_PNG-FY21_BOMBAY_Sapphire_IPX_75cl.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/b40fa24e3cf78856/Large_3000_PNG-FY21_BOMBAY_Sapphire_IPX_75cl.png"
+      },
+      {
+        "id": "749",
+        "original": "https://assets.bacardicontenthub.com/m/0a36ed48fe8a08a0/Large_3000_PNG-FY21_BOMBAY_Sapphire_IBX_75cl.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/0a36ed48fe8a08a0/Large_3000_PNG-FY21_BOMBAY_Sapphire_IBX_75cl.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:52:16.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Gin",
+        "slug": "gin",
+        "icon": null,
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 11,
+          "category_id": 1
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 10,
+    "name": "BACARDÍ® Carta Blanca White Rum",
+    "slug": "carta-blanca",
+    "description": "Bacardí Carta Blanca White Rum was first created by Don Facundo Bacardí Masso in 1862 and has since been recognised as the world's most-awarded rum",
+    "type_id": 1,
+    "price": 2,
+    "shop_id": 6,
+    "sale_price": 1.5,
+    "sku": "12",
+    "quantity": 50,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "4pc(s)",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "13",
+      "original": "https://assets.bacardicontenthub.com/m/142a9f044de66b3a/Large_3000_PNG-FY21_BACARDI_Carta_Blanca_IPX_750ml_40.png",
+      "thumbnail": "https://assets.bacardicontenthub.com/m/142a9f044de66b3a/Large_3000_PNG-FY21_BACARDI_Carta_Blanca_IPX_750ml_40.png"
+    },
+    "gallery": [
+      {
+        "id": "570",
+        "original": "https://assets.bacardicontenthub.com/m/142a9f044de66b3a/Large_3000_PNG-FY21_BACARDI_Carta_Blanca_IPX_750ml_40.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/142a9f044de66b3a/Large_3000_PNG-FY21_BACARDI_Carta_Blanca_IPX_750ml_40.png"
+      },
+      {
+        "id": "572",
+        "original": "https://assets.bacardicontenthub.com/m/b82d4a6587499865/Large_3000_PNG-FY21_BACARDI_Carta_Blanca_IBX_750ml_40.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/b82d4a6587499865/Large_3000_PNG-FY21_BACARDI_Carta_Blanca_IBX_750ml_40.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:53:23.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Rum",
+        "slug": "rum",
+        "icon": null,
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 12,
+          "category_id": 1
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 11,
+    "name": "BACARDÍ® Carta Oro Golden Rum",
+    "slug": "carta-oro",
+    "description": "BACARDÍ Gold Rum is hand blended, charcoal filtered and aged for two years in American white oak barrels. The liquid brings depth and character to classic rum cocktails, while maintaining a smooth finish.",
+    "type_id": 1,
+    "price": 2.5,
+    "shop_id": 6,
+    "sale_price": null,
+    "sku": "13",
+    "quantity": 50,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "1lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "14",
+      "original": "https://www.seekpng.com/png/detail/59-594231_bacardi-bacardi-gold-rum.png",
+      "thumbnail": "https://www.seekpng.com/png/detail/59-594231_bacardi-bacardi-gold-rum.png"
+    },
+    "gallery": [{
+      "id": "1210",
+      "original": "https://www.seekpng.com/png/detail/59-594231_bacardi-bacardi-gold-rum.png",
+      "thumbnail": "https://www.seekpng.com/png/detail/59-594231_bacardi-bacardi-gold-rum.png"
+    }],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:54:24.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Rum",
+        "slug": "rum",
+        "icon": "vegetables",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 13,
+          "category_id": 1
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 12,
+    "name": "GREY GOOSE® L'Orange Premium Flavoured Vodka",
+    "slug": "grey-goose-orange",
+    "description": "Grey Goose L'Orange premium flavoured vodka is an exquisite French flavoured vodka. It contains the natural essence of fresh oranges, giving it a light and crisp flavour.",
+    "type_id": 1,
+    "price": 10,
+    "shop_id": 6,
+    "sale_price": 8,
+    "sku": "9",
+    "quantity": 50,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "1.5lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "10",
+      "original": "https://assets.bacardicontenthub.com/m/9e277ef9084146a0/Large_3000_PNG-GG_L-Orange_IPX_1L.png",
+      "thumbnail": "https://assets.bacardicontenthub.com/m/9e277ef9084146a0/Large_3000_PNG-GG_L-Orange_IPX_1L.png"
+    },
+    "gallery": [
+      {
+        "id": "599",
+        "original": "https://assets.bacardicontenthub.com/m/9e277ef9084146a0/Large_3000_PNG-GG_L-Orange_IPX_1L.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/9e277ef9084146a0/Large_3000_PNG-GG_L-Orange_IPX_1L.png"
+      },
+      {
+        "id": "600",
+        "original": "https://assets.bacardicontenthub.com/m/2b4c0e7412ad4cb9/Large_3000_PNG-FY21_GREY_GOOSE_L-Orange_IBX_1L.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/2b4c0e7412ad4cb9/Large_3000_PNG-FY21_GREY_GOOSE_L-Orange_IBX_1L.png"
+      },
+      {
+        "id": "601",
+        "original": "https://assets.bacardicontenthub.com/m/413bb47996ee4974/Large_3000_PNG-FY21_GB_GreyGoose_L-Orange_EIP_1L.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/413bb47996ee4974/Large_3000_PNG-FY21_GB_GreyGoose_L-Orange_EIP_1L.png"
+      },
+      {
+        "id": "746",
+        "original": "https://assets.bacardicontenthub.com/m/50febb64475a9534/Large_3000_PNG-GreyGoose_LOrange_LNP2.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/50febb64475a9534/Large_3000_PNG-GreyGoose_LOrange_LNP2.png"
+      },
+      {
+        "id": "1011",
+        "original": "https://assets.bacardicontenthub.com/m/428f1d3ac83d9651/Large_3000_PNG-GreyGoose_LOrange_LNP1.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/428f1d3ac83d9651/Large_3000_PNG-GreyGoose_LOrange_LNP1.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:50:41.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Vodka",
+        "slug": "vodka",
+        "icon": null,
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 9,
+          "category_id": 1
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 13,
+    "name": "GREY GOOSE® Le Citron Premium Flavoured Vodka",
+    "slug": "grey-goose-citron",
+    "description": "Grey Goose Le Citron premium flavoured vodka is a superb, premium vodka, created with an unrivalled level of craftsmanship using only the very finest ingredients.",
+    "type_id": 1,
+    "price": 1.5,
+    "shop_id": 6,
+    "sale_price": 1.2,
+    "sku": "10",
+    "quantity": 50,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "0.5lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "11",
+      "original": "https://assets.bacardicontenthub.com/m/b08d1a4d91c3f051/Large_3000_PNG-GG_LeCitron_IPX_1L.png",
+      "thumbnail": "https://assets.bacardicontenthub.com/m/b08d1a4d91c3f051/Large_3000_PNG-GG_LeCitron_IPX_1L.png"
+    },
+    "gallery": [
+      {
+        "id": "602",
+        "original": "https://assets.bacardicontenthub.com/m/b08d1a4d91c3f051/Large_3000_PNG-GG_LeCitron_IPX_1L.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/b08d1a4d91c3f051/Large_3000_PNG-GG_LeCitron_IPX_1L.png"
+      },
+      {
+        "id": "603",
+        "original": "https://assets.bacardicontenthub.com/m/3c6f75d86ae4e32c/Large_3000_PNG-FY21_GREY_GOOSE_Le_Citron_IBX_1L.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/3c6f75d86ae4e32c/Large_3000_PNG-FY21_GREY_GOOSE_Le_Citron_IBX_1L.png"
+      },
+      {
+        "id": "604",
+        "original": "https://assets.bacardicontenthub.com/m/3c0d467d17ca32b5/Large_3000_PNG-GreyGoose_LeCitron_EIP.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/3c0d467d17ca32b5/Large_3000_PNG-GreyGoose_LeCitron_EIP.png"
+      },
+      {
+        "id": "747",
+        "original": "https://assets.bacardicontenthub.com/m/18b224e5dde5d699/Large_3000_PNG-GreyGoose_LeCitron_LNP2.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/18b224e5dde5d699/Large_3000_PNG-GreyGoose_LeCitron_LNP2.png"
+      },
+      {
+        "id": "1058",
+        "original": "https://assets.bacardicontenthub.com/m/169bdbb23db8c2b1/Large_3000_PNG-GreyGoose_LeCitron_LNP1.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/169bdbb23db8c2b1/Large_3000_PNG-GreyGoose_LeCitron_LNP1.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:51:28.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Vodka",
+        "slug": "vodka",
+        "icon": null,
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 10,
+          "category_id": 1
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 14,
+    "name": "BACARDÍ® Spiced",
+    "slug": "barcardi-spiced",
+    "description": "Made with rum aged and unaged, with a hint of smokiness from charred American oak, Bacardí Spiced is blended with natural flavours and spices for a bold, yet smooth taste. This spiced rum drink has both light and deep notes, making it perfect for mixing.",
+    "type_id": 1,
+    "price": 6,
+    "shop_id": 6,
+    "sale_price": 5,
+    "sku": "14",
+    "quantity": 50,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "1lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "15",
+      "original": "https://assets.bacardicontenthub.com/m/e9ed8f30e889a3f8/Medium_1600_PNG-BACARDI-RUM-SPICED.png",
+      "thumbnail": "https://assets.bacardicontenthub.com/m/e9ed8f30e889a3f8/Medium_1600_PNG-BACARDI-RUM-SPICED.png"
+    },
+    "gallery": [
+      {
+        "id": "1170",
+        "original": "https://assets.bacardicontenthub.com/m/e9ed8f30e889a3f8/Medium_1600_PNG-BACARDI-RUM-SPICED.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/e9ed8f30e889a3f8/Medium_1600_PNG-BACARDI-RUM-SPICED.png"
+      },
+      {
+        "id": "1172",
+        "original": "https://assets.bacardicontenthub.com/m/accf2babc10a784b/Large_3000_PNG-Bacardi_Spiced_LNP_1.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/accf2babc10a784b/Large_3000_PNG-Bacardi_Spiced_LNP_1.png"
+      },
+      {
+        "id": "1173",
+        "original": "https://assets.bacardicontenthub.com/m/b9b5189fae1e395b/Large_3000_PNG-Bacardi_BacardiSpiced_LNP.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/b9b5189fae1e395b/Large_3000_PNG-Bacardi_BacardiSpiced_LNP.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:55:14.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Rum",
+        "slug": "rum",
+        "icon": null,
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 14,
+          "category_id": 1
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 15,
+    "name": "BARON OTARD® VSOP Cognac",
+    "slug": "baron-otard",
+    "description": "BARON OTARD VSOP comes with full-bodied aromas, great finesse and a good length on the palate",
+    "type_id": 1,
+    "price": 4,
+    "shop_id": 6,
+    "sale_price": 3.5,
+    "sku": "15",
+    "quantity": 50,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "1lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "16",
+      "original": "https://www.pikpng.com/pngl/m/392-3929895_cognac-cognac-baron-otard-vsop-png-clipart.png",
+      "thumbnail": "https://www.pikpng.com/pngl/m/392-3929895_cognac-cognac-baron-otard-vsop-png-clipart.png"
+    },
+    "gallery": [
+      {
+        "id": "1174",
+        "original": "https://www.pikpng.com/pngl/m/392-3929895_cognac-cognac-baron-otard-vsop-png-clipart.png",
+        "thumbnail": "https://www.pikpng.com/pngl/m/392-3929895_cognac-cognac-baron-otard-vsop-png-clipart.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:55:58.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Cognac",
+        "slug": "cognac",
+        "icon": null,
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 15,
+          "category_id": 1
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 16,
+    "name": "D'USSÉ® VSOP Cognac",
+    "slug": "dusse-vsop",
+    "description": "D'USSÉ® VSOP Cognac is a rich, smooth and distinctive tasting Cognac with a powerful bouquet that is rich in woody notes and layered with touches of cinnamon and floral notes. Each taste unveils hints of spices, almonds with dried fruit, and undertones of sweet honey as the grand finale.",
+    "type_id": 1,
+    "price": 2.5,
+    "shop_id": 6,
+    "sale_price": 2.2,
+    "sku": "16",
+    "quantity": 50,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "1lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "17",
+      "original": "https://assets.bacardicontenthub.com/m/c6d02302669fe744/Large_3000_PNG-F18_DUSSE_VSOP_IPX_750ML.png",
+      "thumbnail": "https://assets.bacardicontenthub.com/m/c6d02302669fe744/Large_3000_PNG-F18_DUSSE_VSOP_IPX_750ML.png"
+    },
+    "gallery": [
+      {
+        "id": "1175",
+        "original": "https://assets.bacardicontenthub.com/m/c6d02302669fe744/Large_3000_PNG-F18_DUSSE_VSOP_IPX_750ML.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/c6d02302669fe744/Large_3000_PNG-F18_DUSSE_VSOP_IPX_750ML.png"
+      },
+      {
+        "id": "1176",
+        "original": "https://assets.bacardicontenthub.com/m/5fd84b956237a041/Large_3000_PNG-D-USSE_VSOP_IBX_750ML.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/5fd84b956237a041/Large_3000_PNG-D-USSE_VSOP_IBX_750ML.png"
+      },
+      {
+        "id": "1177",
+        "original": "https://assets.bacardicontenthub.com/m/185ed64578b2b4bc/Large_3000_PNG-AllMarkets_DUSSE_VSOP_BlackBackStraight_Product_750mL.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/185ed64578b2b4bc/Large_3000_PNG-AllMarkets_DUSSE_VSOP_BlackBackStraight_Product_750mL.png"
+      },
+      {
+        "id": "1178",
+        "original": "https://assets.bacardicontenthub.com/m/7d03bfaa10a7cffb/Large_3000_PNG-FY21_DUSSE_VSOP_LNP1_CC_Cocktail_Backgrd_std.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/7d03bfaa10a7cffb/Large_3000_PNG-FY21_DUSSE_VSOP_LNP1_CC_Cocktail_Backgrd_std.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:56:44.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Cognac",
+        "slug": "cognac",
+        "icon": null,
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 16,
+          "category_id": 1
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 17,
+    "name": "D’USSÉ® XO Cognac",
+    "slug": "duse-xo",
+    "description": "D’USSÉ® XO Cognac is a masterfully prepared Cognac that offers sublime flavour with rich notes of ripe blackberry and apricot, layered with hints of dark chocolate and walnut, culminating in an exceptionally balanced finish.",
+    "type_id": 1,
+    "price": 2,
+    "shop_id": 6,
+    "sale_price": 1.8,
+    "sku": "16",
+    "quantity": 15,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "1lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "18",
+      "original": "https://assets.bacardicontenthub.com/m/a80f945ddb7da929/Large_3000_PNG-F18_DUSSE_XO_IPX_750ML.png",
+      "thumbnail": "https://assets.bacardicontenthub.com/m/a80f945ddb7da929/Large_3000_PNG-F18_DUSSE_XO_IPX_750ML.png"
+    },
+    "gallery": [
+      {
+        "id": "1179",
+        "original": "https://assets.bacardicontenthub.com/m/458bd1c72b94439c/Large_3000_PNG-AllMarkets_DUSSE_XO_BlackFrontStratght_Product_750mL.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/458bd1c72b94439c/Large_3000_PNG-AllMarkets_DUSSE_XO_BlackFrontStratght_Product_750mL.png"
+      },
+      {
+        "id": "1180",
+        "original": "https://assets.bacardicontenthub.com/m/5fd84b956237a041/Large_3000_PNG-D-USSE_VSOP_IBX_750ML.png",
+        "thumbnail": "https://assets.bacardicontenthub.com/m/5fd84b956237a041/Large_3000_PNG-D-USSE_VSOP_IBX_750ML.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:58:02.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Cognac",
+        "slug": "cognac",
+        "icon": null,
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 17,
+          "category_id": 1
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 18,
+    "name": "CAMINO REAL™ Tequila Blanco",
+    "slug": "camino-real",
+    "description": "Camino Tequila Blanco is cristal clear in colour with baked agave, herbal and slightly woody notes on the nose. This is strong and uncompromising on the palate. Tequila comes from the Mexican city of the same name. The city is located northwest of Guadalajara, and in the highlands of the central western Mexican state of Jalisco. There, under the scorching sun, grows the blue sisal plant, the main ingredient of Tequila. An intensive production process and two distillations result in Camino Real, a white spirit of the best quality. To get the best out of your Camino Real, you should drink it like a Mexican: lick some salt from your hand, take a bite in a little piece of lime and drink the Tequila.",
+    "type_id": 1,
+    "price": 10,
+    "shop_id": 6,
+    "sale_price": 8,
+    "sku": "17",
+    "quantity": 50,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "1lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "19",
+      "original": "https://foremostng.com/wp-content/uploads/2021/05/Camino-Blanco-Bottle-Shot.jpg",
+      "thumbnail": "https://foremostng.com/wp-content/uploads/2021/05/Camino-Blanco-Bottle-Shot.jpg"
+    },
+    "gallery": [
+      {
+        "id": "1181",
+        "original": "https://foremostng.com/wp-content/uploads/2021/05/Camino-Blanco-Bottle-Shot.jpg",
+        "thumbnail": "https://foremostng.com/wp-content/uploads/2021/05/Camino-Blanco-Bottle-Shot.jpg"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T10:58:54.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Tequila",
+        "slug": "tequila",
+        "icon": null,
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 18,
+          "category_id": 1
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 19,
+    "name": "CAMINO REAL™ Tequila Gold",
+    "slug": "camino-real-tequila",
+    "description": "Camino Tequila Gold comes from Weber – a special kind of blue agave. Weber grows in the states of Jalisco, Nayarit, Michoacan and Guanajuato in Mexico and nowhere else. Tequila comes from the Mexican city of the same name. The city is located northwest of Guadalajara, and in the highlands of the central western Mexican state of Jalisco. Camino Tequila Gold, like all tequilas, is made under strict, specific processes and stages.",
+    "type_id": 1,
+    "price": 4,
+    "shop_id": 6,
+    "sale_price": 3.2,
+    "sku": "19",
+    "quantity": 100,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "0.5lb",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "20",
+      "original": "https://assets.bacardicontenthub.com/m/9e277ef9084146a0/Large_3000_PNG-GG_L-Orange_IPX_1L.png",
+      "thumbnail": "https://assets.bacardicontenthub.com/m/9e277ef9084146a0/Large_3000_PNG-GG_L-Orange_IPX_1L.png"
+    },
+    "gallery": [],
+    "deleted_at": null,
+    "created_at": "2021-03-08T11:00:12.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": {
+      "id": 6,
+      "owner_id": 1,
+      "name": "Grocery Shop",
+      "slug": "grocery-shop",
+      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "cover_image": {
+        "id": "894",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/conversions/Untitled-2-thumbnail.jpg"
+      },
+      "logo": {
+        "id": "893",
+        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/Group-36321.png",
+        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/891/conversions/Group-36321-thumbnail.jpg"
+      },
+      "is_active": 1,
+      "address": {
+        "zip": "61032",
+        "city": "Freeport",
+        "state": "Illinois",
+        "country": "USA",
+        "street_address": "1986  Spinnaker Lane"
+      },
+      "settings": {
+        "contact": "018927525111",
+        "socials": [
+          {
+            "url": "https://www.facebook.com/",
+            "icon": "FacebookIcon"
+          },
+          {
+            "url": "https://www.instagram.com/",
+            "icon": "InstagramIcon"
+          },
+          {
+            "url": "https://www.twitter.com/",
+            "icon": "TwitterIcon"
+          }
+        ],
+        "website": "https://redq.io/",
+        "location": {
+          "lat": 38.9032325,
+          "lng": -77.0211068,
+          "city": "Washington",
+          "state": "DC",
+          "country": "United States",
+          "formattedAddress": "New York Ave NW, Washington, DC, USA"
+        }
+      },
+      "created_at": "2021-06-27T03:48:23.000000Z",
+      "updated_at": "2021-07-08T09:22:38.000000Z"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Tequila",
+        "slug": "tequila",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 19,
+          "category_id": 1
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  }
+]
