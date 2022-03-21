@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "Vermouth",
-    "slug": "fruits-vegetables",
-    "icon": "FruitsVegetable",
+    "slug": "vermouth",
+    "icon": "null",
     "image": [],
     "details": null,
     "parent": null,
@@ -18,7 +18,7 @@
       "settings": {
         "isHome": true,
         "layoutType": "classic",
-        "productCard": "neon"
+        "productCard": "argon"
       },
       "slug": "grocery",
       "icon": "FruitsVegetable",
@@ -52,104 +52,24 @@
       "created_at": "2021-03-08T07:18:25.000000Z",
       "updated_at": "2021-09-26T15:23:32.000000Z"
     },
-    "children": [
-      {
-        "id": 2,
-        "name": "Fruits",
-        "slug": "fruits",
-        "icon": null,
-        "image": [],
-        "details": null,
-        "parent": {
-          "id": 1,
-          "name": "Fruits & Vegetables",
-          "slug": "fruits-vegetables",
-          "icon": "FruitsVegetable",
-          "image": [],
-          "details": null,
-          "parent": null,
-          "type_id": 1,
-          "created_at": "2021-03-08T07:21:31.000000Z",
-          "updated_at": "2021-03-08T07:21:31.000000Z",
-          "deleted_at": null,
-          "parent_id": null,
-          "type": null,
-          "children": null
-        },
-        "type_id": 1,
-        "created_at": "2021-03-08T07:22:04.000000Z",
-        "updated_at": "2021-03-08T07:22:04.000000Z",
-        "deleted_at": null,
-        "products_count": 9,
-        "parent_id": 1,
-        "children": []
-      },
-      {
-        "id": 3,
-        "name": "Vegetables",
-        "slug": "vegetables",
-        "icon": null,
-        "image": {
-          "id": null,
-          "original": null,
-          "thumbnail": null
-        },
-        "details": null,
-        "parent": {
-          "id": 1,
-          "name": "Fruits & Vegetables",
-          "slug": "fruits-vegetables",
-          "icon": "FruitsVegetable",
-          "image": [],
-          "details": null,
-          "parent": null,
-          "type_id": 1,
-          "created_at": "2021-03-08T07:21:31.000000Z",
-          "updated_at": "2021-03-08T07:21:31.000000Z",
-          "deleted_at": null,
-          "parent_id": null,
-          "type": null,
-          "children": null
-        },
-        "type_id": 1,
-        "created_at": "2021-03-08T07:57:48.000000Z",
-        "updated_at": "2021-03-09T11:51:24.000000Z",
-        "deleted_at": null,
-        "products_count": 11,
-        "parent_id": 1,
-        "children": []
-      }
-    ]
+    "children": []
   },
   {
     "id": 2,
-    "name": "Fruits",
-    "slug": "fruits",
+    "name": "Whisky",
+    "slug": "whisky",
     "icon": null,
     "image": [],
     "details": null,
-    "parent": {
-      "id": 1,
-      "name": "Fruits & Vegetables",
-      "slug": "fruits-vegetables",
-      "icon": "FruitsVegetable",
-      "image": [],
-      "details": null,
-      "parent": null,
-      "type_id": 1,
-      "created_at": "2021-03-08T07:21:31.000000Z",
-      "updated_at": "2021-03-08T07:21:31.000000Z",
-      "deleted_at": null,
-      "parent_id": null
-    },
+    "parent": null,
     "type_id": 1,
-    "created_at": "2021-03-08T07:22:04.000000Z",
-    "updated_at": "2021-03-08T07:22:04.000000Z",
+    "created_at": "2021-03-08T08:54:16.000000Z",
+    "updated_at": "2021-03-08T08:54:16.000000Z",
     "deleted_at": null,
-    "parent_id": 1,
+    "parent_id": null,
     "type": {
       "id": 1,
-      "name": "Grocery",
+      "name": "Spirit & Mixers",
       "settings": {
         "isHome": true,
         "layoutType": "classic",
@@ -191,198 +111,8 @@
   },
   {
     "id": 3,
-    "name": "Vegetables",
-    "slug": "vegetables",
-    "icon": null,
-    "image": {
-      "id": null,
-      "original": null,
-      "thumbnail": null
-    },
-    "details": null,
-    "parent": {
-      "id": 1,
-      "name": "Fruits & Vegetables",
-      "slug": "fruits-vegetables",
-      "icon": "FruitsVegetable",
-      "image": [],
-      "details": null,
-      "parent": null,
-      "type_id": 1,
-      "created_at": "2021-03-08T07:21:31.000000Z",
-      "updated_at": "2021-03-08T07:21:31.000000Z",
-      "deleted_at": null,
-      "parent_id": null
-    },
-    "type_id": 1,
-    "created_at": "2021-03-08T07:57:48.000000Z",
-    "updated_at": "2021-03-09T11:51:24.000000Z",
-    "deleted_at": null,
-    "parent_id": 1,
-    "type": {
-      "id": 1,
-      "name": "Grocery",
-      "settings": {
-        "isHome": true,
-        "layoutType": "classic",
-        "productCard": "neon"
-      },
-      "slug": "grocery",
-      "icon": "FruitsVegetable",
-      "promotional_sliders": [
-        {
-          "id": "902",
-          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
-          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
-        },
-        {
-          "id": "903",
-          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
-          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
-        },
-        {
-          "id": "904",
-          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
-          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
-        },
-        {
-          "id": "905",
-          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
-          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
-        },
-        {
-          "id": "906",
-          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
-          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
-        }
-      ],
-      "created_at": "2021-03-08T07:18:25.000000Z",
-      "updated_at": "2021-09-26T15:23:32.000000Z"
-    },
-    "children": []
-  },
-  {
-    "id": 4,
-    "name": "Meat & Fish",
-    "slug": "meat-fish",
-    "icon": "MeatFish",
-    "image": [],
-    "details": null,
-    "parent": null,
-    "type_id": 1,
-    "created_at": "2021-03-08T08:54:16.000000Z",
-    "updated_at": "2021-03-08T08:54:16.000000Z",
-    "deleted_at": null,
-    "parent_id": null,
-    "type": {
-      "id": 1,
-      "name": "Grocery",
-      "settings": {
-        "isHome": true,
-        "layoutType": "classic",
-        "productCard": "neon"
-      },
-      "slug": "grocery",
-      "icon": "FruitsVegetable",
-      "promotional_sliders": [
-        {
-          "id": "902",
-          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
-          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
-        },
-        {
-          "id": "903",
-          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
-          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
-        },
-        {
-          "id": "904",
-          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
-          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
-        },
-        {
-          "id": "905",
-          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
-          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
-        },
-        {
-          "id": "906",
-          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
-          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
-        }
-      ],
-      "created_at": "2021-03-08T07:18:25.000000Z",
-      "updated_at": "2021-09-26T15:23:32.000000Z"
-    },
-    "children": [
-      {
-        "id": 5,
-        "name": "Fresh Fish",
-        "slug": "fresh-fish",
-        "icon": null,
-        "image": [],
-        "details": null,
-        "parent": {
-          "id": 4,
-          "name": "Meat & Fish",
-          "slug": "meat-fish",
-          "icon": "MeatFish",
-          "image": [],
-          "details": null,
-          "parent": null,
-          "type_id": 1,
-          "created_at": "2021-03-08T08:54:16.000000Z",
-          "updated_at": "2021-03-08T08:54:16.000000Z",
-          "deleted_at": null,
-          "parent_id": null,
-          "type": null,
-          "children": null
-        },
-        "type_id": 1,
-        "created_at": "2021-03-08T08:54:47.000000Z",
-        "updated_at": "2021-03-08T08:54:47.000000Z",
-        "deleted_at": null,
-        "products_count": 5,
-        "parent_id": 4,
-        "children": []
-      },
-      {
-        "id": 6,
-        "name": "Meat",
-        "slug": "meat",
-        "icon": null,
-        "image": [],
-        "details": null,
-        "parent": {
-          "id": 4,
-          "name": "Meat & Fish",
-          "slug": "meat-fish",
-          "icon": "MeatFish",
-          "image": [],
-          "details": null,
-          "parent": null,
-          "type_id": 1,
-          "created_at": "2021-03-08T08:54:16.000000Z",
-          "updated_at": "2021-03-08T08:54:16.000000Z",
-          "deleted_at": null,
-          "parent_id": null,
-          "type": null,
-          "children": null
-        },
-        "type_id": 1,
-        "created_at": "2021-03-08T08:55:14.000000Z",
-        "updated_at": "2021-03-08T08:55:14.000000Z",
-        "deleted_at": null,
-        "products_count": 5,
-        "parent_id": 4,
-        "children": []
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Fresh Fish",
-    "slug": "fresh-fish",
+    "name": "Gin",
+    "slug": "gin",
     "icon": null,
     "image": [],
     "details": null,
@@ -448,9 +178,9 @@
     "children": []
   },
   {
-    "id": 6,
-    "name": "Meat",
-    "slug": "meat",
+    "id": 4,
+    "name": "Vodka",
+    "slug": "vodka",
     "icon": null,
     "image": [],
     "details": null,
@@ -516,9 +246,9 @@
     "children": []
   },
   {
-    "id": 7,
-    "name": "Snacks",
-    "slug": "snacks",
+    "id": 5,
+    "name": "Rum",
+    "slug": "rum",
     "icon": "Snacks",
     "image": [],
     "details": null,
@@ -568,199 +298,12 @@
       "created_at": "2021-03-08T07:18:25.000000Z",
       "updated_at": "2021-09-26T15:23:32.000000Z"
     },
-    "children": [
-      {
-        "id": 8,
-        "name": "Nuts & Biscuits",
-        "slug": "nuts-biscuits",
-        "icon": null,
-        "image": [],
-        "details": null,
-        "parent": {
-          "id": 7,
-          "name": "Snacks",
-          "slug": "snacks",
-          "icon": "Snacks",
-          "image": [],
-          "details": null,
-          "parent": null,
-          "type_id": 1,
-          "created_at": "2021-03-08T08:55:56.000000Z",
-          "updated_at": "2021-03-08T08:55:56.000000Z",
-          "deleted_at": null,
-          "parent_id": null,
-          "type": null,
-          "children": null
-        },
-        "type_id": 1,
-        "created_at": "2021-03-08T08:57:28.000000Z",
-        "updated_at": "2021-03-08T08:57:28.000000Z",
-        "deleted_at": null,
-        "products_count": 20,
-        "parent_id": 7,
-        "children": []
-      },
-      {
-        "id": 9,
-        "name": "Chocolates",
-        "slug": "chocolates",
-        "icon": null,
-        "image": [],
-        "details": null,
-        "parent": {
-          "id": 7,
-          "name": "Snacks",
-          "slug": "snacks",
-          "icon": "Snacks",
-          "image": [],
-          "details": null,
-          "parent": null,
-          "type_id": 1,
-          "created_at": "2021-03-08T08:55:56.000000Z",
-          "updated_at": "2021-03-08T08:55:56.000000Z",
-          "deleted_at": null,
-          "parent_id": null,
-          "type": null,
-          "children": null
-        },
-        "type_id": 1,
-        "created_at": "2021-03-08T08:58:44.000000Z",
-        "updated_at": "2021-03-08T08:58:44.000000Z",
-        "deleted_at": null,
-        "products_count": 12,
-        "parent_id": 7,
-        "children": []
-      },
-      {
-        "id": 10,
-        "name": "Crisps",
-        "slug": "crisps",
-        "icon": null,
-        "image": [],
-        "details": null,
-        "parent": {
-          "id": 7,
-          "name": "Snacks",
-          "slug": "snacks",
-          "icon": "Snacks",
-          "image": [],
-          "details": null,
-          "parent": null,
-          "type_id": 1,
-          "created_at": "2021-03-08T08:55:56.000000Z",
-          "updated_at": "2021-03-08T08:55:56.000000Z",
-          "deleted_at": null,
-          "parent_id": null,
-          "type": null,
-          "children": null
-        },
-        "type_id": 1,
-        "created_at": "2021-03-08T08:59:05.000000Z",
-        "updated_at": "2021-03-08T08:59:05.000000Z",
-        "deleted_at": null,
-        "products_count": 14,
-        "parent_id": 7,
-        "children": []
-      },
-      {
-        "id": 11,
-        "name": "Noodles & Pasta",
-        "slug": "noodles-pasta",
-        "icon": null,
-        "image": [],
-        "details": null,
-        "parent": {
-          "id": 7,
-          "name": "Snacks",
-          "slug": "snacks",
-          "icon": "Snacks",
-          "image": [],
-          "details": null,
-          "parent": null,
-          "type_id": 1,
-          "created_at": "2021-03-08T08:55:56.000000Z",
-          "updated_at": "2021-03-08T08:55:56.000000Z",
-          "deleted_at": null,
-          "parent_id": null,
-          "type": null,
-          "children": null
-        },
-        "type_id": 1,
-        "created_at": "2021-03-08T08:59:23.000000Z",
-        "updated_at": "2021-03-08T08:59:23.000000Z",
-        "deleted_at": null,
-        "products_count": 15,
-        "parent_id": 7,
-        "children": []
-      },
-      {
-        "id": 12,
-        "name": "Sauce",
-        "slug": "sauce",
-        "icon": null,
-        "image": [],
-        "details": null,
-        "parent": {
-          "id": 7,
-          "name": "Snacks",
-          "slug": "snacks",
-          "icon": "Snacks",
-          "image": [],
-          "details": null,
-          "parent": null,
-          "type_id": 1,
-          "created_at": "2021-03-08T08:55:56.000000Z",
-          "updated_at": "2021-03-08T08:55:56.000000Z",
-          "deleted_at": null,
-          "parent_id": null,
-          "type": null,
-          "children": null
-        },
-        "type_id": 1,
-        "created_at": "2021-03-08T09:00:00.000000Z",
-        "updated_at": "2021-03-08T09:00:00.000000Z",
-        "deleted_at": null,
-        "products_count": 7,
-        "parent_id": 7,
-        "children": []
-      },
-      {
-        "id": 14,
-        "name": "Soup",
-        "slug": "soup",
-        "icon": null,
-        "image": [],
-        "details": null,
-        "parent": {
-          "id": 7,
-          "name": "Snacks",
-          "slug": "snacks",
-          "icon": "Snacks",
-          "image": [],
-          "details": null,
-          "parent": null,
-          "type_id": 1,
-          "created_at": "2021-03-08T08:55:56.000000Z",
-          "updated_at": "2021-03-08T08:55:56.000000Z",
-          "deleted_at": null,
-          "parent_id": null,
-          "type": null,
-          "children": null
-        },
-        "type_id": 1,
-        "created_at": "2021-03-08T09:48:49.000000Z",
-        "updated_at": "2021-03-08T09:48:49.000000Z",
-        "deleted_at": null,
-        "products_count": 5,
-        "parent_id": 7,
-        "children": []
-      }
-    ]
+    "children": []
   },
   {
-    "id": 8,
-    "name": "Nuts & Biscuits",
-    "slug": "nuts-biscuits",
+    "id": 6,
+    "name": "Cognac",
+    "slug": "cognac",
     "icon": null,
     "image": [],
     "details": null,
@@ -826,9 +369,9 @@
     "children": []
   },
   {
-    "id": 9,
-    "name": "Chocolates",
-    "slug": "chocolates",
+    "id": 7,
+    "name": "Tequila",
+    "slug": "tequila",
     "icon": null,
     "image": [],
     "details": null,
@@ -894,9 +437,9 @@
     "children": []
   },
   {
-    "id": 10,
-    "name": "Crisps",
-    "slug": "crisps",
+    "id": 8,
+    "name": "Sparkling Wine",
+    "slug": "sparkling-wine",
     "icon": null,
     "image": [],
     "details": null,
@@ -1099,8 +642,8 @@
   },
   {
     "id": 13,
-    "name": "Pet Care",
-    "slug": "pet-care",
+    "name": "Gin",
+    "slug": "gin",
     "icon": "PetCare",
     "image": [],
     "details": null,
@@ -1520,8 +1063,8 @@
   },
   {
     "id": 18,
-    "name": "Home & Cleaning",
-    "slug": "home-cleaning",
+    "name": "Vodka",
+    "slug": "vodka",
     "icon": "HomeCleaning",
     "image": {
       "id": null,
@@ -2008,8 +1551,8 @@
   },
   {
     "id": 23,
-    "name": "Dairy",
-    "slug": "dairy",
+    "name": "Cognac",
+    "slug": "cognac",
     "icon": "Dairy",
     "image": [],
     "details": null,
@@ -2460,8 +2003,8 @@
   },
   {
     "id": 28,
-    "name": "Cooking",
-    "slug": "cooking",
+    "name": "Tequila",
+    "slug": "tequila",
     "icon": "Cooking",
     "image": [],
     "details": null,
@@ -2912,8 +2455,8 @@
   },
   {
     "id": 33,
-    "name": "Breakfast",
-    "slug": "breakfast",
+    "name": "Sparkling Wine",
+    "slug": "sparkling-wine",
     "icon": "Breakfast",
     "image": [],
     "details": null,
@@ -3265,8 +2808,8 @@
   },
   {
     "id": 37,
-    "name": "Beverage",
-    "slug": "beverage",
+    "name": "Vermouth",
+    "slug": "vermouth",
     "icon": "Beverage",
     "image": [],
     "details": null,
@@ -3816,8 +3359,8 @@
   },
   {
     "id": 43,
-    "name": "Health & Beauty",
-    "slug": "health-beauty",
+    "name": "Vodka",
+    "slug": "vodka",
     "icon": "BeautyHealth",
     "image": [],
     "details": null,
