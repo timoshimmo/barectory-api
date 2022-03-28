@@ -14,6 +14,7 @@ import { UpdateProductDto } from './dto/update-product.dto';
 import { GetProductsDto, ProductPaginator } from './dto/get-products.dto';
 import { Product } from './entities/product.entity';
 import { GetPopularProductsDto } from './dto/get-popular-products.dto';
+import { GetSalesProductsDto } from './dto/get-sales-products.dto';
 
 @Controller('products')
 export class ProductsController {
@@ -51,5 +52,14 @@ export class PopularProductsController {
   @Get()
   async getProducts(@Query() query: GetPopularProductsDto): Promise<Product[]> {
     return this.productsService.getPopularProducts(query);
+  }
+}
+
+@Controller('sales-products')
+export class SalesProductsController {
+  constructor(private readonly productsService: ProductsService) {}
+  @Get()
+  async getProducts(@Query() query: GetSalesProductsDto): Promise<Product[]> {
+    return this.productsService.getSalesProducts(query);
   }
 }

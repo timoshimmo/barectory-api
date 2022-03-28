@@ -3,11 +3,13 @@ import { plainToClass } from 'class-transformer';
 import { CreateProductDto } from './dto/create-product.dto';
 import { GetProductsDto, ProductPaginator } from './dto/get-products.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
+import { GetPopularProductsDto } from './dto/get-popular-products.dto';
+import { GetSalesProductsDto } from './dto/get-sales-products.dto';
 import { Product } from './entities/product.entity';
 import { paginate } from 'src/common/pagination/paginate';
 import productsJson from '@db/products.json';
 import Fuse from 'fuse.js';
-import { GetPopularProductsDto } from './dto/get-popular-products.dto';
+
 
 const products = plainToClass(Product, productsJson);
 
@@ -87,6 +89,14 @@ export class ProductsService {
 
   getPopularProducts({ limit, type_slug }: GetPopularProductsDto): Product[] {
     let data: any = this.products;
+    if (type_slug) {
+      data = fuse.search(type_slug)?.map(({ item }) => item);
+    }
+    return data?.slice(0, limit);
+  }
+
+  getSalesProducts({ limit, type_slug }: GetSalesProductsDto): Product[] {
+    let data: any = this.products.filter((p) => p.price > p.sale_price);
     if (type_slug) {
       data = fuse.search(type_slug)?.map(({ item }) => item);
     }
