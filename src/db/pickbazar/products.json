@@ -86,8 +86,8 @@
       "id": 6,
       "owner_id": 1,
       "name": "Barectory",
-      "slug": "grocery-shop",
-      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "slug": "drinks-shop",
+      "description": "The drinks shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
       "cover_image": {
         "id": "894",
         "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
@@ -151,7 +151,25 @@
         "parent_id": null,
         "pivot": {
           "product_id": 1,
-          "category_id": 1
+          "category_id": 6
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 1,
+          "category_id": 2
         }
       }
     ],
@@ -268,7 +286,25 @@
         "parent_id": null,
         "pivot": {
           "product_id": 2,
-          "category_id": 1
+          "category_id": 6
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 2,
+          "category_id": 2
         }
       }
     ],
@@ -380,7 +416,25 @@
         "parent_id": null,
         "pivot": {
           "product_id": 3,
-          "category_id": 1
+          "category_id": 6
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 3,
+          "category_id": 2
         }
       }
     ],
@@ -482,7 +536,25 @@
         "parent_id": null,
         "pivot": {
           "product_id": 4,
-          "category_id": 1
+          "category_id": 7
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 4,
+          "category_id": 2
         }
       }
     ],
@@ -593,7 +665,25 @@
         "parent_id": 1,
         "pivot": {
           "product_id": 5,
-          "category_id": 3
+          "category_id": 7
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 5,
+          "category_id": 2
         }
       }
     ],
@@ -705,7 +795,25 @@
         "parent_id": null,
         "pivot": {
           "product_id": 6,
-          "category_id": 1
+          "category_id": 7
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 6,
+          "category_id": 2
         }
       }
     ],
@@ -822,7 +930,25 @@
         "parent_id": null,
         "pivot": {
           "product_id": 7,
-          "category_id": 1
+          "category_id": 9
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 7,
+          "category_id": 2
         }
       }
     ],
@@ -939,7 +1065,25 @@
         "parent_id": null,
         "pivot": {
           "product_id": 8,
-          "category_id": 1
+          "category_id": 9
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 8,
+          "category_id": 2
         }
       }
     ],
@@ -1045,8 +1189,26 @@
         "deleted_at": null,
         "parent_id": null,
         "pivot": {
-          "product_id": 11,
-          "category_id": 1
+          "product_id": 9,
+          "category_id": 8
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 9,
+          "category_id": 2
         }
       }
     ],
@@ -1152,8 +1314,26 @@
         "deleted_at": null,
         "parent_id": null,
         "pivot": {
-          "product_id": 12,
-          "category_id": 1
+          "product_id": 10,
+          "category_id": 10
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 10,
+          "category_id": 2
         }
       }
     ],
@@ -1252,8 +1432,26 @@
         "deleted_at": null,
         "parent_id": null,
         "pivot": {
-          "product_id": 13,
-          "category_id": 1
+          "product_id": 11,
+          "category_id": 10
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 11,
+          "category_id": 2
         }
       }
     ],
@@ -1346,9 +1544,9 @@
     "shop": {
       "id": 6,
       "owner_id": 1,
-      "name": "Grocery Shop",
-      "slug": "grocery-shop",
-      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "name": "drinks Shop",
+      "slug": "drinks-shop",
+      "description": "The drinks shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
       "cover_image": {
         "id": "894",
         "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
@@ -1411,8 +1609,26 @@
         "deleted_at": null,
         "parent_id": null,
         "pivot": {
-          "product_id": 9,
-          "category_id": 1
+          "product_id": 12,
+          "category_id": 9
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 12,
+          "category_id": 2
         }
       }
     ],
@@ -1520,9 +1736,9 @@
     "shop": {
       "id": 6,
       "owner_id": 1,
-      "name": "Grocery Shop",
-      "slug": "grocery-shop",
-      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "name": "drinks Shop",
+      "slug": "drinks-shop",
+      "description": "The drinks shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
       "cover_image": {
         "id": "894",
         "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
@@ -1585,8 +1801,26 @@
         "deleted_at": null,
         "parent_id": null,
         "pivot": {
-          "product_id": 10,
-          "category_id": 1
+          "product_id": 13,
+          "category_id": 9
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 13,
+          "category_id": 2
         }
       }
     ],
@@ -1684,9 +1918,9 @@
     "shop": {
       "id": 6,
       "owner_id": 1,
-      "name": "Grocery Shop",
-      "slug": "grocery-shop",
-      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "name": "drinks Shop",
+      "slug": "drinks-shop",
+      "description": "The drinks shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
       "cover_image": {
         "id": "894",
         "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
@@ -1750,7 +1984,25 @@
         "parent_id": null,
         "pivot": {
           "product_id": 14,
-          "category_id": 1
+          "category_id": 10
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 14,
+          "category_id": 2
         }
       }
     ],
@@ -1838,9 +2090,9 @@
     "shop": {
       "id": 6,
       "owner_id": 1,
-      "name": "Grocery Shop",
-      "slug": "grocery-shop",
-      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "name": "drinks Shop",
+      "slug": "drinks-shop",
+      "description": "The drinks shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
       "cover_image": {
         "id": "894",
         "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
@@ -1904,7 +2156,25 @@
         "parent_id": null,
         "pivot": {
           "product_id": 15,
-          "category_id": 1
+          "category_id": 11
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 15,
+          "category_id": 2
         }
       }
     ],
@@ -2007,9 +2277,9 @@
     "shop": {
       "id": 6,
       "owner_id": 1,
-      "name": "Grocery Shop",
-      "slug": "grocery-shop",
-      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "name": "drinks Shop",
+      "slug": "drinks-shop",
+      "description": "The drinks shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
       "cover_image": {
         "id": "894",
         "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
@@ -2073,7 +2343,25 @@
         "parent_id": null,
         "pivot": {
           "product_id": 16,
-          "category_id": 1
+          "category_id": 11
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 16,
+          "category_id": 2
         }
       }
     ],
@@ -2166,9 +2454,9 @@
     "shop": {
       "id": 6,
       "owner_id": 1,
-      "name": "Grocery Shop",
-      "slug": "grocery-shop",
-      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "name": "drinks Shop",
+      "slug": "drinks-shop",
+      "description": "The drinks shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
       "cover_image": {
         "id": "894",
         "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
@@ -2232,7 +2520,25 @@
         "parent_id": null,
         "pivot": {
           "product_id": 17,
-          "category_id": 1
+          "category_id": 11
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 17,
+          "category_id": 2
         }
       }
     ],
@@ -2320,9 +2626,9 @@
     "shop": {
       "id": 6,
       "owner_id": 1,
-      "name": "Grocery Shop",
-      "slug": "grocery-shop",
-      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "name": "drinks Shop",
+      "slug": "drinks-shop",
+      "description": "The drinks shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
       "cover_image": {
         "id": "894",
         "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
@@ -2386,7 +2692,25 @@
         "parent_id": null,
         "pivot": {
           "product_id": 18,
-          "category_id": 1
+          "category_id": 12
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 18,
+          "category_id": 2
         }
       }
     ],
@@ -2480,8 +2804,8 @@
       "id": 6,
       "owner_id": 1,
       "name": "Barectory",
-      "slug": "grocery-shop",
-      "description": "The grocery shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
+      "slug": "drinks-shop",
+      "description": "The drinks shop is the best shop around the city. This is being run under the store owner and our aim is to provide fresh and quality product and hassle free customer service.",
       "cover_image": {
         "id": "894",
         "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/892/Untitled-2.jpg",
@@ -2545,7 +2869,1958 @@
         "parent_id": null,
         "pivot": {
           "product_id": 19,
+          "category_id": 12
+        }
+      },
+      {
+        "id": 2,
+        "name": "Spirits",
+        "slug": "spirits",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 19,
+          "category_id": 2
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 20,
+    "name": "Star Lager",
+    "slug": "star-lager",
+    "description": "Star lager beer",
+    "type_id": 1,
+    "shop_id": 6,
+    "sale_price": 0,
+    "sku": "20",
+    "quantity": 100,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "variable",
+    "unit": "450ml",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "20",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-heineken-bottle-png-768685.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-heineken-bottle-png-768685.png"
+    },
+    "gallery": [
+      {
+        "id": "1400",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-heineken-bottle-png-768685.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-heineken-bottle-png-768685.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T11:00:12.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": null,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Beer",
+        "slug": "beer",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 20,
           "category_id": 1
+        }
+      },
+      {
+        "id": 2,
+        "name": "Lager",
+        "slug": "lager",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 20,
+          "category_id": 14
+        }
+      }
+    ],
+    "tags": [],
+    "max_price": 1500,
+    "min_price": 700,
+    "variations": [
+      {
+        "id": 8,
+        "attribute_id": 3,
+        "value": "12oz",
+        "attribute": {
+          "id": 3,
+          "slug": "available-in",
+          "name": "Available In",
+          "values": [
+            {
+              "id": 8,
+              "attribute_id": 3,
+              "value": "12oz"
+            },
+            {
+              "id": 9,
+              "attribute_id": 3,
+              "value": "24oz"
+            },
+            {
+              "id": 10,
+              "attribute_id": 3,
+              "value": "36oz"
+            }
+          ]
+        }
+      },
+      {
+        "id": 9,
+        "attribute_id": 3,
+        "value": "24oz",
+        "attribute": {
+          "id": 3,
+          "slug": "available-in",
+          "name": "Available In",
+          "values": [
+            {
+              "id": 8,
+              "attribute_id": 3,
+              "value": "12oz"
+            },
+            {
+              "id": 9,
+              "attribute_id": 3,
+              "value": "24oz"
+            },
+            {
+              "id": 10,
+              "attribute_id": 3,
+              "value": "36oz"
+            }
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "attribute_id": 3,
+        "value": "36oz",
+        "attribute": {
+          "id": 3,
+          "slug": "available-in",
+          "name": "Available In",
+          "values": [
+            {
+              "id": 8,
+              "attribute_id": 3,
+              "value": "12oz"
+            },
+            {
+              "id": 9,
+              "attribute_id": 3,
+              "value": "24oz"
+            },
+            {
+              "id": 10,
+              "attribute_id": 3,
+              "value": "36oz"
+            }
+          ]
+        }
+      }
+    ],
+    "variation_options": [
+      {
+        "id": 247,
+        "title": "75ml",
+        "price": 700,
+        "sale_price": null,
+        "quantity": "10",
+        "is_disable": 0,
+        "sku": "200101",
+        "options": [
+          {
+            "name": "Available In",
+            "value": "75ml"
+          }
+        ]
+      },
+      {
+        "id": 248,
+        "title": "120ml",
+        "price": 1000,
+        "sale_price": null,
+        "quantity": "35",
+        "is_disable": 0,
+        "sku": "200102",
+        "options": [
+          {
+            "name": "Available In",
+            "value": "120ml"
+          }
+        ]
+      },
+      {
+        "id": 249,
+        "title": "200ml",
+        "price": 1500,
+        "sale_price": 1350,
+        "quantity": "25",
+        "is_disable": 0,
+        "sku": "200103",
+        "options": [
+          {
+            "name": "Available In",
+            "value": "200ml"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Heineken",
+    "slug": "heineken-lager",
+    "description": "Heineken beer",
+    "type_id": 1,
+    "price": 1200,
+    "shop_id": 6,
+    "sale_price": 0,
+    "sku": "21",
+    "quantity": 100,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "variable",
+    "unit": "1000ml",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "21",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-79060.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-79060.png"
+    },
+    "gallery": [
+      {
+        "id": "1401",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-79060.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-79060.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T11:00:12.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": null,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Beer",
+        "slug": "beer",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 20,
+          "category_id": 1
+        }
+      },
+      {
+        "id": 2,
+        "name": "Lager",
+        "slug": "lager",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 20,
+          "category_id": 14
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 22,
+    "name": "Carlsberg",
+    "slug": "carlberg-lager",
+    "description": "Carlsberg beer",
+    "type_id": 1,
+    "price": 1000,
+    "shop_id": 6,
+    "sale_price": 0,
+    "sku": "22",
+    "quantity": 100,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "600ml",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "22",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-budweiser-bottle-png-3117211.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-budweiser-bottle-png-3117211.png"
+    },
+    "gallery": [
+      {
+        "id": "1402",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-budweiser-bottle-png-3117211.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-budweiser-bottle-png-3117211.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T11:00:12.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": null,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Beer",
+        "slug": "beer",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 20,
+          "category_id": 1
+        }
+      },
+      {
+        "id": 2,
+        "name": "Lager",
+        "slug": "lager",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 20,
+          "category_id": 14
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 24,
+    "name": "Budweiser",
+    "slug": "budweiser-lager",
+    "description": "Budweiser beer",
+    "type_id": 1,
+    "price": 1400,
+    "shop_id": 6,
+    "sale_price": 0,
+    "sku": "22",
+    "quantity": 100,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "600ml",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "24",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-budweiser-png-1527931.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-budweiser-png-1527931.png"
+    },
+    "gallery": [
+      {
+        "id": "1404",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-budweiser-png-1527931.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-budweiser-png-1527931.png"
+      },
+      {
+        "id": "1410",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-budweiser-can-png-3148543.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-budweiser-can-png-3148543.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T11:00:12.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": null,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Beer",
+        "slug": "beer",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 20,
+          "category_id": 1
+        }
+      },
+      {
+        "id": 2,
+        "name": "Lager",
+        "slug": "lager",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 20,
+          "category_id": 14
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 25,
+    "name": "Gulder",
+    "slug": "gulder-lager",
+    "description": "Gulder beer",
+    "type_id": 1,
+    "price": 1400,
+    "shop_id": 6,
+    "sale_price": 0,
+    "sku": "22",
+    "quantity": 100,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "600ml",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "25",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-146505.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-146505.png"
+    },
+    "gallery": [
+      {
+        "id": "1405",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-146505.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-146505.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T11:00:12.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": null,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Beer",
+        "slug": "beer",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 20,
+          "category_id": 1
+        }
+      },
+      {
+        "id": 2,
+        "name": "Lager",
+        "slug": "lager",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 20,
+          "category_id": 14
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 26,
+    "name": "Becks",
+    "slug": "becks-lager",
+    "description": "Becks beer",
+    "type_id": 1,
+    "price": 950,
+    "shop_id": 6,
+    "sale_price": 0,
+    "sku": "26",
+    "quantity": 100,
+    "in_stock": 1,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "600ml",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "26",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078259/barectory/pngkey.com-beer-bottle-png-61039.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078259/barectory/pngkey.com-beer-bottle-png-61039.png"
+    },
+    "gallery": [
+      {
+        "id": "1406",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078259/barectory/pngkey.com-beer-bottle-png-61039.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078259/barectory/pngkey.com-beer-bottle-png-61039.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T11:00:12.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": null,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Beer",
+        "slug": "beer",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 20,
+          "category_id": 1
+        }
+      },
+      {
+        "id": 2,
+        "name": "Lager",
+        "slug": "lager",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 20,
+          "category_id": 14
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 27,
+    "name": "Moet & Chandon",
+    "slug": "moet-chandon",
+    "description": "Moet & Chandon sparkling wine",
+    "type_id": 1,
+    "price": 40000,
+    "shop_id": 6,
+    "sale_price": 0,
+    "sku": "27",
+    "quantity": 20,
+    "in_stock": 6,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "600ml",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "27",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-moet-png-996354.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-moet-png-996354.png"
+    },
+    "gallery": [
+      {
+        "id": "1407",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-moet-png-996354.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-moet-png-996354.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T11:00:12.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": null,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Wine",
+        "slug": "wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 27,
+          "category_id": 3
+        }
+      },
+      {
+        "id": 2,
+        "name": "Sparkling Wine",
+        "slug": "sparkling-wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 27,
+          "category_id": 13
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 28,
+    "name": "Bollinger",
+    "slug": "bollinger",
+    "description": "Bollinger sparkling wine",
+    "type_id": 1,
+    "price": 36000,
+    "shop_id": 6,
+    "sale_price": 0,
+    "sku": "28",
+    "quantity": 20,
+    "in_stock": 6,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "600ml",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "28",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-champagne-bottle-png-240468.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-champagne-bottle-png-240468.png"
+    },
+    "gallery": [
+      {
+        "id": "1408",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-champagne-bottle-png-240468.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-champagne-bottle-png-240468.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T11:00:12.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": null,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Wine",
+        "slug": "wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 28,
+          "category_id": 3
+        }
+      },
+      {
+        "id": 2,
+        "name": "Sparkling Wine",
+        "slug": "sparkling-wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 28,
+          "category_id": 13
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 29,
+    "name": "Brut Pure Gold",
+    "slug": "brut-gold",
+    "description": "Brut Pure Gold 24k sparkling wine",
+    "type_id": 1,
+    "price": 65000,
+    "shop_id": 6,
+    "sale_price": 0,
+    "sku": "29",
+    "quantity": 20,
+    "in_stock": 3,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "600ml",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "29",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-gold-champagne-bottle-png-3011021.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-gold-champagne-bottle-png-3011021.png"
+    },
+    "gallery": [
+      {
+        "id": "1409",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-gold-champagne-bottle-png-3011021.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-gold-champagne-bottle-png-3011021.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T11:00:12.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": null,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Wine",
+        "slug": "wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 29,
+          "category_id": 3
+        }
+      },
+      {
+        "id": 2,
+        "name": "Sparkling Wine",
+        "slug": "sparkling-wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 29,
+          "category_id": 13
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 30,
+    "name": "Zolo Reserve",
+    "slug": "zolo-reserve",
+    "description": "Zolo Reserve Malbec 2010 Mendoza Argentina",
+    "type_id": 1,
+    "price": 23000,
+    "shop_id": 6,
+    "sale_price": 0,
+    "sku": "30",
+    "quantity": 20,
+    "in_stock": 3,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "750ml",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "30",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-red-wine-bottle-png-6265975.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-red-wine-bottle-png-6265975.png"
+    },
+    "gallery": [
+      {
+        "id": "1410",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-red-wine-bottle-png-6265975.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-red-wine-bottle-png-6265975.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T11:00:12.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": null,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Wine",
+        "slug": "wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 30,
+          "category_id": 3
+        }
+      },
+      {
+        "id": 2,
+        "name": "Red Wine",
+        "slug": "red-wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 30,
+          "category_id": 17
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 31,
+    "name": "Luigi Bosca",
+    "slug": "luigi-bosca",
+    "description": "Luigi Bosca Malbec Single Vineyard, Denominacion de Origen Controlada (D.O.C). Lujan De Cuyo",
+    "type_id": 1,
+    "price": 29000,
+    "shop_id": 6,
+    "sale_price": 0,
+    "sku": "31",
+    "quantity": 20,
+    "in_stock": 3,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "750ml",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "31",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-luigi-png-4006703.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-luigi-png-4006703.png"
+    },
+    "gallery": [
+      {
+        "id": "1411",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-luigi-png-4006703.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-luigi-png-4006703.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T11:00:12.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": null,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Wine",
+        "slug": "wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 31,
+          "category_id": 3
+        }
+      },
+      {
+        "id": 2,
+        "name": "Red Wine",
+        "slug": "red-wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 31,
+          "category_id": 17
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 32,
+    "name": "Taymente",
+    "slug": "taymente",
+    "description": "Taymente Red Wine",
+    "type_id": 1,
+    "price": 14800,
+    "shop_id": 6,
+    "sale_price": 0,
+    "sku": "32",
+    "quantity": 20,
+    "in_stock": 3,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "750ml",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "32",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-rayo-blanco-png-4222061.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-rayo-blanco-png-4222061.png"
+    },
+    "gallery": [
+      {
+        "id": "1412",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-rayo-blanco-png-4222061.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-rayo-blanco-png-4222061.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T11:00:12.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": null,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Wine",
+        "slug": "wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 32,
+          "category_id": 3
+        }
+      },
+      {
+        "id": 2,
+        "name": "Red Wine",
+        "slug": "red-wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 32,
+          "category_id": 17
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 33,
+    "name": "Campari",
+    "slug": "campari",
+    "description": "Campari Red Wine",
+    "type_id": 1,
+    "price": 15300,
+    "shop_id": 6,
+    "sale_price": 0,
+    "sku": "33",
+    "quantity": 20,
+    "in_stock": 3,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "750ml",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "33",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-liquor-bottle-png-1130993.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-liquor-bottle-png-1130993.png"
+    },
+    "gallery": [
+      {
+        "id": "1413",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-liquor-bottle-png-1130993.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-liquor-bottle-png-1130993.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T11:00:12.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": null,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Wine",
+        "slug": "wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 33,
+          "category_id": 3
+        }
+      },
+      {
+        "id": 2,
+        "name": "Red Wine",
+        "slug": "red-wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 33,
+          "category_id": 17
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 34,
+    "name": "Menage a Trois Luscious",
+    "slug": "menage-trois-luscious",
+    "description": "Menage a Trois, Luscious Pinot Noir",
+    "type_id": 1,
+    "price": 15300,
+    "shop_id": 6,
+    "sale_price": 0,
+    "sku": "34",
+    "quantity": 20,
+    "in_stock": 3,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "750ml",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "34",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-alcohol-glass-png-4689119.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-alcohol-glass-png-4689119.png"
+    },
+    "gallery": [
+      {
+        "id": "1414",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-alcohol-glass-png-4689119.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-alcohol-glass-png-4689119.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T11:00:12.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": null,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Wine",
+        "slug": "wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 34,
+          "category_id": 3
+        }
+      },
+      {
+        "id": 2,
+        "name": "Red Wine",
+        "slug": "red-wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 34,
+          "category_id": 17
+        }
+      }
+    ],
+    "tags": [],
+    "variations": []
+  },
+  {
+    "id": 35,
+    "name": "Menage a Trois",
+    "slug": "menage-trois-rose",
+    "description": "Menage a Trois California Rose Wine 2014",
+    "type_id": 1,
+    "price": 17600,
+    "shop_id": 6,
+    "sale_price": 0,
+    "sku": "35",
+    "quantity": 20,
+    "in_stock": 3,
+    "is_taxable": 0,
+    "shipping_class_id": null,
+    "status": "publish",
+    "product_type": "simple",
+    "unit": "750ml",
+    "height": null,
+    "width": null,
+    "length": null,
+    "image": {
+      "id": "35",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-bottle-of-wine-png-4892250.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-bottle-of-wine-png-4892250.png"
+    },
+    "gallery": [
+      {
+        "id": "1415",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-bottle-of-wine-png-4892250.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-bottle-of-wine-png-4892250.png"
+      }
+    ],
+    "deleted_at": null,
+    "created_at": "2021-03-08T11:00:12.000000Z",
+    "updated_at": "2021-06-27T03:56:42.000000Z",
+    "max_price": null,
+    "min_price": null,
+    "video": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "shop": null,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Wine",
+        "slug": "wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 35,
+          "category_id": 3
+        }
+      },
+      {
+        "id": 2,
+        "name": "Red Wine",
+        "slug": "red-wine",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 35,
+          "category_id": 17
         }
       }
     ],

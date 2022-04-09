@@ -111,3 +111,10 @@ export class ProductsService {
     return `This action removes a #${id} product`;
   }
 }
+
+/*
+getProductByCategory(category: string): Product[] {
+  const products = this.products.filter((p) => p.categories.includes(category));
+  return products;
+}
+*/
