@@ -3148,7 +3148,6 @@
     "slug": "heineken-lager",
     "description": "Heineken beer",
     "type_id": 1,
-    "price": 1200,
     "shop_id": 6,
     "sale_price": 0,
     "sku": "21",
@@ -3177,8 +3176,8 @@
     "deleted_at": null,
     "created_at": "2021-03-08T11:00:12.000000Z",
     "updated_at": "2021-06-27T03:56:42.000000Z",
-    "max_price": null,
-    "min_price": null,
+    "max_price": 7000,
+    "min_price": 1000,
     "video": null,
     "type": {
       "id": 1,
