@@ -20,7 +20,7 @@
     "useOtp": false,
     "currency": "USD",
     "taxClass": 1,
-    "siteTitle": "Pickbazar",
+    "siteTitle": "Barectory",
     "deliveryTime": [
       {
         "title": "Express Delivery",
@@ -49,16 +49,20 @@
       "contact": "+129290122122",
       "socials": [
         {
-          "url": "https://www.facebook.com/",
+          "url": "https://web.facebook.com/BarectoryNG/?_rdc=1&_rdr",
           "icon": "FacebookIcon"
         },
         {
-          "url": "https://twitter.com/home",
+          "url": "https://mobile.twitter.com/barectory",
           "icon": "TwitterIcon"
         },
         {
-          "url": "https://www.instagram.com/",
+          "url": "https://www.instagram.com/barectory/?hl=en",
           "icon": "InstagramIcon"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UC7xEk5v8nUHCrsaWz35o_VA",
+          "icon": "YouTubeIcon"
         }
       ],
       "website": "https://redq.io",

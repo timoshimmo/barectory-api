@@ -86,8 +86,8 @@
         "description": "Get your healthy foods & snacks delivered at your doorsteps all day everyday",
         "image": {
           "id": 907,
-          "original": "https://img.freepik.com/free-vector/whiskey-bottle-glass-with-ice-cubes-banner_33099-1792.jpg?t=st=1646918887~exp=1646919487~hmac=a23160b42b2a3a5640a1833070b4029fd61503b921eabcd4af0d010461109feb&w=996",
-          "thumbnail": "https://img.freepik.com/free-vector/whiskey-bottle-glass-with-ice-cubes-banner_33099-1792.jpg?t=st=1646918887~exp=1646919487~hmac=a23160b42b2a3a5640a1833070b4029fd61503b921eabcd4af0d010461109feb&w=996"
+          "original": "https://img.freepik.com/free-vector/whiskey-bottle-glass-with-ice-cubes-banner_33099-1792.jpg?t=st=1646918887~exp=1646919487~hmac=a23160b42b2a3a5640a1833070b4029fd61503b921eabcd4af0d010461109feb&w=450",
+          "thumbnail": "https://img.freepik.com/free-vector/whiskey-bottle-glass-with-ice-cubes-banner_33099-1792.jpg?t=st=1646918887~exp=1646919487~hmac=a23160b42b2a3a5640a1833070b4029fd61503b921eabcd4af0d010461109feb&w=450"
         },
         "created_at": "2021-07-17T13:21:55.000000Z",
         "updated_at": "2021-07-17T13:21:55.000000Z"
@@ -101,6 +101,7 @@
             "id": 908,
             "original": "https://img.freepik.com/free-vector/cognac-bottle-glass-shot-promo-banner_107791-1382.jpg?t=st=1646919000~exp=1646919600~hmac=ce76fae983483d7ca79ebbfb2cc9b8e306ec4661174fe69a963b3556a751b74c&w=996",
             "thumbnail": "https://img.freepik.com/free-vector/cognac-bottle-glass-shot-promo-banner_107791-1382.jpg?t=st=1646919000~exp=1646919600~hmac=ce76fae983483d7ca79ebbfb2cc9b8e306ec4661174fe69a963b3556a751b74c&w=996"
+
           },
           "created_at": "2021-08-18T18:45:54.000000Z",
           "updated_at": "2021-08-18T18:45:54.000000Z"

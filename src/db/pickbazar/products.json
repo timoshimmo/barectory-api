@@ -21,19 +21,22 @@
     "length": null,
     "image": {
       "id": "1",
-      "original": "https://assets.bacardicontenthub.com/m/4ef1e3bb5369270b/Medium_1600_PNG-IPX.png",
-      "thumbnail": "https://assets.bacardicontenthub.com/m/4ef1e3bb5369270b/Medium_1600_PNG-IPX.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651169615/barectory/Medium_1600_PNG-IPX.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651169615/barectory/Medium_1600_PNG-IPX.png",
+      "img_name": "Medium_1600_PNG-IPX.png"
     },
     "gallery": [
       {
         "id": "573",
-        "original": "https://assets.bacardicontenthub.com/m/4ef1e3bb5369270b/Medium_1600_PNG-IPX.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/4ef1e3bb5369270b/Medium_1600_PNG-IPX.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651169615/barectory/Medium_1600_PNG-IPX.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651169615/barectory/Medium_1600_PNG-IPX.png",
+        "img_name": "Medium_1600_PNG-IPX.png"
       },
       {
         "id": "574",
-        "original": "https://assets.bacardicontenthub.com/m/1a39ef6b8355d7ab/Large_3000_PNG-FY21_MARTINI_Rosso_IBX_1L_15.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/1a39ef6b8355d7ab/Large_3000_PNG-FY21_MARTINI_Rosso_IBX_1L_15.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651169621/barectory/Large_3000_PNG-FY21_MARTINI_Rosso_IBX_1L_15-.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651169621/barectory/Large_3000_PNG-FY21_MARTINI_Rosso_IBX_1L_15-.png",
+        "img_name": "Large_3000_PNG-FY21_MARTINI_Rosso_IBX_1L_15-.png"
       }
     ],
     "deleted_at": null,
@@ -198,29 +201,34 @@
     "length": null,
     "image": {
       "id": "2",
-      "original": "https://assets.bacardicontenthub.com/m/58855fe016f9a48b/Medium_1600_PNG-IPX.png",
-      "thumbnail": "https://assets.bacardicontenthub.com/m/58855fe016f9a48b/Medium_1600_PNG-IPX.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651170591/barectory/Medium_1600_PNG-IPX_Martini_Blanco.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651170591/barectory/Medium_1600_PNG-IPX_Martini_Blanco.png",
+      "img_name": "Medium_1600_PNG-IPX_Martini_Blanco.png"
     },
     "gallery": [
       {
         "id": "576",
-        "original": "https://assets.bacardicontenthub.com/m/58855fe016f9a48b/Medium_1600_PNG-IPX.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/58855fe016f9a48b/Medium_1600_PNG-IPX.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651170591/barectory/Medium_1600_PNG-IPX_Martini_Blanco.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651170591/barectory/Medium_1600_PNG-IPX_Martini_Blanco.png",
+        "img_name": "Medium_1600_PNG-IPX_Martini_Blanco.png"
       },
       {
         "id": "577",
-        "original": "https://assets.bacardicontenthub.com/m/7b9d842d90e97d28/Large_3000_PNG-FY21_MARTINI_Bianco_IBX_1L_15.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/7b9d842d90e97d28/Large_3000_PNG-FY21_MARTINI_Bianco_IBX_1L_15.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651237521/barectory/Large_3000_PNG-FY21_MARTINI_Bianco_IBX_1L_15-.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651237521/barectory/Large_3000_PNG-FY21_MARTINI_Bianco_IBX_1L_15-.jpg",
+        "img_name": "Large_3000_PNG-FY21_MARTINI_Bianco_IBX_1L_15.png"
       },
       {
         "id": "578",
-        "original": "https://assets.bacardicontenthub.com/m/4dcad54b17075011/Large_3000_PNG-FY21_CH_Martini_Martini-Bianco_EIP_100cl.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/4dcad54b17075011/Large_3000_PNG-FY21_CH_Martini_Martini-Bianco_EIP_100cl.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651173129/barectory/Large_3000_PNG-FY21_CH_Martini_Martini-Bianco_EIP_100cl-removebg.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651173129/barectory/Large_3000_PNG-FY21_CH_Martini_Martini-Bianco_EIP_100cl-removebg.png",
+        "img_name": "Large_3000_PNG-FY21_CH_Martini_Martini-Bianco_EIP_100cl-removebg.png"
       },
       {
         "id": "738",
-        "original": "https://assets.bacardicontenthub.com/m/3c0c68157b442fb8/Large_3000_PNG-FY21_CH_Martini_Martini-Bianco_LNP_100cl.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/3c0c68157b442fb8/Large_3000_PNG-FY21_CH_Martini_Martini-Bianco_LNP_100cl.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651171130/barectory/Large_3000_PNG-FY21_CH_Martini_Martini-Bianco_LNP_100cl.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651171130/barectory/Large_3000_PNG-FY21_CH_Martini_Martini-Bianco_LNP_100cl.jpg",
+        "img_name": "Large_3000_PNG-FY21_CH_Martini_Martini-Bianco_LNP_100cl.jpg"
       }
     ],
     "deleted_at": null,
@@ -333,24 +341,28 @@
     "length": null,
     "image": {
       "id": "3",
-      "original": "https://assets.bacardicontenthub.com/m/7372e057ceb69401/Large_3000_PNG-FY21_MARTINI_Dry_IPX_1L_18.png",
-      "thumbnail": "https://assets.bacardicontenthub.com/m/7372e057ceb69401/Large_3000_PNG-FY21_MARTINI_Dry_IPX_1L_18.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651179790/barectory/Large_3000_PNG-FY21_MARTINI_Dry_IPX_1L_18-.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651179790/barectory/Large_3000_PNG-FY21_MARTINI_Dry_IPX_1L_18-.png",
+      "img_name": "Large_3000_PNG-FY21_MARTINI_Dry_IPX_1L_18-.png"
     },
     "gallery": [
       {
         "id": "580",
-        "original": "https://assets.bacardicontenthub.com/m/7372e057ceb69401/Large_3000_PNG-FY21_MARTINI_Dry_IPX_1L_18.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/7372e057ceb69401/Large_3000_PNG-FY21_MARTINI_Dry_IPX_1L_18.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651179790/barectory/Large_3000_PNG-FY21_MARTINI_Dry_IPX_1L_18-.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651179790/barectory/Large_3000_PNG-FY21_MARTINI_Dry_IPX_1L_18-.png",
+        "img_name": "Large_3000_PNG-FY21_MARTINI_Dry_IPX_1L_18-.png"
       },
       {
         "id": "581",
-        "original": "https://assets.bacardicontenthub.com/m/e511cd14d9fc44cd/Large_3000_PNG-FY21_MARTINI_Dry_IBX_1L_18.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/e511cd14d9fc44cd/Large_3000_PNG-FY21_MARTINI_Dry_IBX_1L_18.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651180926/barectory/Large_3000_PNG-FY21_MARTINI_Dry_IBX_1L_18-.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651180926/barectory/Large_3000_PNG-FY21_MARTINI_Dry_IBX_1L_18-.jpg",
+        "img_name": "Large_3000_PNG-FY21_MARTINI_Dry_IBX_1L_18-.jpg"
       },
       {
         "id": "740",
-        "original": "https://assets.bacardicontenthub.com/m/d7c8dbc083bea026/Large_3000_PNG-FY21_DE_Martini_Martini-Extra-Dry_EIP_100cl_18.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/d7c8dbc083bea026/Large_3000_PNG-FY21_DE_Martini_Martini-Extra-Dry_EIP_100cl_18.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651181054/barectory/Large_3000_PNG-FY21_DE_Martini_Martini-Extra-Dry_EIP_100cl_18-.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651181054/barectory/Large_3000_PNG-FY21_DE_Martini_Martini-Extra-Dry_EIP_100cl_18-.jpg",
+        "img_name": "Large_3000_PNG-FY21_DE_Martini_Martini-Extra-Dry_EIP_100cl_18-.jpg"
       }
     ],
     "deleted_at": null,
@@ -463,14 +475,16 @@
     "length": null,
     "image": {
       "id": "4",
-      "original": "https://toppng.com/uploads/preview/size-william-lawson-william-lawsons-blended-whisky-11563204756nezuyxav1x.png",
-      "thumbnail": "https://toppng.com/uploads/preview/size-william-lawson-william-lawsons-blended-whisky-11563204756nezuyxav1x.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651181440/barectory/size-william-lawson-william-lawsons-blended-whisky-11563204756nezuyxav1x.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651181440/barectory/size-william-lawson-william-lawsons-blended-whisky-11563204756nezuyxav1x.png",
+      "img_name": "size-william-lawson-william-lawsons-blended-whisky-11563204756nezuyxav1x.png"
     },
     "gallery": [
       {
         "id": "582",
-        "original": "https://toppng.com/uploads/preview/size-william-lawson-william-lawsons-blended-whisky-11563204756nezuyxav1x.png",
-        "thumbnail": "https://toppng.com/uploads/preview/size-william-lawson-william-lawsons-blended-whisky-11563204756nezuyxav1x.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651181440/barectory/size-william-lawson-william-lawsons-blended-whisky-11563204756nezuyxav1x.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651181440/barectory/size-william-lawson-william-lawsons-blended-whisky-11563204756nezuyxav1x.png",
+        "img_name": "size-william-lawson-william-lawsons-blended-whisky-11563204756nezuyxav1x.png"
       }
     ],
     "deleted_at": null,
@@ -583,19 +597,22 @@
     "length": null,
     "image": {
       "id": "5",
-      "original": "https://assets.bacardicontenthub.com/m/ae31b5075289ab1b/Large_3000_PNG-FY21_DEWARS_White_Label_IPX_750ml.png",
-      "thumbnail": "https://assets.bacardicontenthub.com/m/ae31b5075289ab1b/Large_3000_PNG-FY21_DEWARS_White_Label_IPX_750ml.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651182183/barectory/Large_3000_PNG-FY21_Dewar-s_White_Label_IPX_750ml.jpg",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651182183/barectory/Large_3000_PNG-FY21_Dewar-s_White_Label_IPX_750ml.jpg",
+      "img_name": "Large_3000_PNG-FY21_Dewar-s_White_Label_IPX_750ml.jpg"
     },
     "gallery": [
       {
         "id": "585",
-        "original": "https://assets.bacardicontenthub.com/m/ae31b5075289ab1b/Large_3000_PNG-FY21_DEWARS_White_Label_IPX_750ml.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/ae31b5075289ab1b/Large_3000_PNG-FY21_DEWARS_White_Label_IPX_750ml.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651182183/barectory/Large_3000_PNG-FY21_Dewar-s_White_Label_IPX_750ml.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651182183/barectory/Large_3000_PNG-FY21_Dewar-s_White_Label_IPX_750ml.jpg",
+        "img_name": "Large_3000_PNG-FY21_Dewar-s_White_Label_IPX_750ml.jpg"
       },
       {
         "id": "586",
-        "original": "https://assets.bacardicontenthub.com/m/97a463c46ca58f58/Large_3000_PNG-FY21_DEWARS_White_Label_IBX_750ml.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/97a463c46ca58f58/Large_3000_PNG-FY21_DEWARS_White_Label_IBX_750ml.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651182298/barectory/Large_3000_PNG-FY21_Dewar-s_White_Label_IBX_750ml.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651182298/barectory/Large_3000_PNG-FY21_Dewar-s_White_Label_IBX_750ml.jpg",
+        "img_name": "Large_3000_PNG-FY21_Dewar-s_White_Label_IBX_750ml.jpg"
       }
     ],
     "deleted_at": null,
@@ -712,24 +729,28 @@
     "length": null,
     "image": {
       "id": "6",
-      "original": "https://assets.bacardicontenthub.com/m/dcc973f4c32cd0bb/Large_3000_PNG-FY21_Dewars_12years_IPX_75cl.png",
-      "thumbnail": "https://assets.bacardicontenthub.com/m/dcc973f4c32cd0bb/Large_3000_PNG-FY21_Dewars_12years_IPX_75cl.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651182502/barectory/Large_3000_PNG-FY21_Dewar-s_12years_IPX_75cl.jpg",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651182502/barectory/Large_3000_PNG-FY21_Dewar-s_12years_IPX_75cl.jpg",
+      "img_name": "Large_3000_PNG-FY21_Dewar-s_12years_IPX_75cl.jpg"
     },
     "gallery": [
       {
         "id": "590",
-        "original": "https://assets.bacardicontenthub.com/m/dcc973f4c32cd0bb/Large_3000_PNG-FY21_Dewars_12years_IPX_75cl.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/dcc973f4c32cd0bb/Large_3000_PNG-FY21_Dewars_12years_IPX_75cl.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651182502/barectory/Large_3000_PNG-FY21_Dewar-s_12years_IPX_75cl.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651182502/barectory/Large_3000_PNG-FY21_Dewar-s_12years_IPX_75cl.jpg",
+        "img_name": "Large_3000_PNG-FY21_Dewar-s_12years_IPX_75cl.jpg"
       },
       {
         "id": "591",
-        "original": "https://assets.bacardicontenthub.com/m/4bfd83adc19fad56/Large_3000_PNG-FY21_Dewars_12years_IBX_75cl.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/4bfd83adc19fad56/Large_3000_PNG-FY21_Dewars_12years_IBX_75cl.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651182845/barectory/Large_3000_PNG-FY21_Dewar-s_12years_IBX_75cl.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651182845/barectory/Large_3000_PNG-FY21_Dewar-s_12years_IBX_75cl.jpg",
+        "img_name": "Large_3000_PNG-FY21_Dewar-s_12years_IBX_75cl.jpg"
       },
       {
         "id": "592",
-        "original": "https://assets.bacardicontenthub.com/m/808e8647cec27b17/Large_3000_PNG-FY21_Dewars_12years_BIP_75cl.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/808e8647cec27b17/Large_3000_PNG-FY21_Dewars_12years_BIP_75cl.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651182979/barectory/Large_3000_PNG-FY21_Dewar-s_12years_BIP_75cl.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651182979/barectory/Large_3000_PNG-FY21_Dewar-s_12years_BIP_75cl.jpg",
+        "img_name": "Large_3000_PNG-FY21_Dewar-s_12years_BIP_75cl.jpg"
       }
     ],
     "deleted_at": null,
@@ -842,29 +863,16 @@
     "length": null,
     "image": {
       "id": "7",
-      "original": "https://assets.bacardicontenthub.com/m/c624c8da4f1c45b5/Large_3000_PNG-F20_Eristoff_Brut_IPX_70cl.png",
-      "thumbnail": "https://assets.bacardicontenthub.com/m/c624c8da4f1c45b5/Large_3000_PNG-F20_Eristoff_Brut_IPX_70cl.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651183095/barectory/Large_3000_PNG-FY20_Eristoff_Brut_IPX_70cl.jpg",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651183095/barectory/Large_3000_PNG-FY20_Eristoff_Brut_IPX_70cl.jpg",
+      "img_name": "Large_3000_PNG-FY20_Eristoff_Brut_IPX_70cl.jpg"
     },
     "gallery": [
       {
         "id": "593",
-        "original": "https://assets.bacardicontenthub.com/m/c624c8da4f1c45b5/Large_3000_PNG-F20_Eristoff_Brut_IPX_70cl.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/c624c8da4f1c45b5/Large_3000_PNG-F20_Eristoff_Brut_IPX_70cl.png"
-      },
-      {
-        "id": "594",
-        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/593/Sweet-Corn-2.png",
-        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/593/conversions/Sweet-Corn-2-thumbnail.jpg"
-      },
-      {
-        "id": "595",
-        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/594/Sweet-Corn.png",
-        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/594/conversions/Sweet-Corn-thumbnail.jpg"
-      },
-      {
-        "id": "744",
-        "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/743/Corn_dlrtbv.jpg",
-        "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/743/conversions/Corn_dlrtbv-thumbnail.jpg"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651183095/barectory/Large_3000_PNG-FY20_Eristoff_Brut_IPX_70cl.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651183095/barectory/Large_3000_PNG-FY20_Eristoff_Brut_IPX_70cl.jpg",
+        "img_name": "Large_3000_PNG-FY20_Eristoff_Brut_IPX_70cl.jpg"
       }
     ],
     "deleted_at": null,
@@ -977,29 +985,34 @@
     "length": null,
     "image": {
       "id": "8",
-      "original": "https://assets.bacardicontenthub.com/m/4748f1d2113471ca/Large_3000_PNG-GG_Original_IPX_1L.png",
-      "thumbnail": "https://assets.bacardicontenthub.com/m/4748f1d2113471ca/Large_3000_PNG-GG_Original_IPX_1L.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651183329/barectory/Large_3000_PNG-GG_Original_IPX_1L.jpg",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651183329/barectory/Large_3000_PNG-GG_Original_IPX_1L.jpg",
+      "img_name": "Large_3000_PNG-GG_Original_IPX_1L.jpg"
     },
     "gallery": [
       {
         "id": "596",
-        "original": "https://assets.bacardicontenthub.com/m/4748f1d2113471ca/Large_3000_PNG-GG_Original_IPX_1L.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/4748f1d2113471ca/Large_3000_PNG-GG_Original_IPX_1L.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651183329/barectory/Large_3000_PNG-GG_Original_IPX_1L.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651183329/barectory/Large_3000_PNG-GG_Original_IPX_1L.jpg",
+        "img_name": "Large_3000_PNG-GG_Original_IPX_1L.jpg"
       },
       {
         "id": "597",
-        "original": "https://assets.bacardicontenthub.com/m/753e0555cf701f4c/Large_3000_PNG-FY21_GreyGoose_Original_IBX_1L.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/753e0555cf701f4c/Large_3000_PNG-FY21_GreyGoose_Original_IBX_1L.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651183487/barectory/Large_3000_PNG-FY21_GreyGoose_Original_IBX_1L.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651183487/barectory/Large_3000_PNG-FY21_GreyGoose_Original_IBX_1L.jpg",
+        "img_name": "Large_3000_PNG-FY21_GreyGoose_Original_IBX_1L.jpg"
       },
       {
         "id": "598",
-        "original": "https://assets.bacardicontenthub.com/m/cd7bd4fe0a929d6c/Large_3000_PNG-FY21_DE_GreyGoose_Original_EIP_1L.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/cd7bd4fe0a929d6c/Large_3000_PNG-FY21_DE_GreyGoose_Original_EIP_1L.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651183638/barectory/Large_3000_PNG-FY21_DE_GreyGoose_Original_EIP_1L.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651183638/barectory/Large_3000_PNG-FY21_DE_GreyGoose_Original_EIP_1L.jpg",
+        "img_name": "Large_3000_PNG-FY21_DE_GreyGoose_Original_EIP_1L.jpg"
       },
       {
         "id": "745",
-        "original": "https://assets.bacardicontenthub.com/m/47fa5f59c69f2112/Large_3000_PNG-GreyGoose_Original_LNP2_BlackRussian.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/47fa5f59c69f2112/Large_3000_PNG-GreyGoose_Original_LNP2_BlackRussian.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651183764/barectory/Large_3000_PNG-GreyGoose_Original_LNP2_BlackRussian.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651183764/barectory/Large_3000_PNG-GreyGoose_Original_LNP2_BlackRussian.jpg",
+        "img_name": "Large_3000_PNG-GreyGoose_Original_LNP2_BlackRussian.jpg"
       }
     ],
     "deleted_at": null,
@@ -1112,19 +1125,22 @@
     "length": null,
     "image": {
       "id": "12",
-      "original": "https://assets.bacardicontenthub.com/m/b40fa24e3cf78856/Large_3000_PNG-FY21_BOMBAY_Sapphire_IPX_75cl.png",
-      "thumbnail": "https://assets.bacardicontenthub.com/m/b40fa24e3cf78856/Large_3000_PNG-FY21_BOMBAY_Sapphire_IPX_75cl.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651184438/barectory/Large_3000_PNG-FY21_BOMBAY_Sapphire_IPX_75cl.jpg",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651184438/barectory/Large_3000_PNG-FY21_BOMBAY_Sapphire_IPX_75cl.jpg",
+      "img_name": "Large_3000_PNG-FY21_BOMBAY_Sapphire_IPX_75cl.jpg"
     },
     "gallery": [
       {
         "id": "748",
-        "original": "https://assets.bacardicontenthub.com/m/b40fa24e3cf78856/Large_3000_PNG-FY21_BOMBAY_Sapphire_IPX_75cl.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/b40fa24e3cf78856/Large_3000_PNG-FY21_BOMBAY_Sapphire_IPX_75cl.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651184438/barectory/Large_3000_PNG-FY21_BOMBAY_Sapphire_IPX_75cl.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651184438/barectory/Large_3000_PNG-FY21_BOMBAY_Sapphire_IPX_75cl.jpg",
+        "img_name": "Large_3000_PNG-FY21_BOMBAY_Sapphire_IPX_75cl.jpg"
       },
       {
         "id": "749",
-        "original": "https://assets.bacardicontenthub.com/m/0a36ed48fe8a08a0/Large_3000_PNG-FY21_BOMBAY_Sapphire_IBX_75cl.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/0a36ed48fe8a08a0/Large_3000_PNG-FY21_BOMBAY_Sapphire_IBX_75cl.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651184595/barectory/Large_3000_PNG-FY21_BOMBAY_Sapphire_IBX_75cl.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651184595/barectory/Large_3000_PNG-FY21_BOMBAY_Sapphire_IBX_75cl.jpg",
+        "img_name": "Large_3000_PNG-FY21_BOMBAY_Sapphire_IBX_75cl.jpg"
       }
     ],
     "deleted_at": null,
@@ -1237,19 +1253,22 @@
     "length": null,
     "image": {
       "id": "13",
-      "original": "https://assets.bacardicontenthub.com/m/142a9f044de66b3a/Large_3000_PNG-FY21_BACARDI_Carta_Blanca_IPX_750ml_40.png",
-      "thumbnail": "https://assets.bacardicontenthub.com/m/142a9f044de66b3a/Large_3000_PNG-FY21_BACARDI_Carta_Blanca_IPX_750ml_40.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651184846/barectory/Large_3000_PNG-FY21_Bacardi_Carta_Blanca_IPX_750ml_40-.jpg",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651184846/barectory/Large_3000_PNG-FY21_Bacardi_Carta_Blanca_IPX_750ml_40-.jpg",
+      "img_name": "Large_3000_PNG-FY21_Bacardi_Carta_Blanca_IPX_750ml_40-.jpg"
     },
     "gallery": [
       {
         "id": "570",
-        "original": "https://assets.bacardicontenthub.com/m/142a9f044de66b3a/Large_3000_PNG-FY21_BACARDI_Carta_Blanca_IPX_750ml_40.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/142a9f044de66b3a/Large_3000_PNG-FY21_BACARDI_Carta_Blanca_IPX_750ml_40.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651184846/barectory/Large_3000_PNG-FY21_Bacardi_Carta_Blanca_IPX_750ml_40-.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651184846/barectory/Large_3000_PNG-FY21_Bacardi_Carta_Blanca_IPX_750ml_40-.jpg",
+        "img_name": "Large_3000_PNG-FY21_Bacardi_Carta_Blanca_IPX_750ml_40-.jpg"
       },
       {
         "id": "572",
-        "original": "https://assets.bacardicontenthub.com/m/b82d4a6587499865/Large_3000_PNG-FY21_BACARDI_Carta_Blanca_IBX_750ml_40.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/b82d4a6587499865/Large_3000_PNG-FY21_BACARDI_Carta_Blanca_IBX_750ml_40.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651184847/barectory/Large_3000_PNG-FY21_Bacardi_Carta_Blanca_IBX_750ml_40-.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651184847/barectory/Large_3000_PNG-FY21_Bacardi_Carta_Blanca_IBX_750ml_40-.jpg",
+        "img_name": "Large_3000_PNG-FY21_Bacardi_Carta_Blanca_IBX_750ml_40-.jpg"
       }
     ],
     "deleted_at": null,
@@ -1362,13 +1381,15 @@
     "length": null,
     "image": {
       "id": "14",
-      "original": "https://www.seekpng.com/png/detail/59-594231_bacardi-bacardi-gold-rum.png",
-      "thumbnail": "https://www.seekpng.com/png/detail/59-594231_bacardi-bacardi-gold-rum.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651185039/barectory/59-594231_bacardi-bacardi-gold-rum.jpg",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651185039/barectory/59-594231_bacardi-bacardi-gold-rum.jpg",
+      "img_name": "59-594231_bacardi-bacardi-gold-rum.jpg"
     },
     "gallery": [{
       "id": "1210",
-      "original": "https://www.seekpng.com/png/detail/59-594231_bacardi-bacardi-gold-rum.png",
-      "thumbnail": "https://www.seekpng.com/png/detail/59-594231_bacardi-bacardi-gold-rum.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651185039/barectory/59-594231_bacardi-bacardi-gold-rum.jpg",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651185039/barectory/59-594231_bacardi-bacardi-gold-rum.jpg",
+      "img_name": "59-594231_bacardi-bacardi-gold-rum.jpg"
     }],
     "deleted_at": null,
     "created_at": "2021-03-08T10:54:24.000000Z",
@@ -1480,19 +1501,16 @@
     "length": null,
     "image": {
       "id": "10",
-      "original": "https://www.nicepng.com/png/detail/115-1153888_grey-goose-vodka-orange-70cl.png",
-      "thumbnail": "https://www.nicepng.com/png/detail/115-1153888_grey-goose-vodka-orange-70cl.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651185450/barectory/grey_goose_lorange.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651185450/barectory/grey_goose_lorange.png",
+      "img_name": "grey_goose_lorange.png"
     },
     "gallery": [
       {
         "id": "599",
-        "original": "https://www.nicepng.com/png/detail/115-1153888_grey-goose-vodka-orange-70cl.png",
-        "thumbnail": "https://www.nicepng.com/png/detail/115-1153888_grey-goose-vodka-orange-70cl.png"
-      },
-      {
-        "id": "600",
-        "original": "https://www.pngkit.com/png/detail/979-9790595_grey-goose-vodka-grey-goose-l-orange-vodka.png",
-        "thumbnail": "https://www.pngkit.com/png/detail/979-9790595_grey-goose-vodka-grey-goose-l-orange-vodka.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651185450/barectory/grey_goose_lorange.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651185450/barectory/grey_goose_lorange.png",
+        "img_name": "grey_goose_lorange.png"
       }
     ],
     "deleted_at": null,
@@ -1657,34 +1675,28 @@
     "length": null,
     "image": {
       "id": "11",
-      "original": "https://www.seekpng.com/png/detail/96-968633_grey-goose-le-citron-flavoured-vodka.png",
-      "thumbnail": "https://www.seekpng.com/png/detail/96-968633_grey-goose-le-citron-flavoured-vodka.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651186487/barectory/grey_goose_le_citron.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651186487/barectory/grey_goose_le_citron.png",
+      "img_name": "grey_goose_le_citron.png"
     },
     "gallery": [
       {
         "id": "602",
-        "original": "https://www.seekpng.com/png/detail/96-968633_grey-goose-le-citron-flavoured-vodka.png",
-        "thumbnail": "https://www.seekpng.com/png/detail/96-968633_grey-goose-le-citron-flavoured-vodka.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651186487/barectory/grey_goose_le_citron.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651186487/barectory/grey_goose_le_citron.png",
+        "img_name": "grey_goose_le_citron.png"
       },
       {
         "id": "603",
-        "original": "https://assets.bacardicontenthub.com/m/3c6f75d86ae4e32c/Large_3000_PNG-FY21_GREY_GOOSE_Le_Citron_IBX_1L.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/3c6f75d86ae4e32c/Large_3000_PNG-FY21_GREY_GOOSE_Le_Citron_IBX_1L.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651186660/barectory/Large_3000_PNG-FY21_GREY_GOOSE_Le_Citron_IBX_1L.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651186660/barectory/Large_3000_PNG-FY21_GREY_GOOSE_Le_Citron_IBX_1L.jpg",
+        "img_name": "Large_3000_PNG-FY21_GREY_GOOSE_Le_Citron_IBX_1L.jpg"
       },
       {
         "id": "604",
-        "original": "https://assets.bacardicontenthub.com/m/3c0d467d17ca32b5/Large_3000_PNG-GreyGoose_LeCitron_EIP.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/3c0d467d17ca32b5/Large_3000_PNG-GreyGoose_LeCitron_EIP.png"
-      },
-      {
-        "id": "747",
-        "original": "https://assets.bacardicontenthub.com/m/18b224e5dde5d699/Large_3000_PNG-GreyGoose_LeCitron_LNP2.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/18b224e5dde5d699/Large_3000_PNG-GreyGoose_LeCitron_LNP2.png"
-      },
-      {
-        "id": "1058",
-        "original": "https://assets.bacardicontenthub.com/m/169bdbb23db8c2b1/Large_3000_PNG-GreyGoose_LeCitron_LNP1.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/169bdbb23db8c2b1/Large_3000_PNG-GreyGoose_LeCitron_LNP1.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651186748/barectory/Large_3000_PNG-GreyGoose_LeCitron_EIP.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651186748/barectory/Large_3000_PNG-GreyGoose_LeCitron_EIP.jpg",
+        "img_name": "Large_3000_PNG-GreyGoose_LeCitron_EIP.jpg"
       }
     ],
     "deleted_at": null,
@@ -1849,24 +1861,28 @@
     "length": null,
     "image": {
       "id": "15",
-      "original": "https://assets.bacardicontenthub.com/m/e9ed8f30e889a3f8/Medium_1600_PNG-BACARDI-RUM-SPICED.png",
-      "thumbnail": "https://assets.bacardicontenthub.com/m/e9ed8f30e889a3f8/Medium_1600_PNG-BACARDI-RUM-SPICED.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651186962/barectory/Medium_1600_PNG-Bacardi_-Rum-Spiced.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651186962/barectory/Medium_1600_PNG-Bacardi_-Rum-Spiced.png",
+      "img_name": "Medium_1600_PNG-Bacardi_-Rum-Spiced.png"
     },
     "gallery": [
       {
         "id": "1170",
-        "original": "https://assets.bacardicontenthub.com/m/e9ed8f30e889a3f8/Medium_1600_PNG-BACARDI-RUM-SPICED.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/e9ed8f30e889a3f8/Medium_1600_PNG-BACARDI-RUM-SPICED.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651186962/barectory/Medium_1600_PNG-Bacardi_-Rum-Spiced.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651186962/barectory/Medium_1600_PNG-Bacardi_-Rum-Spiced.png",
+        "img_name": "Medium_1600_PNG-Bacardi_-Rum-Spiced.png"
       },
       {
         "id": "1172",
-        "original": "https://assets.bacardicontenthub.com/m/accf2babc10a784b/Large_3000_PNG-Bacardi_Spiced_LNP_1.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/accf2babc10a784b/Large_3000_PNG-Bacardi_Spiced_LNP_1.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651187083/barectory/Large_3000_PNG-Bacardi_Spiced_LNP_1.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651187083/barectory/Large_3000_PNG-Bacardi_Spiced_LNP_1.jpg",
+        "img_name": "Large_3000_PNG-Bacardi_Spiced_LNP_1.jpg"
       },
       {
         "id": "1173",
-        "original": "https://assets.bacardicontenthub.com/m/b9b5189fae1e395b/Large_3000_PNG-Bacardi_BacardiSpiced_LNP.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/b9b5189fae1e395b/Large_3000_PNG-Bacardi_BacardiSpiced_LNP.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651187165/barectory/Large_3000_PNG-Bacardi_Spiced_LNP.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651187165/barectory/Large_3000_PNG-Bacardi_Spiced_LNP.jpg",
+        "img_name": "Large_3000_PNG-Bacardi_Spiced_LNP.jpg"
       }
     ],
     "deleted_at": null,
@@ -2031,14 +2047,16 @@
     "length": null,
     "image": {
       "id": "16",
-      "original": "https://www.pikpng.com/pngl/m/392-3929895_cognac-cognac-baron-otard-vsop-png-clipart.png",
-      "thumbnail": "https://www.pikpng.com/pngl/m/392-3929895_cognac-cognac-baron-otard-vsop-png-clipart.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651187782/barectory/baron_otard.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651187782/barectory/baron_otard.png",
+      "img_name": "baron_otard.png"
     },
     "gallery": [
       {
         "id": "1174",
-        "original": "https://www.pikpng.com/pngl/m/392-3929895_cognac-cognac-baron-otard-vsop-png-clipart.png",
-        "thumbnail": "https://www.pikpng.com/pngl/m/392-3929895_cognac-cognac-baron-otard-vsop-png-clipart.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651187782/barectory/baron_otard.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651187782/barectory/baron_otard.png",
+        "img_name": "baron_otard.png"
       }
     ],
     "deleted_at": null,
@@ -2203,29 +2221,28 @@
     "length": null,
     "image": {
       "id": "17",
-      "original": "https://assets.bacardicontenthub.com/m/c6d02302669fe744/Large_3000_PNG-F18_DUSSE_VSOP_IPX_750ML.png",
-      "thumbnail": "https://assets.bacardicontenthub.com/m/c6d02302669fe744/Large_3000_PNG-F18_DUSSE_VSOP_IPX_750ML.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651187984/barectory/Large_3000_PNG-FY18_D-USSE_VSOP_IPX_750ML.jpg",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651187984/barectory/Large_3000_PNG-FY18_D-USSE_VSOP_IPX_750ML.jpg",
+      "img_name": "Large_3000_PNG-FY18_D-USSE_VSOP_IPX_750ML.jpg"
     },
     "gallery": [
       {
         "id": "1175",
-        "original": "https://assets.bacardicontenthub.com/m/c6d02302669fe744/Large_3000_PNG-F18_DUSSE_VSOP_IPX_750ML.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/c6d02302669fe744/Large_3000_PNG-F18_DUSSE_VSOP_IPX_750ML.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651187984/barectory/Large_3000_PNG-FY18_D-USSE_VSOP_IPX_750ML.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651187984/barectory/Large_3000_PNG-FY18_D-USSE_VSOP_IPX_750ML.jpg",
+        "img_name": "bLarge_3000_PNG-FY18_D-USSE_VSOP_IPX_750ML.jpg"
       },
       {
         "id": "1176",
-        "original": "https://assets.bacardicontenthub.com/m/5fd84b956237a041/Large_3000_PNG-D-USSE_VSOP_IBX_750ML.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/5fd84b956237a041/Large_3000_PNG-D-USSE_VSOP_IBX_750ML.png"
-      },
-      {
-        "id": "1177",
-        "original": "https://assets.bacardicontenthub.com/m/185ed64578b2b4bc/Large_3000_PNG-AllMarkets_DUSSE_VSOP_BlackBackStraight_Product_750mL.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/185ed64578b2b4bc/Large_3000_PNG-AllMarkets_DUSSE_VSOP_BlackBackStraight_Product_750mL.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651187983/barectory/Large_3000_PNG-D-USSE_VSOP_IBX_750ML.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651187983/barectory/Large_3000_PNG-D-USSE_VSOP_IBX_750ML.jpg",
+        "img_name": "Large_3000_PNG-D-USSE_VSOP_IBX_750ML.jpg"
       },
       {
         "id": "1178",
-        "original": "https://assets.bacardicontenthub.com/m/7d03bfaa10a7cffb/Large_3000_PNG-FY21_DUSSE_VSOP_LNP1_CC_Cocktail_Backgrd_std.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/7d03bfaa10a7cffb/Large_3000_PNG-FY21_DUSSE_VSOP_LNP1_CC_Cocktail_Backgrd_std.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651188157/barectory/Large_3000_PNG-FY21_D-USSE_VSOP_LNP1_CC_Cocktail_Backgrd_std.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651188157/barectory/Large_3000_PNG-FY21_D-USSE_VSOP_LNP1_CC_Cocktail_Backgrd_std.jpg",
+        "img_name": "Large_3000_PNG-FY21_D-USSE_VSOP_LNP1_CC_Cocktail_Backgrd_std.jpg"
       }
     ],
     "deleted_at": null,
@@ -2390,19 +2407,22 @@
     "length": null,
     "image": {
       "id": "18",
-      "original": "https://assets.bacardicontenthub.com/m/a80f945ddb7da929/Large_3000_PNG-F18_DUSSE_XO_IPX_750ML.png",
-      "thumbnail": "https://assets.bacardicontenthub.com/m/a80f945ddb7da929/Large_3000_PNG-F18_DUSSE_XO_IPX_750ML.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651188585/barectory/Large_3000_PNG-FY18_D-USSE_XO_IPX_750ML.jpg",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651188585/barectory/Large_3000_PNG-FY18_D-USSE_XO_IPX_750ML.jpg",
+      "img_name": "Large_3000_PNG-FY18_D-USSE_XO_IPX_750ML.jpg"
     },
     "gallery": [
       {
         "id": "1179",
-        "original": "https://assets.bacardicontenthub.com/m/458bd1c72b94439c/Large_3000_PNG-AllMarkets_DUSSE_XO_BlackFrontStratght_Product_750mL.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/458bd1c72b94439c/Large_3000_PNG-AllMarkets_DUSSE_XO_BlackFrontStratght_Product_750mL.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651188585/barectory/Large_3000_PNG-FY18_D-USSE_XO_IPX_750ML.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651188585/barectory/Large_3000_PNG-FY18_D-USSE_XO_IPX_750ML.jpg",
+        "img_name": "Large_3000_PNG-FY18_D-USSE_XO_IPX_750ML.jpg"
       },
       {
         "id": "1180",
-        "original": "https://assets.bacardicontenthub.com/m/5fd84b956237a041/Large_3000_PNG-D-USSE_VSOP_IBX_750ML.png",
-        "thumbnail": "https://assets.bacardicontenthub.com/m/5fd84b956237a041/Large_3000_PNG-D-USSE_VSOP_IBX_750ML.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651188585/barectory/Large_3000_PNG-AllMarkets_D-USSE_XO_BlackFrontStratght_Product_750mL.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651188585/barectory/Large_3000_PNG-AllMarkets_D-USSE_XO_BlackFrontStratght_Product_750mL.jpg",
+        "img_name": "Large_3000_PNG-AllMarkets_D-USSE_XO_BlackFrontStratght_Product_750mL.jpg"
       }
     ],
     "deleted_at": null,
@@ -2567,14 +2587,22 @@
     "length": null,
     "image": {
       "id": "19",
-      "original": "https://chupapap.com/wp-content/uploads/2019/12/camino-real-blanco.png",
-      "thumbnail": "https://chupapap.com/wp-content/uploads/2019/12/camino-real-blanco.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651224671/barectory/tequila-camino-real-blanco-070-l.jpg",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651224671/barectory/tequila-camino-real-blanco-070-l.jpg",
+      "img_name": "tequila-camino-real-blanco-070-l.jpg"
     },
     "gallery": [
       {
         "id": "1181",
-        "original": "https://chupapap.com/wp-content/uploads/2019/12/camino-real-blanco.png",
-        "thumbnail": "https://chupapap.com/wp-content/uploads/2019/12/camino-real-blanco.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651224671/barectory/tequila-camino-real-blanco-070-l.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651224671/barectory/tequila-camino-real-blanco-070-l.jpg",
+        "img_name": "tequila-camino-real-blanco-070-l.jpg"
+      },
+      {
+        "id": "1182",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651224671/barectory/3331-2-tequila-camino_1-600x600.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651224671/barectory/3331-2-tequila-camino_1-600x600.jpg",
+        "img_name": "3331-2-tequila-camino_1-600x600.jpg"
       }
     ],
     "deleted_at": null,
@@ -2740,18 +2768,21 @@
     "image": {
       "id": "20",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1647875981/barectory/Camino-Gold-Tequila-750ml.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1647875981/barectory/Camino-Gold-Tequila-750ml.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1647875981/barectory/Camino-Gold-Tequila-750ml.png",
+      "img_name": "Camino-Gold-Tequila-750ml.png"
     },
     "gallery": [
       {
         "id": "1291",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1647875981/barectory/Camino-Gold-Tequila-750ml.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1647875981/barectory/Camino-Gold-Tequila-750ml.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1647875981/barectory/Camino-Gold-Tequila-750ml.png",
+        "img_name": "Camino-Gold-Tequila-750ml.png"
       },
       {
         "id": "1293",
-        "original": "https://s.wine.style/images_gen/480/4802/0_0_prod_desktop.jpg",
-        "thumbnail": "https://s.wine.style/images_gen/480/4802/0_0_prod_desktop.jpg"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651225211/barectory/camino_gold_2.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651225211/barectory/camino_gold_2.jpg",
+        "img_name": "camino_gold_2.jpg"
       }
     ],
     "deleted_at": null,
@@ -2915,14 +2946,22 @@
     "length": null,
     "image": {
       "id": "20",
-      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-heineken-bottle-png-768685.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-heineken-bottle-png-768685.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651505268/barectory/pngkey.com-heineken-bottle-png-768685.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651505268/barectory/pngkey.com-heineken-bottle-png-768685.png",
+      "img_name": "pngkey.com-heineken-bottle-png-768685.png"
     },
     "gallery": [
       {
         "id": "1400",
-        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-heineken-bottle-png-768685.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-heineken-bottle-png-768685.png"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651505268/barectory/pngkey.com-heineken-bottle-png-768685.png",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651505268/barectory/pngkey.com-heineken-bottle-png-768685.png",
+        "img_name": "pngkey.com-heineken-bottle-png-768685.png"
+      },
+      {
+        "id": "1491",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651504877/barectory/35133-0w0h0_Star_Lager_Beer_From_Nigeria.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651504877/barectory/35133-0w0h0_Star_Lager_Beer_From_Nigeria.jpg",
+        "img_name": "pngkey.com-heineken-bottle-png-768685.png"
       }
     ],
     "deleted_at": null,
@@ -3018,8 +3057,8 @@
         "value": "75ml",
         "attribute": {
           "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
+          "slug": "cans",
+          "name": "Cans",
           "values": [
             {
               "id": 8,
@@ -3045,8 +3084,8 @@
         "value": "120ml",
         "attribute": {
           "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
+          "slug": "cans",
+          "name": "Cans",
           "values": [
             {
               "id": 8,
@@ -3072,8 +3111,8 @@
         "value": "200ml",
         "attribute": {
           "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
+          "slug": "cans",
+          "name": "Cans",
           "values": [
             {
               "id": 8,
@@ -3092,6 +3131,33 @@
             }
           ]
         }
+      },
+      {
+        "id": 10,
+        "attribute_id": 3,
+        "value": "750ml",
+        "attribute": {
+          "id": 13,
+          "slug": "bottles",
+          "name": "Bottles",
+          "values": [
+            {
+              "id": 8,
+              "attribute_id": 13,
+              "value": "750ml"
+            },
+            {
+              "id": 9,
+              "attribute_id": 13,
+              "value": "1200ml"
+            },
+            {
+              "id": 10,
+              "attribute_id": 13,
+              "value": "2000ml"
+            }
+          ]
+        }
       }
     ],
     "variation_options": [
@@ -3105,7 +3171,7 @@
         "sku": "200101",
         "options": [
           {
-            "name": "Available In",
+            "name": "Cans",
             "value": "75ml"
           }
         ]
@@ -3120,7 +3186,7 @@
         "sku": "200102",
         "options": [
           {
-            "name": "Available In",
+            "name": "Cans",
             "value": "120ml"
           }
         ]
@@ -3135,8 +3201,23 @@
         "sku": "200103",
         "options": [
           {
-            "name": "Available In",
+            "name": "Cans",
             "value": "200ml"
+          }
+        ]
+      },
+      {
+        "id": 250,
+        "title": "750ml",
+        "price": 1900,
+        "sale_price": null,
+        "quantity": "25",
+        "is_disable": 0,
+        "sku": "200103",
+        "options": [
+          {
+            "name": "Bottles",
+            "value": "750ml"
           }
         ]
       }
@@ -3163,14 +3244,22 @@
     "length": null,
     "image": {
       "id": "21",
-      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-79060.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-79060.png"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651505380/barectory/pngkey.com-mountain-dew-bottle-png-9203526.jpg",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651505380/barectory/pngkey.com-mountain-dew-bottle-png-9203526.jpg",
+      "img_name": "pngkey.com-mountain-dew-bottle-png-9203526.jpg"
     },
     "gallery": [
       {
         "id": "1401",
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651505380/barectory/pngkey.com-mountain-dew-bottle-png-9203526.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651505380/barectory/pngkey.com-mountain-dew-bottle-png-9203526.jpg",
+        "img_name": "pngkey.com-mountain-dew-bottle-png-9203526.jpg"
+      },
+      {
+        "id": "1491",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-79060.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-79060.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-79060.png",
+        "img_name": "pngkey.com-beer-bottle-png-79060.png"
       }
     ],
     "deleted_at": null,
@@ -3284,13 +3373,15 @@
     "image": {
       "id": "22",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-budweiser-bottle-png-3117211.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-budweiser-bottle-png-3117211.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-budweiser-bottle-png-3117211.png",
+      "img_name": "pngkey.com-budweiser-bottle-png-3117211.png"
     },
     "gallery": [
       {
         "id": "1402",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-budweiser-bottle-png-3117211.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-budweiser-bottle-png-3117211.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-budweiser-bottle-png-3117211.png",
+        "img_name": "pngkey.com-budweiser-bottle-png-3117211.png"
       }
     ],
     "deleted_at": null,
@@ -3529,13 +3620,15 @@
     "image": {
       "id": "25",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-146505.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-146505.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-146505.png",
+      "img_name": "pngkey.com-beer-bottle-png-146505.png"
     },
     "gallery": [
       {
         "id": "1405",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-146505.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-146505.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078260/barectory/pngkey.com-beer-bottle-png-146505.png",
+        "img_name": "pngkey.com-beer-bottle-png-146505.png"
       }
     ],
     "deleted_at": null,
@@ -3649,13 +3742,15 @@
     "image": {
       "id": "26",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078259/barectory/pngkey.com-beer-bottle-png-61039.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078259/barectory/pngkey.com-beer-bottle-png-61039.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078259/barectory/pngkey.com-beer-bottle-png-61039.png",
+      "img_name": "pngkey.com-beer-bottle-png-61039.png"
     },
     "gallery": [
       {
         "id": "1406",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078259/barectory/pngkey.com-beer-bottle-png-61039.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078259/barectory/pngkey.com-beer-bottle-png-61039.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649078259/barectory/pngkey.com-beer-bottle-png-61039.png",
+        "img_name": "pngkey.com-beer-bottle-png-61039.png"
       }
     ],
     "deleted_at": null,
@@ -3769,13 +3864,15 @@
     "image": {
       "id": "27",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-moet-png-996354.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-moet-png-996354.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-moet-png-996354.png",
+      "img_name": "pngkey.com-moet-png-996354.png"
     },
     "gallery": [
       {
         "id": "1407",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-moet-png-996354.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-moet-png-996354.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-moet-png-996354.png",
+        "img_name": "pngkey.com-moet-png-996354.png"
       }
     ],
     "deleted_at": null,
@@ -3889,13 +3986,15 @@
     "image": {
       "id": "28",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-champagne-bottle-png-240468.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-champagne-bottle-png-240468.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-champagne-bottle-png-240468.png",
+      "img_name": "pngkey.com-champagne-bottle-png-240468.png"
     },
     "gallery": [
       {
         "id": "1408",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-champagne-bottle-png-240468.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-champagne-bottle-png-240468.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079401/barectory/pngkey.com-champagne-bottle-png-240468.png",
+        "img_name": "pngkey.com-champagne-bottle-png-240468.png"
       }
     ],
     "deleted_at": null,
@@ -4009,13 +4108,15 @@
     "image": {
       "id": "29",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-gold-champagne-bottle-png-3011021.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-gold-champagne-bottle-png-3011021.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-gold-champagne-bottle-png-3011021.png",
+      "img_name": "pngkey.com-gold-champagne-bottle-png-3011021.png"
     },
     "gallery": [
       {
         "id": "1409",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-gold-champagne-bottle-png-3011021.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-gold-champagne-bottle-png-3011021.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-gold-champagne-bottle-png-3011021.png",
+        "img_name": "pngkey.com-gold-champagne-bottle-png-3011021.png"
       }
     ],
     "deleted_at": null,
@@ -4129,13 +4230,15 @@
     "image": {
       "id": "30",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-red-wine-bottle-png-6265975.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-red-wine-bottle-png-6265975.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-red-wine-bottle-png-6265975.png",
+      "img_name": "pngkey.com-red-wine-bottle-png-6265975.png"
     },
     "gallery": [
       {
         "id": "1410",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-red-wine-bottle-png-6265975.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-red-wine-bottle-png-6265975.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-red-wine-bottle-png-6265975.png",
+        "img_name": "pngkey.com-red-wine-bottle-png-6265975.png"
       }
     ],
     "deleted_at": null,
@@ -4249,13 +4352,15 @@
     "image": {
       "id": "31",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-luigi-png-4006703.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-luigi-png-4006703.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-luigi-png-4006703.png",
+      "img_name": "pngkey.com-luigi-png-4006703.png"
     },
     "gallery": [
       {
         "id": "1411",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-luigi-png-4006703.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-luigi-png-4006703.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-luigi-png-4006703.png",
+        "img_name": "pngkey.com-luigi-png-4006703.png"
       }
     ],
     "deleted_at": null,
@@ -4369,13 +4474,15 @@
     "image": {
       "id": "32",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-rayo-blanco-png-4222061.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-rayo-blanco-png-4222061.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-rayo-blanco-png-4222061.png",
+      "img_name": "pngkey.com-rayo-blanco-png-4222061.png"
     },
     "gallery": [
       {
         "id": "1412",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-rayo-blanco-png-4222061.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-rayo-blanco-png-4222061.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-rayo-blanco-png-4222061.png",
+        "img_name": "pngkey.com-rayo-blanco-png-4222061.png"
       }
     ],
     "deleted_at": null,
@@ -4489,13 +4596,15 @@
     "image": {
       "id": "33",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-liquor-bottle-png-1130993.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-liquor-bottle-png-1130993.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-liquor-bottle-png-1130993.png",
+      "img_name": "pngkey.com-liquor-bottle-png-1130993.png"
     },
     "gallery": [
       {
         "id": "1413",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-liquor-bottle-png-1130993.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-liquor-bottle-png-1130993.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079399/barectory/pngkey.com-liquor-bottle-png-1130993.png",
+        "img_name": "pngkey.com-liquor-bottle-png-1130993.png"
       }
     ],
     "deleted_at": null,
@@ -4609,13 +4718,15 @@
     "image": {
       "id": "34",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-alcohol-glass-png-4689119.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-alcohol-glass-png-4689119.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-alcohol-glass-png-4689119.png",
+      "img_name": "pngkey.com-alcohol-glass-png-4689119.png"
     },
     "gallery": [
       {
         "id": "1414",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-alcohol-glass-png-4689119.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-alcohol-glass-png-4689119.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-alcohol-glass-png-4689119.png",
+        "img_name": "pngkey.com-alcohol-glass-png-4689119.png"
       }
     ],
     "deleted_at": null,
@@ -4729,13 +4840,15 @@
     "image": {
       "id": "35",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-bottle-of-wine-png-4892250.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-bottle-of-wine-png-4892250.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-bottle-of-wine-png-4892250.png",
+      "img_name": "pngkey.com-bottle-of-wine-png-4892250.png"
     },
     "gallery": [
       {
         "id": "1415",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-bottle-of-wine-png-4892250.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-bottle-of-wine-png-4892250.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649079400/barectory/pngkey.com-bottle-of-wine-png-4892250.png",
+        "img_name": "pngkey.com-bottle-of-wine-png-4892250.png"
       }
     ],
     "deleted_at": null,
@@ -4849,13 +4962,15 @@
     "image": {
       "id": "36",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683405/barectory/pngkey.com-mlg-cigarette-png-1484349.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683405/barectory/pngkey.com-mlg-cigarette-png-1484349.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683405/barectory/pngkey.com-mlg-cigarette-png-1484349.png",
+      "img_name": "pngkey.com-mlg-cigarette-png-1484349.png"
     },
     "gallery": [
       {
         "id": "1420",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683405/barectory/pngkey.com-mlg-cigarette-png-1484349.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683405/barectory/pngkey.com-mlg-cigarette-png-1484349.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683405/barectory/pngkey.com-mlg-cigarette-png-1484349.png",
+        "img_name": "pngkey.com-mlg-cigarette-png-1484349.png"
       }
     ],
     "deleted_at": null,
@@ -4969,13 +5084,15 @@
     "image": {
       "id": "37",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683403/barectory/pngkey.com-mountain-dew-png-199315.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683403/barectory/pngkey.com-mountain-dew-png-199315.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683403/barectory/pngkey.com-mountain-dew-png-199315.png",
+      "img_name": "pngkey.com-mountain-dew-png-199315.png"
     },
     "gallery": [
       {
         "id": "1421",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683403/barectory/pngkey.com-mountain-dew-png-199315.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683403/barectory/pngkey.com-mountain-dew-png-199315.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683403/barectory/pngkey.com-mountain-dew-png-199315.png",
+        "img_name": "pngkey.com-mountain-dew-png-199315.png"
       }
     ],
     "deleted_at": null,
@@ -5089,13 +5206,15 @@
     "image": {
       "id": "38",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683402/barectory/bold-ginger-drink.jpg",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683402/barectory/bold-ginger-drink.jpg"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683402/barectory/bold-ginger-drink.jpg",
+      "img_name": "bold-ginger-drink.jpg"
     },
     "gallery": [
       {
         "id": "1421",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683402/barectory/bold-ginger-drink.jpg",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683402/barectory/bold-ginger-drink.jpg"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683402/barectory/bold-ginger-drink.jpg",
+        "img_name": "bold-ginger-drink.jpg"
       }
     ],
     "deleted_at": null,
@@ -5209,13 +5328,15 @@
     "image": {
       "id": "39",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683400/barectory/1_1.jpg",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683400/barectory/1_1.jpg"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683400/barectory/1_1.jpg",
+      "img_name": "1_1.jpg"
     },
     "gallery": [
       {
         "id": "1422",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683400/barectory/1_1.jpg",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683400/barectory/1_1.jpg"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683400/barectory/1_1.jpg",
+        "img_name": "1_1.jpg"
       }
     ],
     "deleted_at": null,
@@ -5329,13 +5450,15 @@
     "image": {
       "id": "40",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/Fanta-Orange-Flavoured-Drink-50cl.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/Fanta-Orange-Flavoured-Drink-50cl.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/Fanta-Orange-Flavoured-Drink-50cl.png",
+      "img_name": "Fanta-Orange-Flavoured-Drink-50cl.png"
     },
     "gallery": [
       {
         "id": "1423",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/Fanta-Orange-Flavoured-Drink-50cl.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/Fanta-Orange-Flavoured-Drink-50cl.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/Fanta-Orange-Flavoured-Drink-50cl.png",
+        "img_name": "Fanta-Orange-Flavoured-Drink-50cl.png"
       }
     ],
     "deleted_at": null,
@@ -5449,13 +5572,15 @@
     "image": {
       "id": "41",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683402/barectory/Chi-Ice-Tea-1-Litre.jpg",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683402/barectory/Chi-Ice-Tea-1-Litre.jpg"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683402/barectory/Chi-Ice-Tea-1-Litre.jpg",
+      "img_name": "Chi-Ice-Tea-1-Litre.jpg"
     },
     "gallery": [
       {
         "id": "1424",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683402/barectory/Chi-Ice-Tea-1-Litre.jpg",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683402/barectory/Chi-Ice-Tea-1-Litre.jpg"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683402/barectory/Chi-Ice-Tea-1-Litre.jpg",
+        "img_name": "Chi-Ice-Tea-1-Litre.jpg"
       }
     ],
     "deleted_at": null,
@@ -5569,13 +5694,15 @@
     "image": {
       "id": "42",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/RIBENA-450ML.jpg",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/RIBENA-450ML.jpg"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/RIBENA-450ML.jpg",
+      "img_name": "RIBENA-450ML.jpg"
     },
     "gallery": [
       {
         "id": "1425",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/RIBENA-450ML.jpg",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/RIBENA-450ML.jpg"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/RIBENA-450ML.jpg",
+        "img_name": "RIBENA-450ML.jpg"
       }
     ],
     "deleted_at": null,
@@ -5689,13 +5816,15 @@
     "image": {
       "id": "43",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/71t6WvDQsTL._AC_SL1500_.jpg",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/71t6WvDQsTL._AC_SL1500_.jpg"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/71t6WvDQsTL._AC_SL1500_.jpg",
+      "img_name": "71t6WvDQsTL._AC_SL1500_.jpg"
     },
     "gallery": [
       {
         "id": "1425",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/71t6WvDQsTL._AC_SL1500_.jpg",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/71t6WvDQsTL._AC_SL1500_.jpg"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/71t6WvDQsTL._AC_SL1500_.jpg",
+        "img_name": "71t6WvDQsTL._AC_SL1500_.jpg"
       }
     ],
     "deleted_at": null,
@@ -5791,13 +5920,15 @@
     "image": {
       "id": "44",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649690192/barectory/pngkey.com-smirnoff-logo-png-3120255.png",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649690192/barectory/pngkey.com-smirnoff-logo-png-3120255.png"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649690192/barectory/pngkey.com-smirnoff-logo-png-3120255.png",
+      "img_name": "pngkey.com-smirnoff-logo-png-3120255.png"
     },
     "gallery": [
       {
         "id": "1426",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649690192/barectory/pngkey.com-smirnoff-logo-png-3120255.png",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649690192/barectory/pngkey.com-smirnoff-logo-png-3120255.png"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649690192/barectory/pngkey.com-smirnoff-logo-png-3120255.png",
+        "img_name": "pngkey.com-smirnoff-logo-png-3120255.png"
       }
     ],
     "deleted_at": null,
@@ -5893,13 +6024,15 @@
     "image": {
       "id": "45",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/captain-jack-120ml-1.jpg",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/captain-jack-120ml-1.jpg"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/captain-jack-120ml-1.jpg",
+      "img_name": "captain-jack-120ml-1.jpg"
     },
     "gallery": [
       {
         "id": "1427",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/captain-jack-120ml-1.jpg",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/captain-jack-120ml-1.jpg"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683401/barectory/captain-jack-120ml-1.jpg",
+        "img_name": "captain-jack-120ml-1.jpg"
       }
     ],
     "deleted_at": null,
@@ -5995,13 +6128,15 @@
     "image": {
       "id": "46",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683403/barectory/action-bitters-100ml-2.jpg",
-      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683403/barectory/action-bitters-100ml-2.jpg"
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683403/barectory/action-bitters-100ml-2.jpg",
+      "img_name": "action-bitters-100ml-2.jpg"
     },
     "gallery": [
       {
         "id": "1428",
         "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683403/barectory/action-bitters-100ml-2.jpg",
-        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683403/barectory/action-bitters-100ml-2.jpg"
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1649683403/barectory/action-bitters-100ml-2.jpg",
+        "img_name": "action-bitters-100ml-2.jpg"
       }
     ],
     "deleted_at": null,
