@@ -14,11 +14,12 @@
     },
     "logo": {
       "id": "862",
-      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/860/PickBazar.png",
-      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/860/conversions/PickBazar-thumbnail.jpg"
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651776621/barectory/barectory_text_logo.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651776621/barectory/barectory_text_logo.png",
+      "icon": "https://res.cloudinary.com/westpaybankit/image/upload/v1651776621/barectory/barectory_logo.png"
     },
     "useOtp": false,
-    "currency": "USD",
+    "currency": "NGN",
     "taxClass": 1,
     "siteTitle": "Barectory",
     "deliveryTime": [
@@ -43,7 +44,7 @@
         "description": "5.00 PM - 8.00 PM"
       }
     ],
-    "siteSubtitle": "Your next ecommerce",
+    "siteSubtitle": "Get drinks in Lagos",
     "shippingClass": 1,
     "contactDetails": {
       "contact": "+129290122122",
@@ -74,7 +75,7 @@
         "formattedAddress": "NY State Thruway, New York, USA"
       }
     },
-    "minimumOrderAmount": 0
+    "minimumOrderAmount": 500
   },
   "created_at": "2021-03-24T15:30:18.000000Z",
   "updated_at": "2021-08-18T10:45:51.000000Z"

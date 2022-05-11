@@ -13576,5 +13576,805 @@
       "updated_at": "2021-12-08T13:06:56.000000Z"
     },
     "children": []
+  },
+  {
+    "id": 14,
+    "name": "Lager",
+    "slug": "lager",
+    "icon": null,
+    "image": {
+      "id": "107",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/wine.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/wine.png"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T08:59:05.000000Z",
+    "updated_at": "2021-03-08T08:59:05.000000Z",
+    "deleted_at": null,
+    "parent_id": 7,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 15,
+    "name": "Ale",
+    "slug": "ale",
+    "icon": null,
+    "image": {
+      "id": "108",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/wine.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/wine.png"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T08:59:05.000000Z",
+    "updated_at": "2021-03-08T08:59:05.000000Z",
+    "deleted_at": null,
+    "parent_id": 7,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 16,
+    "name": "Stout",
+    "slug": "stout",
+    "icon": null,
+    "image": {
+      "id": "109",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/wine.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/wine.png"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T08:59:05.000000Z",
+    "updated_at": "2021-03-08T08:59:05.000000Z",
+    "deleted_at": null,
+    "parent_id": 7,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 6,
+    "name": "Vermouth",
+    "slug": "vermouth",
+    "icon": null,
+    "image": {
+      "id": "201",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/vermouth.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/vermouth.png"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T08:54:16.000000Z",
+    "updated_at": "2021-03-08T08:54:16.000000Z",
+    "deleted_at": null,
+    "parent_id": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 7,
+    "name": "Whisky",
+    "slug": "whisky",
+    "icon": "Whisky",
+    "image": {
+      "id": "101",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/whiskey.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/whiskey.png"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T08:54:16.000000Z",
+    "updated_at": "2021-03-08T08:54:16.000000Z",
+    "deleted_at": null,
+    "parent_id": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 8,
+    "name": "Gin",
+    "slug": "gin",
+    "icon": null,
+    "image": {
+      "id": "102",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/gin.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/gin.png"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T08:54:47.000000Z",
+    "updated_at": "2021-03-08T08:54:47.000000Z",
+    "deleted_at": null,
+    "parent_id": 4,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 9,
+    "name": "Vodka",
+    "slug": "vodka",
+    "icon": null,
+    "image": {
+      "id": "103",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/vodka.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/vodka.png"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T08:55:14.000000Z",
+    "updated_at": "2021-03-08T08:55:14.000000Z",
+    "deleted_at": null,
+    "parent_id": 4,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 10,
+    "name": "Rum",
+    "slug": "rum",
+    "icon": null,
+    "image": {
+      "id": "104",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/rum.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/rum.png"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T08:55:56.000000Z",
+    "updated_at": "2021-03-08T08:55:56.000000Z",
+    "deleted_at": null,
+    "parent_id": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 11,
+    "name": "Cognac",
+    "slug": "cognac",
+    "icon": null,
+    "image": {
+      "id": "105",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/cognac.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/cognac.png"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T08:57:28.000000Z",
+    "updated_at": "2021-03-08T08:57:28.000000Z",
+    "deleted_at": null,
+    "parent_id": 7,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 12,
+    "name": "Tequila",
+    "slug": "tequila",
+    "icon": null,
+    "image": {
+      "id": "106",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/tequila.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/tequila.png"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T08:58:44.000000Z",
+    "updated_at": "2021-03-08T08:58:44.000000Z",
+    "deleted_at": null,
+    "parent_id": 7,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 13,
+    "name": "Sparkling Wine",
+    "slug": "sparkling-wine",
+    "icon": null,
+    "image": {
+      "id": "107",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/wine.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/wine.png"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T08:59:05.000000Z",
+    "updated_at": "2021-03-08T08:59:05.000000Z",
+    "deleted_at": null,
+    "parent_id": 7,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 17,
+    "name": "Red Wine",
+    "slug": "red-wine",
+    "icon": null,
+    "image": {
+      "id": "107",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/wine.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1647829275/barectory/wine.png"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T08:59:05.000000Z",
+    "updated_at": "2021-03-08T08:59:05.000000Z",
+    "deleted_at": null,
+    "parent_id": 7,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 18,
+    "name": "Soft Drinks",
+    "slug": "soft-drinks",
+    "icon": null,
+    "image": {
+      "id": "600",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1648477791/barectory/orange-juice.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1648477791/barectory/orange-juice.png"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T07:21:31.000000Z",
+    "updated_at": "2021-03-08T07:21:31.000000Z",
+    "deleted_at": null,
+    "parent_id": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "argon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 19,
+    "name": "Fruit Juice",
+    "slug": "fruit-juice",
+    "icon": null,
+    "image": {
+      "id": "601",
+      "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1648477791/barectory/orange-juice.png",
+      "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1648477791/barectory/orange-juice.png"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T07:21:31.000000Z",
+    "updated_at": "2021-03-08T07:21:31.000000Z",
+    "deleted_at": null,
+    "parent_id": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "classic",
+        "productCard": "argon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [
+        {
+          "id": "902",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+        },
+        {
+          "id": "903",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+        },
+        {
+          "id": "904",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+        },
+        {
+          "id": "905",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+        },
+        {
+          "id": "906",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+        }
+      ],
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-09-26T15:23:32.000000Z"
+    },
+    "children": []
   }
 ]

@@ -103,6 +103,14 @@ export class ProductsService {
     return data?.slice(0, limit);
   }
 
+  getProductsByCategory(categories_slug: string): Product[] {
+    let data: any = this.products;
+
+    data = fuse.search(categories_slug)?.map(({ item }) => item);
+    //const products = this.products.filter((p) => p.categories.includes(category_slug));
+    return data;
+  }
+
   update(id: number, updateProductDto: UpdateProductDto) {
     return this.products[0];
   }
