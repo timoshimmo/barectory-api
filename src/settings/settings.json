@@ -16,7 +16,7 @@
       "id": "862",
       "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1651776621/barectory/barectory_text_logo.png",
       "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1651776621/barectory/barectory_text_logo.png",
-      "icon": "https://res.cloudinary.com/westpaybankit/image/upload/v1651776621/barectory/barectory_logo.png"
+      "icon": "https://res.cloudinary.com/westpaybankit/image/upload/v1651776621/barectory/barectory_text_logo.png"
     },
     "useOtp": false,
     "currency": "NGN",
@@ -47,7 +47,7 @@
     "siteSubtitle": "Get drinks in Lagos",
     "shippingClass": 1,
     "contactDetails": {
-      "contact": "+129290122122",
+      "contact": "+2348181513324",
       "socials": [
         {
           "url": "https://web.facebook.com/BarectoryNG/?_rdc=1&_rdr",
@@ -66,13 +66,13 @@
           "icon": "YouTubeIcon"
         }
       ],
-      "website": "https://redq.io",
+      "website": "https://www.barectory.com",
       "location": {
         "lat": 42.9585979,
         "lng": -76.90872019999999,
-        "state": "NY",
-        "country": "United States",
-        "formattedAddress": "NY State Thruway, New York, USA"
+        "state": "Lagos",
+        "country": "Nigeria",
+        "formattedAddress": "10 Agard Street, Sabo, Yaba"
       }
     },
     "minimumOrderAmount": 500

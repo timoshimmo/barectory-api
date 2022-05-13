@@ -28,6 +28,11 @@ export class CategoriesController {
     return this.categoriesService.getCategories(query);
   }
 
+  @Get('all')
+  getAll() {
+    return this.categoriesService.getAllCategories();
+  }
+
   @Get(':id')
   findOne(@Param('id') id: string) {
     return this.categoriesService.getCategory(+id);

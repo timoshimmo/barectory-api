@@ -52,6 +52,10 @@ export class CategoriesService {
     };
   }
 
+  getAllCategories(): Category[] {
+    return this.categories;
+  }
+
   getCategory(id: number): Category {
     return this.categories.find((p) => p.id === id);
   }
