@@ -56,8 +56,8 @@ export class CategoriesService {
     return this.categories;
   }
 
-  getCategory(id: number): Category {
-    return this.categories.find((p) => p.id === id);
+  getCategory(slug: string): Category {
+    return this.categories.find((p) => p.slug === slug);
   }
 
   update(id: number, updateCategoryDto: UpdateCategoryDto) {
