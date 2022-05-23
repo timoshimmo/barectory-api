@@ -5892,6 +5892,24 @@
           "product_id": 43,
           "category_id": 4
         }
+      },
+      {
+        "id": 2,
+        "name": "Bitters",
+        "slug": "bitters",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 43,
+          "category_id": 20
+        }
       }
     ],
     "tags": [],
@@ -5995,6 +6013,24 @@
         "pivot": {
           "product_id": 44,
           "category_id": 4
+        }
+      },
+      {
+        "id": 2,
+        "name": "Malt Beverage",
+        "slug": "malt-beverage",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 44,
+          "category_id": 21
         }
       }
     ],
@@ -6100,6 +6136,24 @@
           "product_id": 45,
           "category_id": 4
         }
+      },
+      {
+        "id": 2,
+        "name": "Bitters",
+        "slug": "bitters",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 45,
+          "category_id": 20
+        }
       }
     ],
     "tags": [],
@@ -6203,6 +6257,24 @@
         "pivot": {
           "product_id": 46,
           "category_id": 4
+        }
+      },
+      {
+        "id": 2,
+        "name": "Bitters",
+        "slug": "bitters",
+        "icon": "FruitsVegetable",
+        "image": [],
+        "details": null,
+        "parent": null,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:21:31.000000Z",
+        "updated_at": "2021-03-08T07:21:31.000000Z",
+        "deleted_at": null,
+        "parent_id": null,
+        "pivot": {
+          "product_id": 46,
+          "category_id": 20
         }
       }
     ],

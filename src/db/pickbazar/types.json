@@ -67,13 +67,63 @@
     "promotional_sliders": [
       {
         "id": 902,
-        "original": "https://img.freepik.com/free-psd/horizontal-banner-template-drinking-beer_23-2148717129.jpg?t=st=1646879130~exp=1646879730~hmac=699e72b7205b5450370cd3dd6ba287f2b19a56efcea440280f208f67ba1e11ca&w=740",
-        "thumbnail": "https://img.freepik.com/free-psd/horizontal-banner-template-drinking-beer_23-2148717129.jpg?t=st=1646879130~exp=1646879730~hmac=699e72b7205b5450370cd3dd6ba287f2b19a56efcea440280f208f67ba1e11ca&w=740"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312918/barectory/Desktop_Ad_1.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312918/barectory/Desktop_Ad_1.jpg"
       },
       {
         "id": 903,
-        "original": "https://img.freepik.com/free-psd/beer-day-banner-template_23-2148615468.jpg?w=740",
-        "thumbnail": "https://img.freepik.com/free-psd/beer-day-banner-template_23-2148615468.jpg?w=740"
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312924/barectory/Desktop_Ad_2.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312924/barectory/Desktop_Ad_2.jpg"
+      },
+      {
+        "id": 601,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_1.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_1.jpg"
+      },
+      {
+        "id": 602,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315656/barectory/Mobile_Ad_2.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315656/barectory/Mobile_Ad_2.jpg"
+      },
+      {
+        "id": 904,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312919/barectory/Desktop_Ad_3.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312919/barectory/Desktop_Ad_3.jpg"
+      },
+      {
+        "id": 905,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312914/barectory/Desktop_Ad_4.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312914/barectory/Desktop_Ad_4.jpg"
+      },
+      {
+        "id": 603,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_3.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_3.jpg"
+      },
+      {
+        "id": 604,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_4.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_4.jpg"
+      },
+      {
+        "id": 906,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312918/barectory/Desktop_Ad_5.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312918/barectory/Desktop_Ad_5.jpg"
+      },
+      {
+        "id": 907,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312916/barectory/Desktop_Ad_6.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312916/barectory/Desktop_Ad_6.jpg"
+      },
+      {
+        "id": 604,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315656/barectory/Mobile_Ad_5.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315656/barectory/Mobile_Ad_5.jpg"
+      },
+      {
+        "id": 605,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315779/barectory/Mobile_Ad_6.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315779/barectory/Mobile_Ad_6.jpg"
       }
     ],
     "created_at": "2021-03-08T07:18:25.000000Z",
@@ -86,8 +136,9 @@
         "description": "Get your healthy foods & snacks delivered at your doorsteps all day everyday",
         "image": {
           "id": 907,
-          "original": "https://img.freepik.com/free-vector/whiskey-bottle-glass-with-ice-cubes-banner_33099-1792.jpg?t=st=1646918887~exp=1646919487~hmac=a23160b42b2a3a5640a1833070b4029fd61503b921eabcd4af0d010461109feb&w=450",
-          "thumbnail": "https://img.freepik.com/free-vector/whiskey-bottle-glass-with-ice-cubes-banner_33099-1792.jpg?t=st=1646918887~exp=1646919487~hmac=a23160b42b2a3a5640a1833070b4029fd61503b921eabcd4af0d010461109feb&w=450"
+          "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312527/barectory/Desktop_Banner_1.jpg",
+          "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312527/barectory/Desktop_Banner_1.jpg",
+          "mobile": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312523/barectory/Mobile_Banner_1.jpg"
         },
         "created_at": "2021-07-17T13:21:55.000000Z",
         "updated_at": "2021-07-17T13:21:55.000000Z"
@@ -99,9 +150,9 @@
           "description": "Get your healthy foods & snacks delivered at your doorsteps all day everyday",
           "image": {
             "id": 908,
-            "original": "https://img.freepik.com/free-vector/cognac-bottle-glass-shot-promo-banner_107791-1382.jpg?t=st=1646919000~exp=1646919600~hmac=ce76fae983483d7ca79ebbfb2cc9b8e306ec4661174fe69a963b3556a751b74c&w=996",
-            "thumbnail": "https://img.freepik.com/free-vector/cognac-bottle-glass-shot-promo-banner_107791-1382.jpg?t=st=1646919000~exp=1646919600~hmac=ce76fae983483d7ca79ebbfb2cc9b8e306ec4661174fe69a963b3556a751b74c&w=996"
-
+            "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312529/barectory/Desktop_Banner_2.jpg",
+            "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312529/barectory/Desktop_Banner_2.jpg",
+            "mobile": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312523/barectory/Mobile_Banner_2.jpg"
           },
           "created_at": "2021-08-18T18:45:54.000000Z",
           "updated_at": "2021-08-18T18:45:54.000000Z"
@@ -113,8 +164,9 @@
           "description": "Get your healthy foods & snacks delivered at your doorsteps all day everyday",
           "image": {
             "id": 909,
-            "original": "https://img.freepik.com/free-vector/rum-bottle-glass-stand-heap-ice-cubes_33099-1770.jpg?t=st=1646919151~exp=1646919751~hmac=72deb741ea8378e21030b71309be3bef2cb7361ea450cf8204294bd23a7ac3af&w=826",
-            "thumbnail": "https://img.freepik.com/free-vector/rum-bottle-glass-stand-heap-ice-cubes_33099-1770.jpg?t=st=1646919151~exp=1646919751~hmac=72deb741ea8378e21030b71309be3bef2cb7361ea450cf8204294bd23a7ac3af&w=826"
+            "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312524/barectory/Desktop_Banner_3.jpg",
+            "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312524/barectory/Desktop_Banner_3.jpg",
+            "mobile": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312526/barectory/Mobile_Banner_3.jpg"
           },
           "created_at": "2021-08-18T18:45:54.000000Z",
           "updated_at": "2021-08-18T18:45:54.000000Z"
