@@ -5,6 +5,7 @@ import { CreateProfileDto } from './create-profile.dto';
 
 enum Permission {
   SUPER_ADMIN = 'Super admin',
+  ADMIN = 'admin',
   STORE_OWNER = 'Store owner',
   STAFF = 'Staff',
   CUSTOMER = 'Customer',

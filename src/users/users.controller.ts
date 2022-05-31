@@ -18,9 +18,15 @@ import { GetUsersDto } from './dto/get-users.dto';
 @Controller('users')
 export class UsersController {
   constructor(private readonly usersService: UsersService) {}
+
   @Post()
   createUser(@Body() createUserDto: CreateUserDto) {
     return this.usersService.create(createUserDto);
+  }
+
+  @Post('register')
+  createAdmin(@Body() createUserDto: CreateUserDto) {
+    return this.usersService.createAdmin(createUserDto);
   }
 
   @Get()
@@ -48,6 +54,7 @@ export class UsersController {
     console.log(id);
     // return this.usersService.getUsers(updateUserInput.id);
   }
+
   @Post(':id/ban')
   banUser(@Param('id') id: number) {
     console.log(id);
@@ -63,6 +70,7 @@ export class ProfilesController {
   createProfile(@Body() createProfileDto: CreateProfileDto) {
     console.log(createProfileDto);
   }
+
   @Put(':id')
   updateProfile(@Body() updateProfileDto: UpdateProfileDto) {
     console.log(updateProfileDto);

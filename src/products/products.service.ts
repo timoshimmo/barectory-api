@@ -96,7 +96,7 @@ export class ProductsService {
   }
 
   getSalesProducts({ limit, type_slug }: GetSalesProductsDto): Product[] {
-    let data: any = this.products.filter((p) => p.price > p.sale_price);
+    let data: any = this.products.filter((p) => p.price > p.sale_price && p.sale_price !== null);
     if (type_slug) {
       data = fuse.search(type_slug)?.map(({ item }) => item);
     }
