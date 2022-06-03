@@ -689,7 +689,7 @@
   {
     "id": 4,
     "name": "Ready to drink",
-    "slug": "ready-todrink",
+    "slug": "ready-to-drink",
     "icon": null,
     "image": {
       "id": "100",
@@ -758,7 +758,7 @@
         "parent": {
           "id": 4,
           "name": "Ready to drink",
-          "slug": "ready-todrink",
+          "slug": "ready-to-drink",
           "icon": null,
           "image": {
             "id": 303,
