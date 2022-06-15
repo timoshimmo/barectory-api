@@ -22,6 +22,7 @@ import { RefundsModule } from './refunds/refunds.module';
 import { AuthorsModule } from './authors/authors.module';
 import { ManufacturersModule } from './manufacturers/manufacturers.module';
 import { NewslettersModule } from './newsletters/newsletters.module';
+import { FirebaseAuthStrategy } from './firebase/firebase-auth.strategy';
 
 @Module({
   imports: [
@@ -50,6 +51,6 @@ import { NewslettersModule } from './newsletters/newsletters.module';
     NewslettersModule,
   ],
   controllers: [],
-  providers: [],
+  providers: [FirebaseAuthStrategy],
 })
 export class AppModule {}

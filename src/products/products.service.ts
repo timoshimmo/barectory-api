@@ -6,12 +6,16 @@ import { UpdateProductDto } from './dto/update-product.dto';
 import { GetPopularProductsDto } from './dto/get-popular-products.dto';
 import { GetSalesProductsDto } from './dto/get-sales-products.dto';
 import { Product } from './entities/product.entity';
+import { Category } from 'src/categories/entities/category.entity';
 import { paginate } from 'src/common/pagination/paginate';
 import productsJson from '@db/products.json';
+import categoriesJson from '@db/categories.json';
 import Fuse from 'fuse.js';
+import * as admin from 'firebase-admin';
 
 
 const products = plainToClass(Product, productsJson);
+const categories = plainToClass(Category, categoriesJson);
 
 const options = {
   keys: [
@@ -26,32 +30,91 @@ const options = {
   ],
   threshold: 0.3,
 };
+
+const cOptions = {
+  keys: ['name', 'type.slug'],
+  threshold: 0.3,
+};
+
 const fuse = new Fuse(products, options);
+const cFuse = new Fuse(categories, cOptions);
+
+/*  var firestore = admin.firestore();
+  var batch = firestore.batch();
+
+  for(var myKey in productsJson) {
+    var myKeyRef = firestore.collection('products').doc(myKey);
+    batch.set(myKeyRef, productsJson[myKey]);
+  }
+  batch.commit().then(function () {
+    return {
+      success: true,
+      message: 'Batch Successful',
+    };
+  }); */
 
 @Injectable()
 export class ProductsService {
   private products = products;
+  private categories: Category[] = categories;
 
-  create(createProductDto: CreateProductDto) {
-    return this.products[0];
+  async create(createProductDto: CreateProductDto) {
+
+    console.log("PRODUCTS: " + JSON.stringify(createProductDto));
+    const db = admin.firestore();
+    let result;
+      try {
+        const docRef = db.collection('products');
+      //  const slug = createProductDto.name;
+        await docRef.add(
+          createProductDto
+        )
+        .catch(console.error);
+
+      } catch (e) {
+        throw e;
+      } 
+
+      return {
+        success: true,
+        message: 'Product created successful',
+      };
+
   }
 
-  getProducts({ limit, page, search }: GetProductsDto): ProductPaginator {
+  async getProducts({ limit, page, search }: GetProductsDto): Promise<ProductPaginator> {
+    const db = admin.firestore();
+    const docRef = db.collection('products');
+    let results;
+    let url;
+    let data = [];
     if (!page) page = 1;
     if (!limit) limit = 30;
     const startIndex = (page - 1) * limit;
     const endIndex = page * limit;
-    let data: Product[] = this.products;
-    if (search) {
-      const parseSearchParams = search.split(';');
-      for (const searchParam of parseSearchParams) {
-        const [key, value] = searchParam.split(':');
-        // TODO: Temp Solution
-        if (key !== 'slug') {
-          data = fuse.search(value)?.map(({ item }) => item);
-        }
-      }
-    }
+    //let data: Product[] = this.products;
+    const snapshot = await docRef.get().then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+          data.push(doc.data());
+
+          if (search) {
+            const parseSearchParams = search.split(';');
+            for (const searchParam of parseSearchParams) {
+              const [key, value] = searchParam.split(':');
+              // TODO: Temp Solution
+              if (key !== 'slug') {
+                data = fuse.search(value)?.map(({ item }) => item);
+              }
+            }
+          }
+
+          results = data.slice(startIndex, endIndex);
+          url = `/products?search=${search}&limit=${limit}`;
+
+        });
+    });
+
+
     // if (status) {
     //   data = fuse.search(status)?.map(({ item }) => item);
     // }
@@ -68,22 +131,10 @@ export class ProductsService {
     // if (shop_id) {
     //   data = this.products.filter((p) => p.shop_id === Number(shop_id));
     // }
-    const results = data.slice(startIndex, endIndex);
-    const url = `/products?search=${search}&limit=${limit}`;
+
     return {
       data: results,
       ...paginate(data.length, page, limit, results.length, url),
-    };
-  }
-
-  getProductBySlug(slug: string): Product {
-    const product = this.products.find((p) => p.slug === slug);
-    const related_products = this.products
-      .filter((p) => p.type.slug === product.type.slug)
-      .slice(0, 20);
-    return {
-      ...product,
-      related_products,
     };
   }
 
@@ -93,6 +144,62 @@ export class ProductsService {
       data = fuse.search(type_slug)?.map(({ item }) => item);
     }
     return data?.slice(0, limit);
+  }
+
+  async getProductBySlug(slug: string): Promise<Product> {
+    const db = admin.firestore();
+    const docRef = db.collection('products');
+
+    let results;
+    let related_products;
+    let data = [];
+    let product;
+    let catArr = ["beer", "spirits"];
+    let catList = [];
+  //  let related_products;
+
+    await catArr.forEach((item) => {
+      const catData = this.categories.find((p) => p.slug === item);
+      let dItem = {
+        id: catData.id,
+        name: catData.name,
+        slug: catData.slug,
+        parent: catData.parent,
+        type: catData.type
+      }
+      catList.push(dItem);
+    });
+
+    //console.log("PRODUCT SLUG:" + JSON.stringify(catList[0]));
+
+    const snapshot = await docRef.get().then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+          data.push(doc.data());
+
+        });
+    });
+
+    product = data.find((p) => p.slug === slug);
+    //console.log("PRODUCT DATA:" + JSON.stringify(product));
+    related_products = data
+      .filter((p) => p.type.slug === product.type.slug)
+      .slice(0, 20);
+
+  /*  await db.collection('products').where("slug", "==", slug)
+    .get()
+    .then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+          product.push(doc.data());
+        });
+    })
+    .catch((error) => {
+      console.log("Error getting documents: ", error);
+    }); */
+
+    return {
+      ...product,
+      related_products,
+    };
   }
 
   getSalesProducts({ limit, type_slug }: GetSalesProductsDto): Product[] {
@@ -111,8 +218,32 @@ export class ProductsService {
     return data;
   }
 
-  update(id: number, updateProductDto: UpdateProductDto) {
-    return this.products[0];
+ async update(id: string, updateProductDto: UpdateProductDto) {
+  //  console.log("PRODUCTS UPDATE: ", JSON.stringify(updateProductDto));
+
+    const data = JSON.stringify(updateProductDto);
+    const obj = JSON.parse(data);
+
+    console.log("PRODUCTS JSON: ", obj.name);
+    let result = false;
+
+    if(updateProductDto !== null) {
+      const docRef = admin.firestore().collection('products').doc(id);
+      await docRef.update({
+        name: obj.name,
+        price: obj.price,
+        quantity: obj.quantity
+      }).then(() => {
+        console.log('Write succeeded!');
+        result = true;
+      })
+    }
+
+
+    return {
+      success: result,
+      message: 'Product successfully updated',
+    };
   }
 
   remove(id: number) {

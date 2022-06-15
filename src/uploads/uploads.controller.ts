@@ -6,6 +6,11 @@ import {
 } from '@nestjs/common';
 import { FilesInterceptor } from '@nestjs/platform-express';
 import { UploadsService } from './uploads.service';
+import * as admin from 'firebase-admin';
+const cloudinaryConfig = require("../config/cloudinary-config");
+import DatauriParser  from 'datauri/parser';
+import path from 'path';
+const { getStorage } = require('firebase-admin/storage');
 
 @Controller('attachments')
 export class UploadsController {
@@ -13,16 +18,37 @@ export class UploadsController {
 
   @Post()
   @UseInterceptors(FilesInterceptor('attachment[]'))
-  uploadFile(@UploadedFiles() attachment: Array<Express.Multer.File>) {
-    console.log(attachment);
+  async uploadFile(@UploadedFiles() attachment: Array<Express.Multer.File>) {
+
+    let downloadUrl = '';
+    try {
+      const fileName = attachment[0].originalname.replace(/\s+/g, "_");
+
+    //  console.log(attachment);
+    //  console.log("File Name: ", fileName);
+
+      const parser = new DatauriParser();
+      const blobString = parser.format(path.extname(fileName).toString(), attachment[0].buffer);
+
+      await cloudinaryConfig.uploads(blobString.content, "barectory").then((result) => {
+          console.log(JSON.stringify(result.url));
+          downloadUrl = result.url;
+        //  return result.url;
+      });
+
+    }
+    catch (error) {
+        console.log (error.message);
+    }
+
     return [
       {
         id: '883',
-        original:
-          'https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/881/aatik-tasneem-7omHUGhhmZ0-unsplash%402x.png',
-        thumbnail:
-          'https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/881/conversions/aatik-tasneem-7omHUGhhmZ0-unsplash%402x-thumbnail.jpg',
+        original: downloadUrl,
+        thumbnail: downloadUrl,
       },
     ];
+
+
   }
 }

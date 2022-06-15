@@ -3,22 +3,43 @@ import { plainToClass } from 'class-transformer';
 import { CreateUserDto } from './dto/create-user.dto';
 import { GetUsersDto, UserPaginator } from './dto/get-users.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
+import { UpdateAdminDto } from './dto/update-admin.dto';
+import { Category } from 'src/categories/entities/category.entity';
+import { Product } from 'src/products/entities/product.entity';
+import productsJson from '@db/products.json';
 import Fuse from 'fuse.js';
+import * as admin from 'firebase-admin';
 
-//const functions = require("firebase-functions");
-//const admin = require('firebase-admin');
-//const serviceAccount = require('../config/barectory-firebase-adminsdk-91i9o-5b1b877ed7.json');
+const products = plainToClass(Product, productsJson);
+
+enum Permission {
+  SUPER_ADMIN = 'Super admin',
+  STORE_OWNER = 'Store owner',
+  STAFF = 'Staff',
+  CUSTOMER = 'Customer',
+  ADMIN = 'Admin'
+}
+
+/*
+const functions = require("firebase-functions");
+const admin = require('firebase-admin');
+const serviceAccount = require('../config/barectory-firebase-adminsdk.json');
+
+*/
 
 import { User } from './entities/user.entity';
 import usersJson from './users.json';
 import { paginate } from 'src/common/pagination/paginate';
 const users = plainToClass(User, usersJson);
 
-/*admin.initializeApp({
+/*
+admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
-}); */
+});
 
-//const db = admin.firestore();
+const db = admin.firestore();
+
+*/
 
 const options = {
   keys: ['name', 'type.slug', 'categories.slug', 'status'],
@@ -59,29 +80,155 @@ export class UsersService {
   }
 
   async getUsers({ text, limit, page }: GetUsersDto): Promise<UserPaginator> {
+    const db = admin.firestore();
+    const docRef = db.collection('admin');
+    let results;
+    let url;
     if (!page) page = 1;
-
+    let data = [];
     const startIndex = (page - 1) * limit;
     const endIndex = page * limit;
-    let data: User[] = this.users;
-    if (text?.replace(/%/g, '')) {
-      data = fuse.search(text)?.map(({ item }) => item);
-    }
-    const results = data.slice(startIndex, endIndex);
-    const url = `/users?limit=${limit}`;
+    const snapshot = await docRef.get().then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+          data.push(doc.data());
+
+          if (text?.replace(/%/g, '')) {
+            data = fuse.search(text)?.map(({ item }) => item);
+          }
+          results = data.slice(startIndex, endIndex);
+          url = `/users?limit=${limit}`;
+        });
+    });
+
+  //  console.log(data);
+    //let data: User[] = this.users;
+
 
     return {
       data: results,
       ...paginate(data.length, page, limit, results.length, url),
     };
   }
-  
+
+  async makeAdmin({user_id}: UpdateAdminDto) {
+    //const db = admin.firestore();
+    const docRef = admin.firestore().collection('admin').doc(user_id);
+    const doc = await docRef.get();
+    let result;
+    if(!doc.exists) {
+      console.log('No such document!');
+    }
+    else {
+      //console.log('Document data:', doc.data().permissions[0].name);
+      if(doc.data().permissions[0].name === Permission.ADMIN) {
+        await docRef.update({
+          permissions: admin.firestore.FieldValue.arrayRemove({
+            id: 1,
+            name: Permission.ADMIN
+          }),
+        }).then(() => {
+          docRef.update({
+            permissions: admin.firestore.FieldValue.arrayUnion({
+              id: 1,
+              name: Permission.STAFF
+            }),
+          }).then(() => {
+            console.log('Write succeeded!');
+            result = true;
+          })
+        });
+        //  const permsRef = ref.child('permissions');
+        //  const hopperRef = usersRef.child('gracehop');
+      //  await docRef.update({'permissions.0.name': Permission.STAFF});
+      }
+      else {
+        await docRef.update({
+          permissions: admin.firestore.FieldValue.arrayRemove({
+            id: 1,
+            name: Permission.STAFF
+          }),
+        }).then(() => {
+          docRef.update({
+            permissions: admin.firestore.FieldValue.arrayUnion({
+              id: 1,
+              name: Permission.ADMIN
+            }),
+          }).then(() => {
+            console.log('Write succeeded!');
+            result = true;
+          })
+        });
+      }
+    }
+    /*let result = false;
+    await docRef.doc(user_id).update({
+      permissions: admin.firestore.FieldValue.arrayUnion({
+        id: 1,
+        name: Permission.ADMIN
+      }),
+    }).then(() => {
+      console.log('Write succeeded!');
+      result = true;
+    }); */
+
+    return {
+      success: result,
+      message: 'Admin permissions updated',
+    };
+  }
+
   findOne(id: number) {
     return this.users.find((user) => user.id === id);
   }
 
-  update(id: number, updateUserDto: UpdateUserDto) {
-    return this.users[0];
+  async update(id: string, updateUserDto: UpdateUserDto) {
+  /*  let result = false;
+
+    let uMobileNo = updateUserDto.profile.contact;
+    if(uMobileNo.charAt(0) === '0') {
+      const xMobileNo = uMobileNo.substring(1);
+      uMobileNo = '+234'+xMobileNo;
+    }
+    await admin.auth().updateUser(id, {
+      phoneNumber: uMobileNo,
+      displayName: updateUserDto.name,
+      photoURL: updateUserDto.profile.avatar.original,
+    })
+    .then(async(userRecord) => {
+      // See the UserRecord reference doc for the contents of `userRecord`.
+      //  console.log("Successfully updated user", userRecord.toJSON());
+      if(userRecord) {
+        const docRef = admin.firestore().collection('admin').doc(id);
+
+        await docRef.update({
+          name: updateUserDto.name,
+          profile: updateUserDto.profile
+        }).then(() => {
+          console.log('Write succeeded!');
+          result = true;
+        })
+      }
+
+    })
+    .catch(function(error) {
+      console.log("Error updating user:", error);
+    });*/
+
+    var firestore = admin.firestore();
+    var batch = firestore.batch();
+
+    for(var myKey in productsJson) {
+      var myKeyRef = firestore.collection('products').doc();
+      batch.set(myKeyRef, productsJson[myKey]);
+    }
+    batch.commit().then(function () {
+      console.log("Successful");
+    });
+
+    return {
+      success: true,
+      message: 'Admin profile updated',
+    };
   }
 
   remove(id: number) {

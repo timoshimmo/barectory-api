@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body } from '@nestjs/common';
+import { Controller, Get, Post, Body, UseGuards, Param } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import {
   ChangePasswordDto,
@@ -7,11 +7,13 @@ import {
   OtpDto,
   OtpLoginDto,
   RegisterDto,
+  CreateAdminDto,
   ResetPasswordDto,
   SocialLoginDto,
   VerifyForgetPasswordDto,
   VerifyOtpDto,
 } from './dto/create-auth.dto';
+import { FirebaseAuthGuard } from 'src/firebase/firebase-auth.guard';
 
 @Controller()
 export class AuthController {
@@ -20,6 +22,10 @@ export class AuthController {
   @Post('register')
   createAccount(@Body() registerDto: RegisterDto) {
     return this.authService.register(registerDto);
+  }
+  @Post('create-admin')
+  createAdmin(@Body() adminDto: CreateAdminDto) {
+    return this.authService.createAdmin(adminDto);
   }
   @Post('token')
   login(@Body() loginDto: LoginDto) {
@@ -64,14 +70,16 @@ export class AuthController {
     return this.authService.verifyForgetPasswordToken(verifyForgetPasswordDto);
   }
 
-  @Get('me')
-  me() {
-    return this.authService.me();
+  @Get('me/:id')
+  me(@Param('id') id: string) {
+    return this.authService.me(id);
   }
+  /*
   @Post('add-points')
   addWalletPoints(@Body() addPointsDto: any) {
     return this.authService.me();
   }
+  */
   @Post('contact-us')
   contactUs(@Body() addPointsDto: any) {
     return {

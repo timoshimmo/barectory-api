@@ -7,6 +7,7 @@ import {
   Param,
   Delete,
   Query,
+  UseGuards
 } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { CreateUserDto } from './dto/create-user.dto';
@@ -14,6 +15,8 @@ import { UpdateUserDto } from './dto/update-user.dto';
 import { CreateProfileDto } from './dto/create-profile.dto';
 import { UpdateProfileDto } from './dto/update-profile.dto';
 import { GetUsersDto } from './dto/get-users.dto';
+import { UpdateAdminDto } from './dto/update-admin.dto';
+//import { FirebaseAuthGuard } from 'src/firebase/firebase-auth.guard';
 
 @Controller('users')
 export class UsersController {
@@ -24,9 +27,14 @@ export class UsersController {
     return this.usersService.create(createUserDto);
   }
 
-  @Post('register')
+  @Post('/register')
   createAdmin(@Body() createUserDto: CreateUserDto) {
     return this.usersService.createAdmin(createUserDto);
+  }
+
+  @Post('/make-admin')
+  makeAdmin(@Body() updateAdminDto: UpdateAdminDto) {
+    return this.usersService.makeAdmin(updateAdminDto);
   }
 
   @Get()
@@ -41,7 +49,7 @@ export class UsersController {
 
   @Put(':id')
   updateUser(@Param('id') id: string, @Body() updateUserDto: UpdateUserDto) {
-    return this.usersService.update(+id, updateUserDto);
+    return this.usersService.update(id, updateUserDto);
   }
 
   @Delete(':id')
