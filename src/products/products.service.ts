@@ -31,13 +31,8 @@ const options = {
   threshold: 0.3,
 };
 
-const cOptions = {
-  keys: ['name', 'type.slug'],
-  threshold: 0.3,
-};
 
 const fuse = new Fuse(products, options);
-const cFuse = new Fuse(categories, cOptions);
 
 /*  var firestore = admin.firestore();
   var batch = firestore.batch();
@@ -60,20 +55,65 @@ export class ProductsService {
 
   async create(createProductDto: CreateProductDto) {
 
-    console.log("PRODUCTS: " + JSON.stringify(createProductDto));
+    const data = JSON.stringify(createProductDto);
+    const obj = JSON.parse(data);
+
     const db = admin.firestore();
     let result;
-      try {
+
+    let catArr = obj.categories;
+    let catList = [];
+
+    let product_slug = obj.name.toLowerCase().replaceAll(" ", "-");
+    let product_type = {
+      id: 1,
+      name: "Grocery",
+      settings: {
+        isHome: true,
+        layoutType: "modern",
+        productCard: "neon"
+      },
+      slug: "grocery",
+      icon: "FruitsVegetable",
+      promotional_sliders: []
+    };
+
+    await catArr.forEach((item) => {
+      const catData = this.categories.find((p) => p.slug === item);
+      let dItem = {
+        id: catData.id,
+        name: catData.name,
+        slug: catData.slug,
+        parent: catData.parent,
+        type_id: 1
+      }
+      catList.push(dItem);
+    });
+
+    obj.categories = catList;
+
+    if(obj.variations.length < 1) {
+      delete obj.variation_options;
+    }
+
+    let resultObj = {...obj, slug: product_slug, type: product_type};
+
+  //  console.log("ALL: " + JSON.stringify(resultObj) + " PRODUCT SLUG:" + product_slug);
+
+    try {
         const docRef = db.collection('products');
       //  const slug = createProductDto.name;
-        await docRef.add(
-          createProductDto
-        )
+        await docRef.add(resultObj)
+        .then(async(res) => {
+          await docRef.doc(res.id).update({
+            id: res.id
+          })
+        })
         .catch(console.error);
 
       } catch (e) {
         throw e;
-      } 
+      }
 
       return {
         success: true,
@@ -154,23 +194,6 @@ export class ProductsService {
     let related_products;
     let data = [];
     let product;
-    let catArr = ["beer", "spirits"];
-    let catList = [];
-  //  let related_products;
-
-    await catArr.forEach((item) => {
-      const catData = this.categories.find((p) => p.slug === item);
-      let dItem = {
-        id: catData.id,
-        name: catData.name,
-        slug: catData.slug,
-        parent: catData.parent,
-        type: catData.type
-      }
-      catList.push(dItem);
-    });
-
-    //console.log("PRODUCT SLUG:" + JSON.stringify(catList[0]));
 
     const snapshot = await docRef.get().then((querySnapshot) => {
         querySnapshot.forEach((doc) => {
@@ -224,24 +247,45 @@ export class ProductsService {
     const data = JSON.stringify(updateProductDto);
     const obj = JSON.parse(data);
 
-    console.log("PRODUCTS JSON: ", obj.name);
+    console.log("PRODUCTS UPDATE: ", obj);
     let result = false;
 
-    if(updateProductDto !== null) {
-      const docRef = admin.firestore().collection('products').doc(id);
-      await docRef.update({
-        name: obj.name,
-        price: obj.price,
-        quantity: obj.quantity
-      }).then(() => {
-        console.log('Write succeeded!');
-        result = true;
-      })
+    let catArr = obj.categories;
+    let catList = [];
+
+    let product_slug = obj.name.toLowerCase().replaceAll(" ", "-");
+
+    await catArr.forEach((item) => {
+      const catData = this.categories.find((p) => p.slug === item);
+      let dItem = {
+        id: catData.id,
+        name: catData.name,
+        slug: catData.slug,
+        parent: catData.parent,
+        type_id: 1
+      }
+      catList.push(dItem);
+    });
+
+    obj.categories = catList;
+
+    if(obj.variations.length < 1) {
+      delete obj.variation_options;
     }
+
+    let resultObj = {...obj, slug: product_slug};
+
+    const docRef = admin.firestore().collection('products').doc(id);
+    await docRef.update(resultObj)
+    .then(() => {
+      console.log('Write succeeded!');
+      result = true;
+    });
+
 
 
     return {
-      success: result,
+      success: true,
       message: 'Product successfully updated',
     };
   }

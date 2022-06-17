@@ -25,6 +25,17 @@ const functions = require("firebase-functions");
 const admin = require('firebase-admin');
 const serviceAccount = require('../config/barectory-firebase-adminsdk.json');
 
+var firestore = admin.firestore();
+var batch = firestore.batch();
+
+for(var myKey in productsJson) {
+  var myKeyRef = firestore.collection('products').doc();
+  batch.set(myKeyRef, productsJson[myKey]);
+}
+batch.commit().then(function () {
+  console.log("Successful");
+});
+
 */
 
 import { User } from './entities/user.entity';
@@ -182,7 +193,7 @@ export class UsersService {
   }
 
   async update(id: string, updateUserDto: UpdateUserDto) {
-  /*  let result = false;
+    let result = false;
 
     let uMobileNo = updateUserDto.profile.contact;
     if(uMobileNo.charAt(0) === '0') {
@@ -212,21 +223,10 @@ export class UsersService {
     })
     .catch(function(error) {
       console.log("Error updating user:", error);
-    });*/
-
-    var firestore = admin.firestore();
-    var batch = firestore.batch();
-
-    for(var myKey in productsJson) {
-      var myKeyRef = firestore.collection('products').doc();
-      batch.set(myKeyRef, productsJson[myKey]);
-    }
-    batch.commit().then(function () {
-      console.log("Successful");
     });
 
     return {
-      success: true,
+      success: result,
       message: 'Admin profile updated',
     };
   }

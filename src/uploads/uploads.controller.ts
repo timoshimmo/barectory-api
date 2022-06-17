@@ -24,16 +24,11 @@ export class UploadsController {
     try {
       const fileName = attachment[0].originalname.replace(/\s+/g, "_");
 
-    //  console.log(attachment);
-    //  console.log("File Name: ", fileName);
-
       const parser = new DatauriParser();
       const blobString = parser.format(path.extname(fileName).toString(), attachment[0].buffer);
 
       await cloudinaryConfig.uploads(blobString.content, "barectory").then((result) => {
-          console.log(JSON.stringify(result.url));
           downloadUrl = result.url;
-        //  return result.url;
       });
 
     }
