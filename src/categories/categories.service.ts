@@ -52,6 +52,10 @@ export class CategoriesService {
     };
   }
 
+  getCategoriesComplete(): Category[] {
+    return this.categories;
+  }
+
   getAllCategories(): Category[] {
     return this.categories;
   }

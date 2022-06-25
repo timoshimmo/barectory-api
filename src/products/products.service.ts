@@ -226,6 +226,7 @@ export class ProductsService {
   }
 
   getSalesProducts({ limit, type_slug }: GetSalesProductsDto): Product[] {
+  //  let data = [];
     let data: any = this.products.filter((p) => p.price > p.sale_price && p.sale_price !== null);
     if (type_slug) {
       data = fuse.search(type_slug)?.map(({ item }) => item);
@@ -233,12 +234,43 @@ export class ProductsService {
     return data?.slice(0, limit);
   }
 
-  getProductsByCategory(categories_slug: string): Product[] {
-    let data: any = this.products;
+  async getProductsByCategory(categories_slug: string): Promise<Product[]> {
 
-    data = fuse.search(categories_slug)?.map(({ item }) => item);
+    const db = admin.firestore();
+    const docRef = db.collection('products');
+
+    let data = [];
+    let results;
+    let mfuse;
+
+    const moptions = {
+      keys: [
+        'name',
+        'type.slug',
+        'categories.slug',
+        'status',
+        'shop_id',
+        'author.slug',
+        'tags',
+        'manufacturer.slug',
+      ],
+      threshold: 0.3,
+    };
+
+    const snapshot = await docRef.get().then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+          data.push(doc.data());
+        });
+    });
+
+    mfuse = new Fuse(data, moptions);
+    results = mfuse.search(categories_slug)?.map(({ item }) => item);
+  //  let data: any = this.products;
+
+
+
     //const products = this.products.filter((p) => p.categories.includes(category_slug));
-    return data;
+    return results;
   }
 
  async update(id: string, updateProductDto: UpdateProductDto) {
@@ -247,7 +279,7 @@ export class ProductsService {
     const data = JSON.stringify(updateProductDto);
     const obj = JSON.parse(data);
 
-    console.log("PRODUCTS UPDATE: ", obj);
+    //console.log("PRODUCTS UPDATE: ", obj);
     let result = false;
 
     let catArr = obj.categories;
