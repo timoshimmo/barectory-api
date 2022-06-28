@@ -7,15 +7,17 @@ import { GetPopularProductsDto } from './dto/get-popular-products.dto';
 import { GetSalesProductsDto } from './dto/get-sales-products.dto';
 import { Product } from './entities/product.entity';
 import { Category } from 'src/categories/entities/category.entity';
+import { Tag } from 'src/tags/entities/tag.entity';
 import { paginate } from 'src/common/pagination/paginate';
 import productsJson from '@db/products.json';
 import categoriesJson from '@db/categories.json';
+import tagsJson from 'src/tags/tags.json';
 import Fuse from 'fuse.js';
 import * as admin from 'firebase-admin';
 
-
 const products = plainToClass(Product, productsJson);
 const categories = plainToClass(Category, categoriesJson);
+const tags = plainToClass(Tag, tagsJson);
 
 const options = {
   keys: [
@@ -52,6 +54,7 @@ const fuse = new Fuse(products, options);
 export class ProductsService {
   private products = products;
   private categories: Category[] = categories;
+  private tags: Tag[] = tags;
 
   async create(createProductDto: CreateProductDto) {
 
@@ -62,7 +65,10 @@ export class ProductsService {
     let result;
 
     let catArr = obj.categories;
+    let subCarArr = obj.sub_categories;
+    let tagArr = obj.tags;
     let catList = [];
+    let tagsList = [];
 
     let product_slug = obj.name.toLowerCase().replaceAll(" ", "-");
     let product_type = {
@@ -90,15 +96,58 @@ export class ProductsService {
       catList.push(dItem);
     });
 
+    await subCarArr.forEach((item, index) => {
+      let name = '';
+      let id = 2 + index;
+      if(item.includes("-")) {
+        const newName = item.replaceAll("-", " ");
+        const arrStr = newName.split(" ");
+        for (var i = 0; i < arrStr.length; i++) {
+            arrStr[i] = arrStr[i].charAt(0).toUpperCase() + arrStr[i].slice(1);
+        }
+
+        const str2 = arrStr.join(" ");
+        name = str2;
+      }
+      else {
+        name = item.charAt(0).toUpperCase() + item.slice(1);
+      }
+
+      let dItem = {
+        id: id,
+        name: name,
+        slug: item,
+        parent: null,
+        type_id: 1
+      }
+      catList.push(dItem);
+    });
+
+    await tagArr.forEach((item) => {
+      const tagData = this.tags.find((p) => p.id === Number(item));
+      let tItem = {
+        id: tagData.id,
+        name: tagData.name,
+        slug: tagData.slug,
+        icon: tagData.icon,
+        type_id: 1
+      }
+
+      tagsList.push(tItem);
+
+    });
+
     obj.categories = catList;
+    obj.tags = tagsList;
 
     if(obj.variations.length < 1) {
       delete obj.variation_options;
     }
+    delete obj.sub_categories;
 
     let resultObj = {...obj, slug: product_slug, type: product_type};
 
-  //  console.log("ALL: " + JSON.stringify(resultObj) + " PRODUCT SLUG:" + product_slug);
+//    console.log("ALL: " + JSON.stringify(resultObj));
 
     try {
         const docRef = db.collection('products');
@@ -153,8 +202,6 @@ export class ProductsService {
 
         });
     });
-
-
     // if (status) {
     //   data = fuse.search(status)?.map(({ item }) => item);
     // }
@@ -267,15 +314,12 @@ export class ProductsService {
     results = mfuse.search(categories_slug)?.map(({ item }) => item);
   //  let data: any = this.products;
 
-
-
     //const products = this.products.filter((p) => p.categories.includes(category_slug));
     return results;
   }
 
  async update(id: string, updateProductDto: UpdateProductDto) {
   //  console.log("PRODUCTS UPDATE: ", JSON.stringify(updateProductDto));
-
     const data = JSON.stringify(updateProductDto);
     const obj = JSON.parse(data);
 
@@ -283,7 +327,10 @@ export class ProductsService {
     let result = false;
 
     let catArr = obj.categories;
+    let subCarArr = obj.sub_categories;
+    let tagArr = obj.tags;
     let catList = [];
+    let tagsList = [];
 
     let product_slug = obj.name.toLowerCase().replaceAll(" ", "-");
 
@@ -299,11 +346,54 @@ export class ProductsService {
       catList.push(dItem);
     });
 
+    await subCarArr.forEach((item, index) => {
+      let name = '';
+      let id = 2 + index;
+      if(item.includes("-")) {
+        const newName = item.replaceAll("-", " ");
+        const arrStr = newName.split(" ");
+        for (var i = 0; i < arrStr.length; i++) {
+            arrStr[i] = arrStr[i].charAt(0).toUpperCase() + arrStr[i].slice(1);
+        }
+
+        const str2 = arrStr.join(" ");
+        name = str2;
+      }
+      else {
+        name = item.charAt(0).toUpperCase() + item.slice(1);
+      }
+
+      let dItem = {
+        id: id,
+        name: name,
+        slug: item,
+        parent: null,
+        type_id: 1
+      }
+      catList.push(dItem);
+    });
+
+    await tagArr.forEach((item) => {
+      const tagData = this.tags.find((p) => p.id === Number(item));
+      let tItem = {
+        id: tagData.id,
+        name: tagData.name,
+        slug: tagData.slug,
+        icon: tagData.icon,
+        type_id: 1
+      }
+
+      tagsList.push(tItem);
+
+    });
+
     obj.categories = catList;
+    obj.tags = tagsList;
 
     if(obj.variations.length < 1) {
       delete obj.variation_options;
     }
+    delete obj.sub_categories;
 
     let resultObj = {...obj, slug: product_slug};
 
@@ -314,16 +404,20 @@ export class ProductsService {
       result = true;
     });
 
-
-
     return {
       success: true,
       message: 'Product successfully updated',
     };
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} product`;
+  async remove(id: string) {
+    //console.log("ID: " + id);
+    const docRef = admin.firestore().collection('products').doc(id);
+    await docRef.delete();
+    return {
+      success: true,
+      message: 'Product successfully deleted!',
+    };
   }
 }
 
