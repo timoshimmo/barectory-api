@@ -411,14 +411,14 @@ export class ProductsService {
   }
 
   async remove(id: string) {
-    return `This action removes a #${id} product`;
+    //return `This action removes a #${id} product`;
     //console.log("ID: " + id);
-  /*  const docRef = admin.firestore().collection('products').doc(id);
+   const docRef = admin.firestore().collection('products').doc(id);
     await docRef.delete();
     return {
       success: true,
       message: 'Product successfully deleted!',
-    };*/
+    };
   }
 }
 
