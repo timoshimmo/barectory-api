@@ -1,0 +1,1408 @@
+[
+  {
+    "id": 1,
+    "name": "Martini",
+    "is_approved": true,
+    "image": {
+      "id": 1410,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1410/Publisher-logo-2.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1410/conversions/Publisher-logo-2-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1388,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1388/Publisher-banner-2.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1388/conversions/Publisher-banner-2-thumbnail.jpg"
+    },
+    "slug": "martini",
+    "type_id": 1,
+    "description": ".",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:04.000000Z",
+    "updated_at": "2021-12-14T14:53:02.000000Z",
+    "products_count": 8,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 2,
+    "name": "William Lawson",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "william-lawson",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Dewar's",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "dewars",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Eristoff",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "eristoff",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Grey Goose",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "grey-goose",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Bombay",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "bombay",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Bombay",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "bombay",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Bacardi",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "bacardi",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 3,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Otard",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "otard",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 10,
+    "name": "D'Usse",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "dusse",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Camino",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "camino",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Absolut",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "absolut",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Chivas Regal",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "chivas",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Jameson",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "jameson",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Beefeater",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "beefeater",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Ballantine",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "ballantine",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 17,
+    "name": "G.H.MUMM",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "ghmumm",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Havana Club",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "havana-club",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Kahlua",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "kahlua",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Martell",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "martell",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Olmeca",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "olmeca",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Perrier-Jouet",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "perrier-jouet",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Royal Salute",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "royal-salute",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 24,
+    "name": "The Glenlivet",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "glenlivet",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Passport",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "passport",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Dubic",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "dubic",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Guiness",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "guiness",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 28,
+    "name": "Orijin",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "orijin",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Smirnoff",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "smirnoff",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 30,
+    "name": "Snapp",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "snapp",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 31,
+    "name": "Gordons",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "gordons",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 32,
+    "name": "McDowells",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "mcdowells",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 32,
+    "name": "Baileys",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "baileys",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Royal Challenge",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "royal-challenge",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Ciroc",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "ciroc",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 35,
+    "name": "Johnnie Walker",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "johnnie-walker",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 36,
+    "name": "Cardhu",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "cardhu",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 37,
+    "name": "Zacapa",
+    "is_approved": true,
+    "image": {
+      "id": 1409,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/Publisher-logo-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1409/conversions/Publisher-logo-1-thumbnail.jpg"
+    },
+    "cover_image": {
+      "id": 1386,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/Publisher-banner-1.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1386/conversions/Publisher-banner-1-thumbnail.jpg"
+    },
+    "slug": "zacapa",
+    "type_id": 1,
+    "description": "To publish is to make content available to the generalpublic.While specific use of the term may vary among countries, it's generally applied to textbook, images, or other audio-visual content, including paper ( journals, magazines, registers,etc.). The word publication means the act of publishing, and also any published clones issued for public distribution.",
+    "website": "https://redq.io/",
+    "socials": [],
+    "created_at": "2021-12-07T16:42:38.000000Z",
+    "updated_at": "2021-12-14T14:52:47.000000Z",
+    "products_count": 11,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  }
+]
