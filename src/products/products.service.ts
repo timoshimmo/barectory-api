@@ -219,6 +219,8 @@ export class ProductsService {
     //   data = this.products.filter((p) => p.shop_id === Number(shop_id));
     // }
 
+  //  console.log("GET ALL PRODUCTS !");
+
     return {
       data: results,
       ...paginate(data.length, page, limit, results.length, url),
@@ -265,6 +267,8 @@ export class ProductsService {
     .catch((error) => {
       console.log("Error getting documents: ", error);
     }); */
+
+//    console.log("GET PRODUCTS BY SLUG!");
 
     return {
       ...product,
@@ -313,6 +317,8 @@ export class ProductsService {
     mfuse = new Fuse(data, moptions);
     results = mfuse.search(categories_slug)?.map(({ item }) => item);
   //  let data: any = this.products;
+
+//  console.log("GET PRODUCTS BY CATEGORY!");
 
     //const products = this.products.filter((p) => p.categories.includes(category_slug));
     return results;
@@ -393,7 +399,7 @@ export class ProductsService {
     if(obj.variations.length < 1) {
       delete obj.variation_options;
     }
-    delete obj.sub_categories;
+    //delete obj.sub_categories;
 
     let resultObj = {...obj, slug: product_slug};
 
