@@ -295,27 +295,42 @@ export class ProductsService {
     let mfuse;
 
     const moptions = {
-      keys: [
-        'name',
-        'type.slug',
-        'categories.slug',
-        'status',
-        'shop_id',
-        'author.slug',
-        'tags',
-        'manufacturer.slug',
-      ],
+      keys: ['categories.slug'],
       threshold: 0.3,
     };
 
+  /*  if(categories_slug.includes("-")) {
+      const newName = item.replaceAll("-", " ");
+      const arrStr = newName.split(" ");
+      for (var i = 0; i < arrStr.length; i++) {
+          arrStr[i] = arrStr[i].charAt(0).toUpperCase() + arrStr[i].slice(1);
+      }
+
+      const str2 = arrStr.join(" ");
+      name = str2;
+    }
+    else {
+      name = item.charAt(0).toUpperCase() + item.slice(1);
+    }
+
+    let dItem = {
+      id: 1,
+      name: catData.name,
+      slug: catData.slug,
+      parent: catData.parent,
+      type_id: 1
+    }
+*/
     const snapshot = await docRef.get().then((querySnapshot) => {
         querySnapshot.forEach((doc) => {
           data.push(doc.data());
         });
     });
 
-    mfuse = new Fuse(data, moptions);
-    results = mfuse.search(categories_slug)?.map(({ item }) => item);
+    //mfuse = new Fuse(data, moptions);
+  //  results = mfuse.search(categories_slug)?.map(({ item }) => item);
+
+    results = data.filter((p) => p.categories[0].slug === categories_slug || p.categories[1].slug === categories_slug);
   //  let data: any = this.products;
 
 //  console.log("GET PRODUCTS BY CATEGORY!");

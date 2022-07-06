@@ -493,6 +493,45 @@
         "products_count": 60,
         "parent_id": 2,
         "children": []
+      },
+      {
+        "id": 21,
+        "name": "Cream Liquer",
+        "slug": "cream-liquer",
+        "icon": null,
+        "image": {
+          "id": 1371,
+          "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1648477791/barectory/herbal-liquor.png",
+          "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1648477791/barectory/herbal-liquor.png"
+        },
+        "details": null,
+        "parent": {
+          "id": 2,
+          "name": "Spirits",
+          "slug": "spirits",
+          "icon": null,
+          "image": {
+            "id": 401,
+            "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1648477791/barectory/herbal-liquor.png",
+            "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1648477791/barectory/herbal-liquor.png"
+          },
+          "details": null,
+          "parent": null,
+          "type_id": 1,
+          "created_at": "2021-09-29T08:35:52.000000Z",
+          "updated_at": "2021-09-29T08:35:52.000000Z",
+          "deleted_at": null,
+          "parent_id": null,
+          "type": null,
+          "children": null
+        },
+        "type_id": 1,
+        "created_at": "2021-10-03T06:21:29.000000Z",
+        "updated_at": "2021-10-03T06:22:09.000000Z",
+        "deleted_at": null,
+        "products_count": 60,
+        "parent_id": 2,
+        "children": []
       }
     ]
   },
