@@ -134,6 +134,190 @@
         "meta": null,
         "created_at": "2021-05-09T16:11:35.000000Z",
         "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 27,
+        "attribute_id": 3,
+        "value": "5cl x 120",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 37,
+        "attribute_id": 3,
+        "value": "10cl x 20",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 38,
+        "attribute_id": 3,
+        "value": "10cl x 12",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 36,
+        "attribute_id": 3,
+        "value": "18cl x 48",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 39,
+        "attribute_id": 3,
+        "value": "18.75cl x 24",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 40,
+        "attribute_id": 3,
+        "value": "20cl x 24",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 30,
+        "attribute_id": 3,
+        "value": "30cl x 12",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 30,
+        "attribute_id": 3,
+        "value": "32.5cl x 24",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 34,
+        "attribute_id": 3,
+        "value": "33cl x 12",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 31,
+        "attribute_id": 3,
+        "value": "33cl x 24",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 29,
+        "attribute_id": 3,
+        "value": "37.5cl x 12",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 35,
+        "attribute_id": 3,
+        "value": "45cl x 12",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 32,
+        "attribute_id": 3,
+        "value": "45cl x 18",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 33,
+        "attribute_id": 3,
+        "value": "60cl x 12",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 23,
+        "attribute_id": 3,
+        "value": "70cl x 6",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 24,
+        "attribute_id": 3,
+        "value": "75cl x 6",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 25,
+        "attribute_id": 3,
+        "value": "75cl x 12",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 41,
+        "attribute_id": 3,
+        "value": "97.5cl x 48",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 26,
+        "attribute_id": 3,
+        "value": "100cl x 6",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 28,
+        "attribute_id": 3,
+        "value": "100cl x 12",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 42,
+        "attribute_id": 3,
+        "value": "1L x 6",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 43,
+        "attribute_id": 3,
+        "value": "1L x 12",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
+      {
+        "id": 44,
+        "attribute_id": 3,
+        "value": "4.5L x 2",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
       }
     ],
     "shop": {

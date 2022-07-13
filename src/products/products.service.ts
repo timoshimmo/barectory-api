@@ -8,16 +8,20 @@ import { GetSalesProductsDto } from './dto/get-sales-products.dto';
 import { Product } from './entities/product.entity';
 import { Category } from 'src/categories/entities/category.entity';
 import { Tag } from 'src/tags/entities/tag.entity';
+import { Attribute } from 'src/attributes/entities/attribute.entity';
+import { AttributeValue } from 'src/attributes/entities/attribute-value.entity';
 import { paginate } from 'src/common/pagination/paginate';
 import productsJson from '@db/products.json';
 import categoriesJson from '@db/categories.json';
 import tagsJson from 'src/tags/tags.json';
+import attributesJson from '@db/attributes.json';
 import Fuse from 'fuse.js';
 import * as admin from 'firebase-admin';
 
 const products = plainToClass(Product, productsJson);
 const categories = plainToClass(Category, categoriesJson);
 const tags = plainToClass(Tag, tagsJson);
+const attributes = plainToClass(Attribute, attributesJson);
 
 const options = {
   keys: [
@@ -55,6 +59,7 @@ export class ProductsService {
   private products = products;
   private categories: Category[] = categories;
   private tags: Tag[] = tags;
+  private attributes: Attribute[] = attributes;
 
   async create(createProductDto: CreateProductDto) {
 
@@ -347,11 +352,15 @@ export class ProductsService {
     //console.log("PRODUCTS UPDATE: ", obj);
     let result = false;
 
+
     let catArr = obj.categories;
     let subCarArr = obj.sub_categories;
     let tagArr = obj.tags;
+    let varOptions = obj.variation_options;
     let catList = [];
     let tagsList = [];
+    let variations = [];
+    let variation_options = [];
 
     let product_slug = obj.name.toLowerCase().replaceAll(" ", "-");
 
@@ -408,12 +417,51 @@ export class ProductsService {
 
     });
 
-    obj.categories = catList;
-    obj.tags = tagsList;
-
     if(obj.variations.length < 1) {
       delete obj.variation_options;
     }
+    else {
+      let varsArr = obj.variations;
+      variation_options = varOptions.upsert;
+
+      let valuesArr = [];
+
+      await varsArr.forEach((item, index) => {
+        const variationsData = this.attributes.find((attr) => {
+          return attr.values.find((v) => {
+            return v.id === item.attribute_value_id;
+          });
+        });
+        const variationsArray = variationsData.values;
+        const variationsArrayData = variationsArray.find((v) => v.id === item.attribute_value_id);
+        valuesArr.push(variationsArrayData);
+
+        let variationsItem = {
+          id: variationsArrayData.id,
+          attribute_id: variationsData.id,
+          value: variationsArrayData.value,
+          meta: variationsArrayData.meta,
+          created_at: variationsArrayData.created_at,
+          updated_at: variationsArrayData.updated_at,
+          attribute: {
+            id: variationsData.id,
+            slug: variationsData.slug,
+            name: variationsData.name
+          },
+          values: valuesArr
+        }
+
+        variations.push(variationsItem);
+
+      });
+    }
+
+    obj.categories = catList;
+    obj.tags = tagsList;
+    obj.variation_options = variation_options;
+    obj.variations = variations;
+
+
     //delete obj.sub_categories;
 
     let resultObj = {...obj, slug: product_slug};
