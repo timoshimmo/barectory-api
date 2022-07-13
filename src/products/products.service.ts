@@ -74,6 +74,8 @@ export class ProductsService {
     let tagArr = obj.tags;
     let catList = [];
     let tagsList = [];
+    let variations = [];
+    let variation_options = [];
 
     let product_slug = obj.name.toLowerCase().replaceAll(" ", "-");
     let product_type = {
@@ -142,12 +144,51 @@ export class ProductsService {
 
     });
 
-    obj.categories = catList;
-    obj.tags = tagsList;
-
     if(obj.variations.length < 1) {
       delete obj.variation_options;
     }
+    else {
+      let varOptions = obj.variation_options;
+      let varsArr = obj.variations;
+      variation_options = varOptions.upsert;
+
+      let valuesArr = [];
+
+      await varsArr.forEach((item, index) => {
+        const variationsData = this.attributes.find((attr) => {
+          return attr.values.find((v) => {
+            return v.id === item.attribute_value_id;
+          });
+        });
+        const variationsArray = variationsData.values;
+        const variationsArrayData = variationsArray.find((v) => v.id === item.attribute_value_id);
+        valuesArr.push(variationsArrayData);
+
+        let variationsItem = {
+          id: variationsArrayData.id,
+          attribute_id: variationsData.id,
+          value: variationsArrayData.value,
+          meta: variationsArrayData.meta,
+          created_at: variationsArrayData.created_at,
+          updated_at: variationsArrayData.updated_at,
+          attribute: {
+            id: variationsData.id,
+            slug: variationsData.slug,
+            name: variationsData.name
+          },
+          values: valuesArr
+        }
+
+        variations.push(variationsItem);
+
+      });
+
+      obj.variation_options = variation_options;
+      obj.variations = variations;
+    }
+
+    obj.categories = catList;
+    obj.tags = tagsList;
     delete obj.sub_categories;
 
     let resultObj = {...obj, slug: product_slug, type: product_type};
@@ -356,7 +397,6 @@ export class ProductsService {
     let catArr = obj.categories;
     let subCarArr = obj.sub_categories;
     let tagArr = obj.tags;
-    let varOptions = obj.variation_options;
     let catList = [];
     let tagsList = [];
     let variations = [];
@@ -421,6 +461,7 @@ export class ProductsService {
       delete obj.variation_options;
     }
     else {
+      let varOptions = obj.variation_options;
       let varsArr = obj.variations;
       variation_options = varOptions.upsert;
 
@@ -454,13 +495,13 @@ export class ProductsService {
         variations.push(variationsItem);
 
       });
+
+      obj.variation_options = variation_options;
+      obj.variations = variations;
     }
 
     obj.categories = catList;
     obj.tags = tagsList;
-    obj.variation_options = variation_options;
-    obj.variations = variations;
-
 
     //delete obj.sub_categories;
 
