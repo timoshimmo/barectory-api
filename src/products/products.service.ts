@@ -189,7 +189,7 @@ export class ProductsService {
 
     obj.categories = catList;
     obj.tags = tagsList;
-    delete obj.sub_categories;
+  //  delete obj.sub_categories;
 
     let resultObj = {...obj, slug: product_slug, type: product_type};
 
@@ -218,8 +218,20 @@ export class ProductsService {
   }
 
   async getProducts({ limit, page, search }: GetProductsDto): Promise<ProductPaginator> {
+    const moptions = {
+      keys: [
+        'name',
+        'type.slug',
+        'categories.slug',
+        'status',
+        'tags',
+        'manufacturer.slug',
+      ],
+      threshold: 0.3,
+    };
     const db = admin.firestore();
     const docRef = db.collection('products');
+
     let results;
     let url;
     let data = [];
@@ -231,23 +243,24 @@ export class ProductsService {
     const snapshot = await docRef.get().then((querySnapshot) => {
         querySnapshot.forEach((doc) => {
           data.push(doc.data());
-
-          if (search) {
-            const parseSearchParams = search.split(';');
-            for (const searchParam of parseSearchParams) {
-              const [key, value] = searchParam.split(':');
-              // TODO: Temp Solution
-              if (key !== 'slug') {
-                data = fuse.search(value)?.map(({ item }) => item);
-              }
-            }
-          }
-
-          results = data.slice(startIndex, endIndex);
-          url = `/products?search=${search}&limit=${limit}`;
-
         });
     });
+
+    const mfuse = new Fuse(data, moptions);
+
+    if (search) {
+      const parseSearchParams = search.split(';');
+      for (const searchParam of parseSearchParams) {
+        const [key, value] = searchParam.split(':');
+        // TODO: Temp Solution
+        if (key !== 'slug') {
+          data = mfuse.search(value)?.map(({ item }) => item);
+        }
+      }
+    }
+
+    results = data.slice(startIndex, endIndex);
+    url = `/products?search=${search}&limit=${limit}`;
     // if (status) {
     //   data = fuse.search(status)?.map(({ item }) => item);
     // }

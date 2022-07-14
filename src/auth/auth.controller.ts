@@ -74,6 +74,11 @@ export class AuthController {
   me(@Param('id') id: string) {
     return this.authService.me(id);
   }
+
+  @Get('customer')
+  customer() {
+    return this.authService.customer();
+  }
   /*
   @Post('add-points')
   addWalletPoints(@Body() addPointsDto: any) {

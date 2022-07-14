@@ -274,6 +274,10 @@ export class AuthService {
     return result;
   }
 
+  customer(): User {
+    return this.users[0];
+  }
+
   // updateUser(id: number, updateUserInput: UpdateUserInput) {
   //   return `This action updates a #${id} user`;
   // }
