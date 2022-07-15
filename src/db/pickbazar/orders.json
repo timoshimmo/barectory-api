@@ -224,7 +224,7 @@
     "status": {
       "id": 1,
       "name": "Dispatched",
-      "serial": 1,
+      "serial": 3,
       "color": "#23b848",
       "created_at": "2021-03-08T21:33:52.000000Z",
       "updated_at": "2021-03-08T21:34:04.000000Z"
@@ -443,7 +443,7 @@
     "status": {
       "id": 1,
       "name": "Order Processing",
-      "serial": 1,
+      "serial": 2,
       "color": "#23b848",
       "created_at": "2021-03-08T21:33:52.000000Z",
       "updated_at": "2021-03-08T21:34:04.000000Z"
