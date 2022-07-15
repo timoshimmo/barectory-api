@@ -90,7 +90,6 @@ export class AuthService {
 
   }
 
-
   async createAdmin(createUserInput: CreateAdminDto): Promise<AuthResponse> {
   //  console.log("USER INPUT: " + JSON.stringify(createUserInput));
     const db = admin.firestore();
@@ -144,6 +143,22 @@ export class AuthService {
         permissions: ['super_admin'],
       };
 
+  }
+
+  async createCustomer(createUserInput: RegisterDto): Promise<AuthResponse> {
+    const user: User = {
+      id: uuidv4(),
+      ...users[0],
+      ...createUserInput,
+      created_at: new Date(),
+      updated_at: new Date(),
+    };
+
+    this.users.push(user);
+    return {
+      token: 'jwt token',
+      permissions: ['super_admin', 'customer'],
+    };
   }
 
   async login(loginInput: LoginDto): Promise<AuthResponse> {

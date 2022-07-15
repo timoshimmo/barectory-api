@@ -73,6 +73,7 @@ export class ProductsService {
     let subCarArr = obj.sub_categories;
     let tagArr = obj.tags;
     let catList = [];
+    let subCatList = [];
     let tagsList = [];
     let variations = [];
     let variation_options = [];
@@ -128,6 +129,7 @@ export class ProductsService {
         type_id: 1
       }
       catList.push(dItem);
+      subCatList.push(dItem);
     });
 
     await tagArr.forEach((item) => {
@@ -187,7 +189,12 @@ export class ProductsService {
       obj.variations = variations;
     }
 
+    if(!obj.sale_price) {
+      obj.sale_price = null;
+    }
+
     obj.categories = catList;
+    obj.sub_categories = subCatList;
     obj.tags = tagsList;
   //  delete obj.sub_categories;
 
@@ -351,14 +358,14 @@ export class ProductsService {
 
     let data = [];
     let results;
-    let mfuse;
-
+//    let mfuse;
+/*
     const moptions = {
       keys: ['categories.slug'],
       threshold: 0.3,
     };
 
-  /*  if(categories_slug.includes("-")) {
+   if(categories_slug.includes("-")) {
       const newName = item.replaceAll("-", " ");
       const arrStr = newName.split(" ");
       for (var i = 0; i < arrStr.length; i++) {
@@ -403,7 +410,7 @@ export class ProductsService {
     const data = JSON.stringify(updateProductDto);
     const obj = JSON.parse(data);
 
-    //console.log("PRODUCTS UPDATE: ", obj);
+  //  console.log("PRODUCTS UPDATE: ", obj);
     let result = false;
 
 
@@ -412,6 +419,7 @@ export class ProductsService {
     let tagArr = obj.tags;
     let catList = [];
     let tagsList = [];
+    let subCatList = [];
     let variations = [];
     let variation_options = [];
 
@@ -454,6 +462,7 @@ export class ProductsService {
         type_id: 1
       }
       catList.push(dItem);
+      subCatList.push(dItem);
     });
 
     await tagArr.forEach((item) => {
@@ -470,9 +479,17 @@ export class ProductsService {
 
     });
 
+    /*
+    delete obj.variation_options;
+    }
+    else {
+
+    */
+
     if(obj.variations.length < 1) {
       delete obj.variation_options;
     }
+
     else {
       let varOptions = obj.variation_options;
       let varsArr = obj.variations;
@@ -513,10 +530,16 @@ export class ProductsService {
       obj.variations = variations;
     }
 
+    if(!obj.sale_price) {
+      obj.sale_price = null;
+    }
+
     obj.categories = catList;
+    obj.sub_categories = subCatList;
     obj.tags = tagsList;
 
     //delete obj.sub_categories;
+  //  console.log("PRODUCT FULL: " + JSON.stringify(obj));
 
     let resultObj = {...obj, slug: product_slug};
 

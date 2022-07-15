@@ -27,6 +27,12 @@ export class AuthController {
   createAdmin(@Body() adminDto: CreateAdminDto) {
     return this.authService.createAdmin(adminDto);
   }
+
+  @Post('create-customer')
+  createCustomer(@Body() registerDto: RegisterDto) {
+    return this.authService.createCustomer(registerDto);
+  }
+  
   @Post('token')
   login(@Body() loginDto: LoginDto) {
     return this.authService.login(loginDto);

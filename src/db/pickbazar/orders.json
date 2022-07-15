@@ -220,10 +220,10 @@
     "id": 64,
     "tracking_number": "wkmlTz3qHjU9",
     "customer_id": 2,
-    "customer_contact": "19365141641631",
+    "customer_contact": "0800011223344",
     "status": {
       "id": 1,
-      "name": "Order Received",
+      "name": "Dispatched",
       "serial": 1,
       "color": "#23b848",
       "created_at": "2021-03-08T21:33:52.000000Z",
@@ -241,12 +241,12 @@
     "payment_gateway": "CASH_ON_DELIVERY",
     "shipping_address": {
       "zip": "40391",
-      "city": "Surulere",
+      "city": "Lekki Phase 1",
       "state": "LG",
       "country": "Nigeria",
-      "street_address": "107 Ogunlana Dr, Surulere 101241, Lagos",
-      "lat": 6.504933223412063,
-      "lng": 3.3521389999999984
+      "street_address": "52 Omorinre Johnson Street",
+      "lat": 6.436188269765778,
+      "lng": 3.462731437714155
     },
     "billing_address": {
       "zip": "122",
@@ -442,7 +442,7 @@
     "customer_contact": "19365141641631",
     "status": {
       "id": 1,
-      "name": "Order Received",
+      "name": "Order Processing",
       "serial": 1,
       "color": "#23b848",
       "created_at": "2021-03-08T21:33:52.000000Z",
@@ -700,7 +700,7 @@
         "customer_contact": "19365141641631",
         "status": {
           "id": 1,
-          "name": "Order Received",
+          "name": "Delivered",
           "serial": 1,
           "color": "#23b848",
           "created_at": "2021-03-08T21:33:52.000000Z",
