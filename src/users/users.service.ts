@@ -188,8 +188,8 @@ export class UsersService {
     };
   }
 
-  findOne(id: number) {
-    return this.users.find((user) => user.id === id);
+  findOne(id: string) {
+    return this.users.find((user) => user.id.toString() === id);
   }
 
   async update(id: string, updateUserDto: UpdateUserDto) {
