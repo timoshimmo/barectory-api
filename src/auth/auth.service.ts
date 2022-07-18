@@ -18,6 +18,7 @@ import {
 import { v4 as uuidv4 } from 'uuid';
 import { plainToClass } from 'class-transformer';
 import { User } from 'src/users/entities/user.entity';
+import { Customer } from 'src/users/entities/customer.entity';
 import { Admin } from 'src/users/entities/admin.entity';
 import { Profile } from 'src/users/entities/profile.entity';
 import usersJson from 'src/users/users.json';
@@ -171,16 +172,14 @@ export class AuthService {
             created_at: new Date(),
             updated_at: new Date(),
           };
-          const user: User = {
+          const user: Customer = {
             uid: userRecord.uid,
             is_active: true,
             shop_id: null,
             address: [],
             profile: profile,
             email: createUserInput.email,
-            name: createUserInput.name,
-            created_at: new Date(),
-            updated_at: new Date(),
+            name: createUserInput.name
           };
           const result = await docRef.doc(userRecord.uid).set(user).catch(console.error);
           console.log('Successfully created new user:', userRecord.uid);
