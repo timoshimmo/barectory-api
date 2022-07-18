@@ -172,7 +172,7 @@ export class AuthService {
             updated_at: new Date(),
           };
           const user: User = {
-            id: userRecord.uid,
+            uid: userRecord.uid,
             is_active: true,
             shop_id: null,
             address: [],
