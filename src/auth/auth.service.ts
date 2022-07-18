@@ -206,6 +206,7 @@ export class AuthService {
       permissions: ['super_admin', 'customer'],
     };
   }
+
   async changePassword(
     changePasswordInput: ChangePasswordDto,
   ): Promise<CoreResponse> {
@@ -218,18 +219,18 @@ export class AuthService {
       message: 'Password change successful',
     };
   }
+
   async forgetPassword(
     forgetPasswordInput: ForgetPasswordDto,
   ): Promise<CoreResponse> {
+
     console.log(forgetPasswordInput);
-
-
-
     return {
       success: true,
       message: 'Password change successful',
     };
   }
+
   async verifyForgetPasswordToken(
     verifyForgetPasswordTokenInput: VerifyForgetPasswordDto,
   ): Promise<CoreResponse> {
@@ -240,6 +241,7 @@ export class AuthService {
       message: 'Password change successful',
     };
   }
+
   async resetPassword(
     resetPasswordInput: ResetPasswordDto,
   ): Promise<CoreResponse> {
@@ -250,6 +252,7 @@ export class AuthService {
       message: 'Password change successful',
     };
   }
+
   async socialLogin(socialLoginDto: SocialLoginDto): Promise<AuthResponse> {
     console.log(socialLoginDto);
     return {
@@ -257,6 +260,7 @@ export class AuthService {
       permissions: ['super_admin', 'customer'],
     };
   }
+
   async otpLogin(otpLoginDto: OtpLoginDto): Promise<AuthResponse> {
     console.log(otpLoginDto);
     return {
@@ -264,6 +268,7 @@ export class AuthService {
       permissions: ['super_admin', 'customer'],
     };
   }
+
   async verifyOtpCode(verifyOtpInput: VerifyOtpDto): Promise<CoreResponse> {
     console.log(verifyOtpInput);
     return {
@@ -271,6 +276,7 @@ export class AuthService {
       success: true,
     };
   }
+
   async sendOtpCode(otpInput: OtpDto): Promise<OtpResponse> {
     console.log(otpInput);
     return {
@@ -299,6 +305,7 @@ export class AuthService {
   // public getUser(getUserArgs: GetUserArgs): User {
   //   return this.users.find((user) => user.id === getUserArgs.id);
   // }
+
   async me(id: string): Promise<Admin> {
 
     const db = admin.firestore();
