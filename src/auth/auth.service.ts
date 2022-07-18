@@ -146,19 +146,57 @@ export class AuthService {
   }
 
   async createCustomer(createUserInput: RegisterDto): Promise<AuthResponse> {
-    const user: User = {
-      id: uuidv4(),
-      ...users[0],
-      ...createUserInput,
-      created_at: new Date(),
-      updated_at: new Date(),
-    };
+    const db = admin.firestore();
+    let token;
+    try {
+        const docRef = db.collection('customer');
 
-    this.users.push(user);
-    return {
-      token: 'jwt token',
-      permissions: ['super_admin', 'customer'],
-    };
+        admin
+        .auth()
+        .createUser({
+          email: createUserInput.email,
+          emailVerified: true,
+          password: createUserInput.password,
+          displayName: createUserInput.name,
+        })
+        .then(async(userRecord) => {
+          // See the UserRecord reference doc for the contents of userRecord.
+
+          const profile: Profile = {
+            id: 1,
+            avatar: null,
+            bio: "",
+            socials: null,
+            contact: "",
+            created_at: new Date(),
+            updated_at: new Date(),
+          };
+          const user: User = {
+            id: userRecord.uid,
+            is_active: true,
+            shop_id: null,
+            address: [],
+            profile: profile,
+            email: createUserInput.email,
+            name: createUserInput.name,
+            created_at: new Date(),
+            updated_at: new Date(),
+          };
+          const result = await docRef.doc(userRecord.uid).set(user).catch(console.error);
+          console.log('Successfully created new user:', userRecord.uid);
+          token = userRecord.uid;
+          //return result;
+        });
+
+      } catch (e) {
+          throw e;
+      }
+
+      return {
+        token: 'jwt token',
+        permissions: ['customer'],
+      };
+
   }
 
   async login(loginInput: LoginDto): Promise<AuthResponse> {

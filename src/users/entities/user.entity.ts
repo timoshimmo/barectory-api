@@ -5,6 +5,7 @@ import { Shop } from 'src/shops/entities/shop.entity';
 import { Profile } from './profile.entity';
 
 export class User extends CoreEntity {
+  id: string,
   name: string;
   email: string;
   password?: string;
