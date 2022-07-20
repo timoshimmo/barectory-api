@@ -397,7 +397,15 @@
         "meta": null,
         "created_at": "2021-05-09T17:45:30.000000Z",
         "updated_at": "2021-05-09T17:45:30.000000Z"
-      }
+      },
+      {
+        "id": 100,
+        "attribute_id": 4,
+        "value": "33cl x 24",
+        "meta": null,
+        "created_at": "2021-05-09T16:11:35.000000Z",
+        "updated_at": "2021-05-09T18:58:16.000000Z"
+      },
     ],
     "shop": {
       "id": 2,
