@@ -150,6 +150,7 @@ export class AuthService {
     const db = admin.firestore();
     let token;
     try {
+
         const docRef = db.collection('customer');
 
         admin
@@ -176,6 +177,7 @@ export class AuthService {
             uid: userRecord.uid,
             is_active: true,
             shop_id: null,
+            loyaltyPoints: 0,
             address: [],
             profile: profile,
             email: createUserInput.email,

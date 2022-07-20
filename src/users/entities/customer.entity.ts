@@ -5,6 +5,7 @@ import { Profile } from './profile.entity';
 
 export class Customer {
   uid: string;
+  loyaltyPoints: number;
   name: string;
   email: string;
   password?: string;
