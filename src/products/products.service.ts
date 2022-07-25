@@ -8,6 +8,7 @@ import { GetSalesProductsDto } from './dto/get-sales-products.dto';
 import { Product } from './entities/product.entity';
 import { Category } from 'src/categories/entities/category.entity';
 import { Tag } from 'src/tags/entities/tag.entity';
+import { Manufacturer } from 'src/manufacturers/entities/manufacturer.entity';
 import { Attribute } from 'src/attributes/entities/attribute.entity';
 import { AttributeValue } from 'src/attributes/entities/attribute-value.entity';
 import { paginate } from 'src/common/pagination/paginate';
@@ -15,6 +16,7 @@ import productsJson from '@db/products.json';
 import categoriesJson from '@db/categories.json';
 import tagsJson from 'src/tags/tags.json';
 import attributesJson from '@db/attributes.json';
+import manufacturersJson from 'src/manufacturers/manufacturers.json';
 import Fuse from 'fuse.js';
 import * as admin from 'firebase-admin';
 
@@ -22,6 +24,7 @@ const products = plainToClass(Product, productsJson);
 const categories = plainToClass(Category, categoriesJson);
 const tags = plainToClass(Tag, tagsJson);
 const attributes = plainToClass(Attribute, attributesJson);
+const manufacturers = plainToClass(Manufacturer, manufacturersJson);
 
 const options = {
   keys: [
@@ -60,6 +63,7 @@ export class ProductsService {
   private categories: Category[] = categories;
   private tags: Tag[] = tags;
   private attributes: Attribute[] = attributes;
+  private manufacturers: Manufacturer[] = manufacturers;
 
   async create(createProductDto: CreateProductDto) {
 
@@ -71,12 +75,15 @@ export class ProductsService {
 
     let catArr = obj.categories;
     let subCarArr = obj.sub_categories;
-    let tagArr = obj.tags;
+  //  let tagArr = obj.tags;
     let catList = [];
     let subCatList = [];
-    let tagsList = [];
+  //  let tagsList = [];
     let variations = [];
     let variation_options = [];
+
+    console.log("CATS: " + JSON.stringify(catArr));
+
 
     let product_slug = obj.name.toLowerCase().replaceAll(" ", "-");
     let product_type = {
@@ -92,7 +99,7 @@ export class ProductsService {
       promotional_sliders: []
     };
 
-    await catArr.forEach((item) => {
+  /*  await catArr.forEach((item) => {
       const catData = this.categories.find((p) => p.slug === item);
       let dItem = {
         id: catData.id,
@@ -102,7 +109,28 @@ export class ProductsService {
         type_id: 1
       }
       catList.push(dItem);
-    });
+    });*/
+
+    const catData = this.categories.find((p) => p.slug === obj.categories);
+    if(catData !== undefined) {
+      //console.log(`CATS DATA: ${index} ${JSON.stringify(catData)}`);
+      let dItem = {
+        id: catData.id,
+        name: catData.name,
+        slug: catData.slug,
+        parent: catData.parent,
+        type_id: 1
+      }
+      catList.push(dItem);
+    }
+
+    const manuData = this.manufacturers.find((m) => m.id === obj.manufacturer_id);
+    let mItem = {
+      id: manuData.id,
+      name: manuData.name,
+      slug: manuData.slug,
+      is_approved: true
+    }
 
     await subCarArr.forEach((item, index) => {
       let name = '';
@@ -132,7 +160,7 @@ export class ProductsService {
       subCatList.push(dItem);
     });
 
-    await tagArr.forEach((item) => {
+/*    await tagArr.forEach((item) => {
       const tagData = this.tags.find((p) => p.id === Number(item));
       let tItem = {
         id: tagData.id,
@@ -144,7 +172,7 @@ export class ProductsService {
 
       tagsList.push(tItem);
 
-    });
+    }); */
 
     if(obj.variations.length < 1) {
       delete obj.variation_options;
@@ -195,10 +223,12 @@ export class ProductsService {
 
     obj.categories = catList;
     obj.sub_categories = subCatList;
-    obj.tags = tagsList;
+  //  obj.tags = tagsList;
+
+    delete obj.manufacturer_id;
   //  delete obj.sub_categories;
 
-    let resultObj = {...obj, slug: product_slug, type: product_type};
+    let resultObj = {...obj, slug: product_slug, type: product_type, manufacturer: mItem, in_stock: true};
 
 //    console.log("ALL: " + JSON.stringify(resultObj));
 
@@ -416,17 +446,20 @@ export class ProductsService {
 
     let catArr = obj.categories;
     let subCarArr = obj.sub_categories;
-    let tagArr = obj.tags;
+    let tagArr = [];
     let catList = [];
-    let tagsList = [];
     let subCatList = [];
     let variations = [];
     let variation_options = [];
 
     let product_slug = obj.name.toLowerCase().replaceAll(" ", "-");
 
-    await catArr.forEach((item) => {
-      const catData = this.categories.find((p) => p.slug === item);
+    console.log("TAGS: " + JSON.stringify(obj.tags));
+//    console.log("CATS: " + JSON.stringify(catArr));
+
+    const catData = this.categories.find((p) => p.slug === obj.categories);
+    if(catData !== undefined) {
+      //console.log(`CATS DATA: ${index} ${JSON.stringify(catData)}`);
       let dItem = {
         id: catData.id,
         name: catData.name,
@@ -435,7 +468,29 @@ export class ProductsService {
         type_id: 1
       }
       catList.push(dItem);
-    });
+    }
+
+    const manuData = this.manufacturers.find((m) => m.id === obj.manufacturer_id);
+    let mItem = {
+      id: manuData.id,
+      name: manuData.name,
+      slug: manuData.slug,
+      is_approved: true
+    }
+    //manuList.push(mItem);
+
+    /*await catArr.forEach((item, index) => {
+      const catData = this.categories.find((p) => p.slug === item);
+      console.log(`CATS DATA: ${index} ${JSON.stringify(catData)}`);
+      let dItem = {
+        id: catData.id,
+        name: catData.name,
+        slug: catData.slug,
+        parent: catData.parent,
+        type_id: 1
+      }
+      catList.push(dItem);
+    });*/
 
     await subCarArr.forEach((item, index) => {
       let name = '';
@@ -465,7 +520,9 @@ export class ProductsService {
       subCatList.push(dItem);
     });
 
-    await tagArr.forEach((item) => {
+  //  tagArr = obj.tags.split(',');
+
+  /*  await tagArr.forEach((item) => {
       const tagData = this.tags.find((p) => p.id === Number(item));
       let tItem = {
         id: tagData.id,
@@ -477,7 +534,7 @@ export class ProductsService {
 
       tagsList.push(tItem);
 
-    });
+    }); */
 
     /*
     delete obj.variation_options;
@@ -534,14 +591,16 @@ export class ProductsService {
       obj.sale_price = null;
     }
 
+  //  console.log("TAGS LIST: " + JSON.stringify(tagsList));
+
     obj.categories = catList;
     obj.sub_categories = subCatList;
-    obj.tags = tagsList;
+  //  obj.tags = tagArr;
 
-    //delete obj.sub_categories;
+    delete obj.manufacturer_id;
   //  console.log("PRODUCT FULL: " + JSON.stringify(obj));
 
-    let resultObj = {...obj, slug: product_slug};
+    let resultObj = {...obj, slug: product_slug, manufacturer: mItem, in_stock: true};
 
     const docRef = admin.firestore().collection('products').doc(id);
     await docRef.update(resultObj)
