@@ -1,11 +1,14 @@
 import { PaymentGatewayType } from '../entities/order.entity';
+import { OrderUser } from 'src/users/entities/user.entity';
+import { OrderProduct } from 'src/products/entities/product.entity';
 
 export class CreateOrderDto {
   shop_id?: number;
   coupon_id?: number;
   status: string;
+  customer: OrderUser;
   customer_contact: string;
-  products: ConnectProductOrderPivot[];
+  products: OrderProduct[];
   amount: number;
   sales_tax: number;
   total?: number;

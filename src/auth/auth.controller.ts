@@ -32,7 +32,7 @@ export class AuthController {
   createCustomer(@Body() registerDto: RegisterDto) {
     return this.authService.createCustomer(registerDto);
   }
-  
+
   @Post('token')
   login(@Body() loginDto: LoginDto) {
     return this.authService.login(loginDto);
@@ -81,9 +81,10 @@ export class AuthController {
     return this.authService.me(id);
   }
 
-  @Get('customer')
-  customer() {
-    return this.authService.customer();
+  @Get('customer/:id')
+  customer(@Param('id') id: string) {
+  //  console.log("USERID: " + id);
+    return this.authService.customer(id);
   }
   /*
   @Post('add-points')

@@ -311,7 +311,7 @@ export class AuthService {
 
     const db = admin.firestore();
     let result: Admin;
-    let response;
+  //  let response;
 
     const docRef = db.collection('admin').doc(id);
 
@@ -335,8 +335,34 @@ export class AuthService {
     return result;
   }
 
-  customer(): User {
-    return this.users[0];
+  async customer(id: string): Promise<Customer> {
+
+    const db = admin.firestore();
+    let result: Customer;
+    let response;
+
+    const docRef = db.collection('customer').doc(id);
+
+    await docRef.get().then((doc) => {
+        if (doc.exists) {
+            result = {
+              uid: doc.data().uid,
+              profile: doc.data().profile,
+              email: doc.data().email,
+              loyaltyPoints: doc.data().loyaltyPoints,
+              name: doc.data().name,
+              address: doc.data().address,
+            };
+        } else {
+            // doc.data() will be undefined in this case
+            console.log("No such document!");
+        }
+    }).catch((error) => {
+        console.log("Error getting document:", error);
+    });
+
+    return result;
+    //return this.users[0];
   }
 
   // updateUser(id: number, updateUserInput: UpdateUserInput) {

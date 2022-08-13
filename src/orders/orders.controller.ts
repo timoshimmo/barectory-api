@@ -34,11 +34,12 @@ export class OrdersController {
 
   @Get(':id')
   getOrderById(@Param('id') id: string) {
-    return this.ordersService.getOrderById(+id);
+    return this.ordersService.getOrderById(id);
   }
 
-  @Get('tracking-number/:tracking_id')
+  @Get('tracking_number/:tracking_id')
   getOrderByTrackingNumber(@Param('tracking_id') tracking_id: string) {
+    //console.log("TRACKING NUMBER:" + tracking_id);
     return this.ordersService.getOrderByTrackingNumber(tracking_id);
   }
 

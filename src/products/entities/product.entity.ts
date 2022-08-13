@@ -78,3 +78,13 @@ export class File extends CoreEntity {
   url: string;
   fileable_id: number;
 }
+
+
+export class OrderProduct {
+  product_id: string;
+  unit_price: number;
+  subtotal: number;
+  image: string;
+  name: string;
+  slug: string;
+}

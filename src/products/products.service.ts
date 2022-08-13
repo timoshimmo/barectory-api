@@ -40,7 +40,6 @@ const options = {
   threshold: 0.3,
 };
 
-
 const fuse = new Fuse(products, options);
 
 /*  var firestore = admin.firestore();
@@ -82,7 +81,7 @@ export class ProductsService {
     let variations = [];
     let variation_options = [];
 
-    console.log("CATS: " + JSON.stringify(catArr));
+    //console.log("CATS: " + JSON.stringify(catArr));
 
 
     let product_slug = obj.name.toLowerCase().replaceAll(" ", "-");
@@ -266,21 +265,37 @@ export class ProductsService {
       ],
       threshold: 0.3,
     };
-    const db = admin.firestore();
-    const docRef = db.collection('products');
+  //  const db = admin.firestore();
+  //  const docRef = db.collection('products');
+
+    const mdb = admin.database();
+    const ref = mdb.ref("products");
+
 
     let results;
     let url;
-    let data = [];
+    //let data = [];
+    let data: Product[] = this.products;
     if (!page) page = 1;
     if (!limit) limit = 30;
     const startIndex = (page - 1) * limit;
     const endIndex = page * limit;
     //let data: Product[] = this.products;
-    const snapshot = await docRef.get().then((querySnapshot) => {
+/*    const snapshot = await docRef.get().then((querySnapshot) => {
         querySnapshot.forEach((doc) => {
           data.push(doc.data());
         });
+    });*/
+
+    await ref.once("value", function(snapshot) {
+      const response = snapshot.val();
+      Object.entries(response).forEach(entry => {
+        const [key, value] = entry;
+        let mObj = JSON.parse(JSON.stringify(value));
+        let newObj = { ...mObj, id: key }
+
+        data.push(newObj);
+      });
     });
 
     const mfuse = new Fuse(data, moptions);
@@ -291,7 +306,7 @@ export class ProductsService {
         const [key, value] = searchParam.split(':');
         // TODO: Temp Solution
         if (key !== 'slug') {
-          data = mfuse.search(value)?.map(({ item }) => item);
+          data = fuse.search(value)?.map(({ item }) => item);
         }
       }
     }
@@ -323,8 +338,37 @@ export class ProductsService {
     };
   }
 
-  getPopularProducts({ limit, type_slug }: GetPopularProductsDto): Product[] {
-    let data: any = this.products;
+  async getPopularProducts({ limit, type_slug }: GetPopularProductsDto): Promise<Product[]> {
+
+    let data = [];
+  //  let data: Product[] = this.products;
+
+    //  const db = admin.firestore();
+    //  const docRef = db.collection('products');
+
+    const mdb = admin.database();
+    const ref = mdb.ref("products");
+
+/*    const snapshot = await docRef.get().then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+          data.push(doc.data());
+        });
+    }); */
+
+
+    await ref.once("value", function(snapshot) {
+      const response = snapshot.val();
+      Object.entries(response).forEach(entry => {
+        const [key, value] = entry;
+        let mObj = JSON.parse(JSON.stringify(value));
+        let newObj = { ...mObj, id: key }
+
+        data.push(newObj);
+      });
+    });
+
+    const fuse = new Fuse(data, options);
+
     if (type_slug) {
       data = fuse.search(type_slug)?.map(({ item }) => item);
     }
@@ -332,39 +376,51 @@ export class ProductsService {
   }
 
   async getProductBySlug(slug: string): Promise<Product> {
-    const db = admin.firestore();
-    const docRef = db.collection('products');
+  //  const db = admin.firestore();
+  //  const docRef = db.collection('products');
+
+    const mdb = admin.database();
+    const ref = mdb.ref("products");
+
+    const moptions = {
+      keys: [
+        'type.slug',
+      ],
+      threshold: 0.0,
+    };
 
     let results;
     let related_products;
     let data = [];
+  //  let data: Product[] = this.products;
     let product;
 
-    const snapshot = await docRef.get().then((querySnapshot) => {
+    /*const snapshot = await docRef.get().then((querySnapshot) => {
         querySnapshot.forEach((doc) => {
           data.push(doc.data());
 
         });
-    });
-
-    product = data.find((p) => p.slug === slug);
-    //console.log("PRODUCT DATA:" + JSON.stringify(product));
-    related_products = data
-      .filter((p) => p.type.slug === product.type.slug)
-      .slice(0, 20);
-
-  /*  await db.collection('products').where("slug", "==", slug)
-    .get()
-    .then((querySnapshot) => {
-        querySnapshot.forEach((doc) => {
-          product.push(doc.data());
-        });
-    })
-    .catch((error) => {
-      console.log("Error getting documents: ", error);
     }); */
 
-//    console.log("GET PRODUCTS BY SLUG!");
+    await ref.once("value", function(snapshot) {
+      const response = snapshot.val();
+      Object.entries(response).forEach(entry => {
+        const [key, value] = entry;
+        let mObj = JSON.parse(JSON.stringify(value));
+        let newObj = { ...mObj, id: key }
+
+        data.push(newObj);
+      });
+    });
+
+    const mfuse = new Fuse(data, moptions);
+
+    product = data.find((p) => p.slug === slug);
+    //console.log("PRODUCT DATA:" + JSON.stringify(data[0].type.slug));
+
+    results = mfuse.search(product.type.slug)?.map(({ item }) => item);
+
+    related_products = results.slice(0, 20);
 
     return {
       ...product,
@@ -372,66 +428,72 @@ export class ProductsService {
     };
   }
 
-  getSalesProducts({ limit, type_slug }: GetSalesProductsDto): Product[] {
-  //  let data = [];
-    let data: any = this.products.filter((p) => p.price > p.sale_price && p.sale_price !== null);
+  async getSalesProducts({ limit, type_slug }: GetSalesProductsDto): Promise<Product[]> {
+
+    let data = [];
+  //  let data: Product[] = this.products;
+    //  const db = admin.firestore();
+    //  const docRef = db.collection('products');
+
+    const mdb = admin.database();
+    const ref = mdb.ref("products");
+
+  await ref.once("value", function(snapshot) {
+    const response = snapshot.val();
+    Object.entries(response).forEach(entry => {
+      const [key, value] = entry;
+      let mObj = JSON.parse(JSON.stringify(value));
+      let newObj = { ...mObj, id: key }
+
+      data.push(newObj);
+    });
+  });
+
+    let result = data.filter((p) => p.price > p.sale_price && p.sale_price !== null);
+    const fuse = new Fuse(data, options);
+
     if (type_slug) {
-      data = fuse.search(type_slug)?.map(({ item }) => item);
+      result = fuse.search(type_slug)?.map(({ item }) => item);
     }
-    return data?.slice(0, limit);
+    return result?.slice(0, limit);
   }
 
   async getProductsByCategory(categories_slug: string): Promise<Product[]> {
 
-    const db = admin.firestore();
-    const docRef = db.collection('products');
+    //  const db = admin.firestore();
+    //  const docRef = db.collection('products');
+
+    const mdb = admin.database();
+    const ref = mdb.ref("products");
+
+
+      const moptions = {
+        keys: [
+          'categories.slug',
+        ],
+        threshold: 0.0,
+      };
 
     let data = [];
+    let mData = [];
     let results;
-//    let mfuse;
-/*
-    const moptions = {
-      keys: ['categories.slug'],
-      threshold: 0.3,
-    };
 
-   if(categories_slug.includes("-")) {
-      const newName = item.replaceAll("-", " ");
-      const arrStr = newName.split(" ");
-      for (var i = 0; i < arrStr.length; i++) {
-          arrStr[i] = arrStr[i].charAt(0).toUpperCase() + arrStr[i].slice(1);
-      }
+    await ref.once("value", function(snapshot) {
+      const response = snapshot.val();
+      Object.entries(response).forEach(entry => {
+        const [key, value] = entry;
+        let mObj = JSON.parse(JSON.stringify(value));
+        let newObj = { ...mObj, id: key }
 
-      const str2 = arrStr.join(" ");
-      name = str2;
-    }
-    else {
-      name = item.charAt(0).toUpperCase() + item.slice(1);
-    }
-
-    let dItem = {
-      id: 1,
-      name: catData.name,
-      slug: catData.slug,
-      parent: catData.parent,
-      type_id: 1
-    }
-*/
-    const snapshot = await docRef.get().then((querySnapshot) => {
-        querySnapshot.forEach((doc) => {
-          data.push(doc.data());
-        });
+        data.push(newObj);
+      });
     });
 
-    //mfuse = new Fuse(data, moptions);
-  //  results = mfuse.search(categories_slug)?.map(({ item }) => item);
+    const mfuse = new Fuse(data, moptions);
 
-    results = data.filter((p) => p.categories[0].slug === categories_slug || p.categories[1].slug === categories_slug);
-  //  let data: any = this.products;
 
-//  console.log("GET PRODUCTS BY CATEGORY!");
+    results = mfuse.search(categories_slug)?.map(({ item }) => item);
 
-    //const products = this.products.filter((p) => p.categories.includes(category_slug));
     return results;
   }
 
@@ -454,7 +516,7 @@ export class ProductsService {
 
     let product_slug = obj.name.toLowerCase().replaceAll(" ", "-");
 
-    console.log("TAGS: " + JSON.stringify(obj.tags));
+  //  console.log("TAGS: " + JSON.stringify(obj.tags));
 //    console.log("CATS: " + JSON.stringify(catArr));
 
     const catData = this.categories.find((p) => p.slug === obj.categories);

@@ -192,14 +192,68 @@ export class UsersService {
     return this.users.find((user) => user.id === id);
   }
 
+  async updateCustomer(id: string, updateUserDto: UpdateUserDto) {
+    let result = false;
+    let uMobileNo = null;
+    let picurl = null;
+
+    console.log("UPDATE DATA: " + JSON.stringify(updateUserDto, null, 2));
+
+    if(updateUserDto.profile.contact) {
+      uMobileNo = updateUserDto.profile.contact;
+      if(uMobileNo.charAt(0) === '0') {
+        const xMobileNo = uMobileNo.substring(1);
+        uMobileNo = '+234'+xMobileNo;
+      }
+    }
+
+    if(updateUserDto.profile.avatar.original) {
+      picurl = updateUserDto.profile.avatar.original;
+    }
+
+    await admin.auth().updateUser(id, {
+      phoneNumber: uMobileNo,
+      displayName: updateUserDto.name,
+      photoURL: picurl,
+    })
+    .then(async(userRecord) => {
+      // See the UserRecord reference doc for the contents of `userRecord`.
+      //  console.log("Successfully updated user", userRecord.toJSON());
+      if(userRecord) {
+        const docRef = admin.firestore().collection('customer').doc(id);
+
+        await docRef.update({
+          name: updateUserDto.name,
+          profile: updateUserDto.profile
+        }).then(() => {
+          console.log('Write succeeded!');
+          result = true;
+        })
+      }
+
+    })
+    .catch(function(error) {
+      console.log("Error updating user:", error);
+    });
+
+    return {
+      success: result,
+      message: 'Admin profile updated',
+    };
+  }
+
   async update(id: string, updateUserDto: UpdateUserDto) {
     let result = false;
+    let uMobileNo = "";
 
-    let uMobileNo = updateUserDto.profile.contact;
-    if(uMobileNo.charAt(0) === '0') {
-      const xMobileNo = uMobileNo.substring(1);
-      uMobileNo = '+234'+xMobileNo;
+    if(updateUserDto.profile.contact) {
+      uMobileNo = updateUserDto.profile.contact;
+      if(uMobileNo.charAt(0) === '0') {
+        const xMobileNo = uMobileNo.substring(1);
+        uMobileNo = '+234'+xMobileNo;
+      }
     }
+
     await admin.auth().updateUser(id, {
       phoneNumber: uMobileNo,
       displayName: updateUserDto.name,

@@ -52,6 +52,12 @@ export class UsersController {
     return this.usersService.update(id, updateUserDto);
   }
 
+  @Put('update-customer/:id')
+  updateCustomer(@Param('id') id: string, @Body() updateUserDto: UpdateUserDto) {
+    console.log("UPDATE CUSTOMER ID: " + id);
+    return this.usersService.updateCustomer(id, updateUserDto);
+  }
+
   @Delete(':id')
   removeUser(@Param('id') id: string) {
     return this.usersService.remove(+id);

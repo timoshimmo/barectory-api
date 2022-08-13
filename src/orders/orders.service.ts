@@ -6,7 +6,9 @@ import ordersJson from '@db/orders.json';
 import orderStatusJson from '@db/order-statuses.json';
 import orderFilesJson from './order-files.json';
 import { plainToClass } from 'class-transformer';
-import { Order, OrderFiles } from './entities/order.entity';
+import { Order, OrderFiles, PaymentGatewayType } from './entities/order.entity';
+import { OrderUser } from 'src/users/entities/user.entity';
+import { OrderProduct, OrderProductPivot } from 'src/products/entities/product.entity';
 import { OrderStatus } from './entities/order-status.entity';
 import { paginate } from 'src/common/pagination/paginate';
 import {
@@ -22,6 +24,8 @@ import {
   UpdateOrderStatusDto,
 } from './dto/create-order-status.dto';
 import { GetOrderFilesDto } from './dto/get-downloads.dto';
+import Fuse from 'fuse.js';
+import * as admin from 'firebase-admin';
 
 const orders = plainToClass(Order, ordersJson);
 const orderStatus = plainToClass(OrderStatus, orderStatusJson);
@@ -34,9 +38,85 @@ export class OrdersService {
   private orderStatus: OrderStatus[] = orderStatus;
   private orderFiles: OrderFiles[] = orderFiles;
 
-  create(createOrderInput: CreateOrderDto) {
-    return this.orders[0];
+async create(createOrderInput: CreateOrderDto) {
+    //console.log("ORDER: " + JSON.stringify(createOrderInput));
+    const data = JSON.stringify(createOrderInput);
+    const obj = JSON.parse(data);
+
+    //const db = admin.firestore();
+
+    const db = admin.firestore();
+
+    let trackingNumber = this.randomString(12, '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ');
+  //  const statusData = this.orderStatus.find((p) => p.id === obj.status);
+
+  //  delete obj.status;
+
+    //obj.status = statusData;
+
+    const orderStatus: OrderStatus = {
+      id: 1,
+      name: "Order Received",
+      color: "#23b848",
+      serial: 1,
+      created_at: new Date(),
+      updated_at: new Date(),
+    }
+
+    const newOrder: Order = {
+      id: "1",
+      customer_id: createOrderInput.customer.id,
+      customer_contact: createOrderInput.customer_contact,
+      customer: createOrderInput.customer,
+      parent_order: null,
+      children: null,
+      status: orderStatus,
+      amount: createOrderInput.amount,
+      sales_tax: createOrderInput.sales_tax,
+      total: createOrderInput.total,
+      paid_total: createOrderInput.paid_total,
+      payment_id: null,
+      payment_gateway: PaymentGatewayType.PAYSTACK,
+      coupon: null,
+      discount: createOrderInput.discount,
+      delivery_fee: createOrderInput.delivery_fee,
+      delivery_time: "Express Delivery",
+      products: createOrderInput.products,
+      shipping_address: createOrderInput.shipping_address,
+      tracking_number: trackingNumber,
+      created_at: new Date(),
+      updated_at: new Date(),
+    };
+
+  //  let resultObj = {...obj, status: statusData, tracking_number: trackingNumber};
+
+  //  console.log("RESULTS: " + JSON.stringify(resultObj));
+
+    try {
+        const docRef = db.collection('orders');
+      //  const slug = createProductDto.name;
+        await docRef.add(newOrder)
+        .then(async(res) => {
+          await docRef.doc(res.id).update({
+            id: res.id
+          })
+            //console.log("Order created!")
+        })
+        .catch(console.error);
+
+      } catch (e) {
+        throw e;
+      }
+
+
+      return newOrder;
   }
+
+randomString(length, chars) {
+    var result = '';
+    for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+    return result;
+}
 
   getOrders({
     limit,
@@ -52,9 +132,9 @@ export class OrdersService {
     const endIndex = page * limit;
     let data: Order[] = this.orders;
 
-    if (shop_id && shop_id !== 'undefined') {
+  /*  if (shop_id && shop_id !== 'undefined') {
       data = this.orders?.filter((p) => p?.shop?.id === Number(shop_id));
-    }
+    }*/
     const results = data.slice(startIndex, endIndex);
     const url = `/orders?search=${search}&limit=${limit}`;
     return {
@@ -63,12 +143,25 @@ export class OrdersService {
     };
   }
 
-  getOrderById(id: number): Order {
-    return this.orders.find((p) => p.id === Number(id));
+  getOrderById(id: string): Order {
+    return this.orders.find((p) => p.id === id);
   }
 
-  getOrderByTrackingNumber(tracking_number: string): Order {
-    const parentOrder = this.orders.find(
+  async getOrderByTrackingNumber(tracking_number: string): Promise<Order> {
+
+  //  console.log("TRACKING NUMBER SERVICE:" + tracking_number);
+      let data = [];
+
+      const db = admin.firestore();
+      const docRef = db.collection('orders');
+
+      const snapshot = await docRef.get().then((querySnapshot) => {
+              querySnapshot.forEach((doc) => {
+                data.push(doc.data());
+              });
+      });
+
+    const parentOrder = data.find(
       (p) => p.tracking_number === tracking_number,
     );
     if (!parentOrder) {

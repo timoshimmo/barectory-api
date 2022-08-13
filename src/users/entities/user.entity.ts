@@ -17,3 +17,9 @@ export class User extends CoreEntity {
   address?: Address[];
   // orders?: Order[];
 }
+
+export class OrderUser {
+  id: string;
+  name: string;
+  email: string;
+}

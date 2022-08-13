@@ -68,7 +68,7 @@ export class CouponsService {
             'https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/925/conversions/5x2x-thumbnail.jpg',
         },
         type: 'fixed',
-        amount: 5,
+        amount: 100,
         active_from: '2021-03-28T05:46:42.000Z',
         expire_at: '2024-06-23T05:46:42.000Z',
         created_at: '2021-03-28T05:48:16.000000Z',

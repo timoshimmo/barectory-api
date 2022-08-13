@@ -1,21 +1,24 @@
 import { UserAddress } from 'src/addresses/entities/address.entity';
 import { CoreEntity } from 'src/common/entities/core.entity';
+import { CommonEntity } from 'src/common/entities/common.entity';
 import { Coupon } from 'src/coupons/entities/coupon.entity';
 import { File, Product } from 'src/products/entities/product.entity';
+import { OrderProduct } from 'src/products/entities/product.entity';
 import { Shop } from 'src/shops/entities/shop.entity';
 import { User } from 'src/users/entities/user.entity';
+import { OrderUser } from 'src/users/entities/user.entity';
 import { OrderStatus } from './order-status.entity';
 
 export enum PaymentGatewayType {
-  STRIPE = 'stripe',
+  PAYSTACK = 'paystack',
   CASH_ON_DELIVERY = 'cod',
 }
 
-export class Order extends CoreEntity {
+export class Order extends CommonEntity {
   tracking_number: string;
-  customer_id: number;
+  customer_id: string;
   customer_contact: string;
-  customer: User;
+  customer: OrderUser;
   parent_order?: Order;
   children: Order[];
   status: OrderStatus;
@@ -26,13 +29,11 @@ export class Order extends CoreEntity {
   payment_id?: string;
   payment_gateway: PaymentGatewayType;
   coupon?: Coupon;
-  shop: Shop;
   discount?: number;
   delivery_fee: number;
   delivery_time: string;
-  products: Product[];
-  billing_address: UserAddress;
-  shipping_address: UserAddress;
+  products: OrderProduct[];
+  shipping_address: any;
 }
 
 export class OrderFiles extends CoreEntity {

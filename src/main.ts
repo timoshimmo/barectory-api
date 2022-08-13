@@ -23,6 +23,7 @@ async function bootstrap() {
       authProviderX509CertUrl: firebaseConfig.auth_provider_x509_cert_url,
       clientC509CertUrl: firebaseConfig.client_x509_cert_url,
     } as Partial<admin.ServiceAccount>),
+    databaseURL: "https://barectory-default-rtdb.europe-west1.firebasedatabase.app/"
   });
   const config = new DocumentBuilder()
     .setTitle('Marvel')
