@@ -87,4 +87,5 @@ export class OrderProduct {
   image: string;
   name: string;
   slug: string;
+  pivot: OrderProductPivot;
 }

@@ -43,12 +43,44 @@ async create(createOrderInput: CreateOrderDto) {
     const data = JSON.stringify(createOrderInput);
     const obj = JSON.parse(data);
 
+    let productsArr = obj.products;
+    let orderProducts: OrderProduct[] = [];
+
     //const db = admin.firestore();
 
     const db = admin.firestore();
 
     let trackingNumber = this.randomString(12, '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ');
   //  const statusData = this.orderStatus.find((p) => p.id === obj.status);
+
+  await productsArr.forEach((item, index) => {
+
+    let variationId = null;
+
+    if(item.variation_option_id) {
+      variationId = item.variation_option_id;
+    }
+
+    const productPivot: OrderProductPivot = {
+      variation_option_id: variationId,
+      order_quantity: item.order_quantity,
+      unit_price: item.unit_price,
+      subtotal: item.subtotal,
+    }
+
+    const productsData: OrderProduct = {
+      product_id: item.product_id,
+      unit_price: item.unit_price,
+      subtotal: item.subtotal,
+      image: item.image,
+      name: item.name,
+      slug: item.slug,
+      pivot:productPivot,
+    }
+
+    orderProducts.push(productsData);
+
+  })
 
   //  delete obj.status;
 
@@ -62,6 +94,7 @@ async create(createOrderInput: CreateOrderDto) {
       created_at: new Date(),
       updated_at: new Date(),
     }
+
 
     const newOrder: Order = {
       id: "1",
@@ -81,7 +114,7 @@ async create(createOrderInput: CreateOrderDto) {
       discount: createOrderInput.discount,
       delivery_fee: createOrderInput.delivery_fee,
       delivery_time: "Express Delivery",
-      products: createOrderInput.products,
+      products: orderProducts,
       shipping_address: createOrderInput.shipping_address,
       tracking_number: trackingNumber,
       created_at: new Date(),
@@ -118,19 +151,30 @@ randomString(length, chars) {
     return result;
 }
 
-  getOrders({
+async getOrders({
     limit,
     page,
     customer_id,
     tracking_number,
     search,
     shop_id,
-  }: GetOrdersDto): OrderPaginator {
+  }: GetOrdersDto): Promise<OrderPaginator> {
+
+    const db = admin.firestore();
+    const docRef = db.collection('orders');
+
     if (!page) page = 1;
 
     const startIndex = (page - 1) * limit;
     const endIndex = page * limit;
-    let data: Order[] = this.orders;
+  //  let data: Order[] = this.orders;
+    let data = [];
+
+    const snapshot = await docRef.get().then((querySnapshot) => {
+            querySnapshot.forEach((doc) => {
+              data.push(doc.data());
+            });
+    });
 
   /*  if (shop_id && shop_id !== 'undefined') {
       data = this.orders?.filter((p) => p?.shop?.id === Number(shop_id));
