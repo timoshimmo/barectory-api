@@ -238,8 +238,28 @@ export class UsersService {
 
     return {
       success: result,
-      message: 'Admin profile updated',
+      message: 'Customer profile updated',
     };
+  }
+
+  async updateCustomerAddress(id: string, updateUserDto: UpdateUserDto) {
+
+    let result = false;
+
+    const docRef = admin.firestore().collection('customer').doc(id);
+
+    await docRef.update({
+      address: updateUserDto.address,
+    }).then(() => {
+      console.log('Write succeeded!');
+      result = true;
+    })
+
+    return {
+      success: result,
+      message: 'Customer address updated',
+    };
+
   }
 
   async update(id: string, updateUserDto: UpdateUserDto) {
