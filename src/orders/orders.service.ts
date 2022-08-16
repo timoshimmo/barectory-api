@@ -187,8 +187,20 @@ async getOrders({
     };
   }
 
-  getOrderById(id: string): Order {
-    return this.orders.find((p) => p.id === id);
+  async getOrderById(id: string): Promise<Order> {
+
+    let data = [];
+
+    const db = admin.firestore();
+    const docRef = db.collection('orders');
+
+    const snapshot = await docRef.get().then((querySnapshot) => {
+            querySnapshot.forEach((doc) => {
+              data.push(doc.data());
+            });
+    });
+
+    return data.find((p) => p.id === id);
   }
 
   async getOrderByTrackingNumber(tracking_number: string): Promise<Order> {
