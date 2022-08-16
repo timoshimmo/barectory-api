@@ -254,6 +254,7 @@ async getOrders({
   }
 
   update(id: number, updateOrderInput: UpdateOrderDto) {
+    console.log("UPDATE ORDER: " + updateOrderInput);
     return this.orders[0];
   }
 
