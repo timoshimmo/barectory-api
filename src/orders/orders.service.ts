@@ -11,6 +11,7 @@ import { OrderUser } from 'src/users/entities/user.entity';
 import { OrderProduct, OrderProductPivot } from 'src/products/entities/product.entity';
 import { OrderStatus } from './entities/order-status.entity';
 import { paginate } from 'src/common/pagination/paginate';
+import { MailService } from 'src/mail/mail.service';
 import {
   GetOrderStatusesDto,
   OrderStatusPaginator,
@@ -37,6 +38,9 @@ export class OrdersService {
   private orders: Order[] = orders;
   private orderStatus: OrderStatus[] = orderStatus;
   private orderFiles: OrderFiles[] = orderFiles;
+//  private mailService: MailService;
+
+constructor(private mailService: MailService) {}
 
 async create(createOrderInput: CreateOrderDto) {
     //console.log("ORDER: " + JSON.stringify(createOrderInput));
@@ -138,6 +142,14 @@ async create(createOrderInput: CreateOrderDto) {
         .catch(console.error);
 
       } catch (e) {
+        throw e;
+      }
+
+      try {
+        await this.mailService.sendOrderSummary(newOrder);
+      //  console.log(mailing);
+      }
+      catch (e) {
         throw e;
       }
 

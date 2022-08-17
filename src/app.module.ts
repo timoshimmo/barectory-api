@@ -23,6 +23,7 @@ import { AuthorsModule } from './authors/authors.module';
 import { ManufacturersModule } from './manufacturers/manufacturers.module';
 import { NewslettersModule } from './newsletters/newsletters.module';
 import { FirebaseAuthStrategy } from './firebase/firebase-auth.strategy';
+import { ConfigModule } from '@nestjs/config';
 
 @Module({
   imports: [
@@ -49,6 +50,9 @@ import { FirebaseAuthStrategy } from './firebase/firebase-auth.strategy';
     AuthorsModule,
     ManufacturersModule,
     NewslettersModule,
+    ConfigModule.forRoot({
+       isGlobal: true, // no need to import into other modules
+     }),
   ],
   controllers: [],
   providers: [FirebaseAuthStrategy],
