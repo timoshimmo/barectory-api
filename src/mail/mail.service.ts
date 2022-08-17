@@ -21,6 +21,13 @@ export class MailService {
       context: { // ✏️ filling curly brackets with content
         name: order.customer.name,
         url,
+        shipping_address: order.shipping_address.address.formatted_address,
+        tracking_number: order.tracking_number,
+        discount: order.discount,
+        total: order.total,
+        order_date: order.created_at,
+        sub_total: order.amount,
+        products: order.products
       },
     })
     .then((r) => {

@@ -145,13 +145,7 @@ async create(createOrderInput: CreateOrderDto) {
         throw e;
       }
 
-      try {
-        await this.mailService.sendOrderSummary(newOrder);
-      //  console.log(mailing);
-      }
-      catch (e) {
-        throw e;
-      }
+      await this.mailService.sendOrderSummary(newOrder);
 
 
       return newOrder;
