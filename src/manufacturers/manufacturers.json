@@ -3,6 +3,18 @@
     "id": 1,
     "name": "Martini",
     "is_approved": true,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Spirits",
+        "slug": "spirits"
+      },
+      {
+        "id": 2,
+        "name": "Vermouth",
+        "slug": "vermouth"
+      }
+    ],
     "image": {
       "id": 1410,
       "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1410/Publisher-logo-2.png",

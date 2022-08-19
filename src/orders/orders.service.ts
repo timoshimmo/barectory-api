@@ -264,6 +264,44 @@ async getOrders({
     return this.orders[0];
   }
 
+  async updateStatus(id: string, updateOrderInput: UpdateOrderDto) {
+
+  //  console.log("UPDATE ORDER: " + JSON.stringify(updateOrderInput) + " ID: " + id);
+    let statusName = "";
+    let result = false;
+
+    if(parseInt(updateOrderInput.status, 10) === 1) {
+      statusName = "Order Received"
+    }
+
+    if(parseInt(updateOrderInput.status, 10) === 2) {
+      statusName = "Order Processing"
+    }
+
+    if(parseInt(updateOrderInput.status, 10) === 3) {
+      statusName = "Dispatched"
+    }
+
+    if(parseInt(updateOrderInput.status, 10) === 4) {
+      statusName = "Delivered"
+    }
+
+    const docRef = admin.firestore().collection('orders').doc(id);
+
+    await docRef.update({
+      "status.name": statusName,
+      "status.serial": updateOrderInput.status
+    }).then(() => {
+      console.log('Update succeeded!');
+      result = true;
+    })
+
+    return {
+      success: result,
+      message: 'Order status updated',
+    };
+  }
+
   remove(id: number) {
     return `This action removes a #${id} order`;
   }
