@@ -320,7 +320,7 @@ export class ProductsService {
         const [key, value] = searchParam.split(':');
         // TODO: Temp Solution
         if (key !== 'slug') {
-          data = fuse.search(value)?.map(({ item }) => item);
+          data = mfuse.search(value)?.map(({ item }) => item);
         }
       }
     }
