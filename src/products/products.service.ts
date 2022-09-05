@@ -69,7 +69,10 @@ export class ProductsService {
     const data = JSON.stringify(createProductDto);
     const obj = JSON.parse(data);
 
-    const db = admin.firestore();
+    const mdb = admin.database();
+
+
+  //  const db = admin.firestore();
     let result;
 
     let catArr = obj.categories;
@@ -226,21 +229,32 @@ export class ProductsService {
 
     delete obj.manufacturer_id;
   //  delete obj.sub_categories;
-
-    let resultObj = {...obj, slug: product_slug, type: product_type, manufacturer: mItem, in_stock: true};
-
 //    console.log("ALL: " + JSON.stringify(resultObj));
 
     try {
-        const docRef = db.collection('products');
-      //  const slug = createProductDto.name;
-        await docRef.add(resultObj)
+        //const docRef = db.collection('products');
+        const docRef = mdb.ref("products");
+        //  const slug = createProductDto.name;
+        //  await docRef.set(resultObj)
+
+        const newPostRef = docRef.push();
+        const postId = newPostRef.key;
+
+        let resultObj = {...obj, id: postId, slug: product_slug, type: product_type, manufacturer: mItem, in_stock: true};
+        await newPostRef.set(resultObj, (error) => {
+          if (error) {
+             console.log('Data could not be saved.' + error);
+           } else {
+             console.log('Data saved successfully.');
+           }
+        });
+    /*  await docRef.add(resultObj)
         .then(async(res) => {
           await docRef.doc(res.id).update({
             id: res.id
           })
         })
-        .catch(console.error);
+        .catch(console.error);*/
 
       } catch (e) {
         throw e;
@@ -274,8 +288,8 @@ export class ProductsService {
 
     let results;
     let url;
-    //let data = [];
-    let data: Product[] = this.products;
+    let data = [];
+    //let data: Product[] = this.products;
     if (!page) page = 1;
     if (!limit) limit = 30;
     const startIndex = (page - 1) * limit;
@@ -505,6 +519,9 @@ export class ProductsService {
   //  console.log("PRODUCTS UPDATE: ", obj);
     let result = false;
 
+    const mdb = admin.database();
+    const ref = mdb.ref("products");
+
 
     let catArr = obj.categories;
     let subCarArr = obj.sub_categories;
@@ -664,7 +681,8 @@ export class ProductsService {
 
     let resultObj = {...obj, slug: product_slug, manufacturer: mItem, in_stock: true};
 
-    const docRef = admin.firestore().collection('products').doc(id);
+    //const docRef = admin.firestore().collection('products').doc(id);
+    const docRef = ref.child(id);
     await docRef.update(resultObj)
     .then(() => {
       console.log('Write succeeded!');
@@ -680,8 +698,13 @@ export class ProductsService {
   async remove(id: string) {
     //return `This action removes a #${id} product`;
     //console.log("ID: " + id);
-   const docRef = admin.firestore().collection('products').doc(id);
-    await docRef.delete();
+    const mdb = admin.database();
+    const ref = mdb.ref("products");
+
+    const docRef = ref.child(id);
+
+   //const docRef = admin.firestore().collection('products').doc(id);
+    await docRef.remove();
     return {
       success: true,
       message: 'Product successfully deleted!',
