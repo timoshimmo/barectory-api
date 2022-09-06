@@ -277,7 +277,7 @@ export class ProductsService {
         'tags',
         'manufacturer.slug',
       ],
-      threshold: 0.3,
+      threshold: 0.0,
     };
   //  const db = admin.firestore();
   //  const docRef = db.collection('products');
