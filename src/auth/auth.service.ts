@@ -23,6 +23,7 @@ import { Admin } from 'src/users/entities/admin.entity';
 import { Profile } from 'src/users/entities/profile.entity';
 import usersJson from 'src/users/users.json';
 import * as admin from 'firebase-admin';
+import { MailService } from 'src/mail/mail.service';
 
 const users = plainToClass(User, usersJson);
 
@@ -36,6 +37,9 @@ enum Permission {
 @Injectable()
 export class AuthService {
   private users: User[] = users;
+
+  constructor(private mailService: MailService) {}
+
   async register(createUserInput: RegisterDto): Promise<AuthResponse> {
 
     const db = admin.firestore();
@@ -149,6 +153,9 @@ export class AuthService {
   async createCustomer(createUserInput: RegisterDto): Promise<AuthResponse> {
     const db = admin.firestore();
     let token;
+  /*  const actionCodeSettings = {
+      url: redirectUrl // URL you want to be redirected to after email verification
+    }*/
     try {
 
         const docRef = db.collection('customer');
@@ -184,6 +191,7 @@ export class AuthService {
             name: createUserInput.name
           };
           const result = await docRef.doc(userRecord.uid).set(user).catch(console.error);
+          await this.mailService.sendVerifyEmail(user);
           console.log('Successfully created new user:', userRecord.uid);
           token = userRecord.uid;
           //return result;
@@ -198,6 +206,26 @@ export class AuthService {
         permissions: ['customer'],
       };
 
+  }
+
+  async verifyCustomerRegistration(uid: string): Promise<AuthResponse> {
+
+      admin
+      .auth()
+      .updateUser(uid, {
+        emailVerified: true,
+      })
+      .then((userRecord) => {
+        console.log('Successfully updated user', userRecord.toJSON());
+      })
+      .catch((error) => {
+        console.log('Error updating user:', error);
+      });
+
+      return {
+        token: 'jwt token',
+        permissions: ['customer'],
+      };
   }
 
   async login(loginInput: LoginDto): Promise<AuthResponse> {
@@ -326,7 +354,7 @@ export class AuthService {
             };
         } else {
             // doc.data() will be undefined in this case
-            console.log("No such document!");
+            console.log("No such document profile!");
         }
     }).catch((error) => {
         console.log("Error getting document:", error);
@@ -355,7 +383,7 @@ export class AuthService {
             };
         } else {
             // doc.data() will be undefined in this case
-            console.log("No such document!");
+            console.log("No such document customer!");
         }
     }).catch((error) => {
         console.log("Error getting document:", error);
