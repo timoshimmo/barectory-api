@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "name": "Grocery",
+    "name": "Drinks",
     "settings": {
       "isHome": true,
       "layoutType": "modern",
       "productCard": "neon"
     },
-    "slug": "grocery",
-    "icon": "FruitsVegetable",
+    "slug": "drinks",
+    "icon": null,
     "promotional_sliders": [
       {
         "id": 902,
@@ -119,15 +119,15 @@
     ]
   },
   {
-    "id": 1,
-    "name": "Drinks",
+    "id": 2,
+    "name": "Grocery",
     "settings": {
       "isHome": true,
       "layoutType": "modern",
       "productCard": "neon"
     },
-    "slug": "drinks",
-    "icon": null,
+    "slug": "grocery",
+    "icon": "FruitsVegetable",
     "promotional_sliders": [
       {
         "id": 902,

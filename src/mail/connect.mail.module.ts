@@ -17,12 +17,12 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
           secure: true,
           port: 465,
           auth: {
-            user: config.get('MAIL_USER'),
-            pass: config.get('MAIL_PASSWORD'),
+            user: config.get('CONNECT_MAIL_USER'),
+            pass: config.get('CONNECT_MAIL_PASSWORD'),
           },
         },
         defaults: {
-          from: `"Non Reply" <${config.get('MAIL_FROM')}>`,
+          from: `"Non Reply" <${config.get('CONNECT_MAIL_FROM')}>`,
         },
         template: {
           dir: join(__dirname, 'templates'),
@@ -38,4 +38,4 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
   providers: [MailService],
   exports: [MailService], // 👈 export for DI
 })
-export class MailModule {}
+export class ConnectMailModule {}

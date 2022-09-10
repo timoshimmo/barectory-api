@@ -5,10 +5,10 @@ import {
   OrdersController,
   OrderStatusController,
 } from './orders.controller';
-import { MailModule } from 'src/mail/mail.module';
+import { SalesMailModule } from 'src/mail/sales.mail.module';
 
 @Module({
-  imports: [MailModule],
+  imports: [SalesMailModule],
   controllers: [OrdersController, OrderStatusController, OrderFilesController],
   providers: [OrdersService],
 })
