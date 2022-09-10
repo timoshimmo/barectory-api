@@ -164,7 +164,6 @@ export class AuthService {
         .auth()
         .createUser({
           email: createUserInput.email,
-          emailVerified: true,
           password: createUserInput.password,
           displayName: createUserInput.name,
         })
@@ -190,15 +189,27 @@ export class AuthService {
             email: createUserInput.email,
             name: createUserInput.name
           };
-          const result = await docRef.doc(userRecord.uid).set(user).catch(console.error);
-          await this.mailService.sendVerifyEmail(user);
-          console.log('Successfully created new user:', userRecord.uid);
-          token = userRecord.uid;
+
+          await docRef.doc(userRecord.uid).set(user).catch(console.error);
+
+          const actionCodeSettings = {
+             url: "https://barectory.com/verified" // URL you want to be redirected to after email verification
+           }
+
+        /*   const actionCodeSettings = {
+              url: "http://localhost:3003/verified" // URL you want to be redirected to after email verification
+            }*/
+
+          const actionLink = await admin.auth().generateEmailVerificationLink(user.email, actionCodeSettings)
+          await this.mailService.sendVerifyEmail(user, actionLink);
+          console.log('Successfully created new user');
+          //token = userRecord.uid;
           //return result;
         });
 
       } catch (e) {
           throw e;
+          console.log('Error:', e.message);
       }
 
       return {

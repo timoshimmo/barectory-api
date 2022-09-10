@@ -18,13 +18,13 @@
     "parent_id": null,
     "type": {
       "id": 1,
-      "name": "Grocery",
+      "name": "Drinks",
       "settings": {
         "isHome": true,
         "layoutType": "classic",
         "productCard": "argon"
       },
-      "slug": "grocery",
+      "slug": "drinks",
       "icon": "FruitsVegetable",
       "promotional_sliders": [],
       "created_at": "2021-03-08T07:18:25.000000Z",
@@ -169,13 +169,13 @@
     "parent_id": null,
     "type": {
       "id": 1,
-      "name": "Grocery",
+      "name": "Drinks",
       "settings": {
         "isHome": true,
         "layoutType": "classic",
         "productCard": "argon"
       },
-      "slug": "grocery",
+      "slug": "drinks",
       "icon": "FruitsVegetable",
       "promotional_sliders": [],
       "created_at": "2021-03-08T07:18:25.000000Z",
@@ -554,13 +554,13 @@
     "parent_id": null,
     "type": {
       "id": 1,
-      "name": "Grocery",
+      "name": "Drinks",
       "settings": {
         "isHome": true,
         "layoutType": "classic",
         "productCard": "argon"
       },
-      "slug": "grocery",
+      "slug": "drinks",
       "icon": "FruitsVegetable",
       "promotional_sliders": [],
       "created_at": "2021-03-08T07:18:25.000000Z",
@@ -705,13 +705,13 @@
     "parent_id": null,
     "type": {
       "id": 1,
-      "name": "Grocery",
+      "name": "Drinks",
       "settings": {
         "isHome": true,
         "layoutType": "classic",
         "productCard": "argon"
       },
-      "slug": "grocery",
+      "slug": "drinks",
       "icon": "FruitsVegetable",
       "promotional_sliders": [],
       "created_at": "2021-03-08T07:18:25.000000Z",
@@ -778,13 +778,13 @@
     "parent_id": null,
     "type": {
       "id": 1,
-      "name": "Grocery",
+      "name": "Drinks",
       "settings": {
         "isHome": true,
         "layoutType": "classic",
         "productCard": "argon"
       },
-      "slug": "grocery",
+      "slug": "drinks",
       "icon": "FruitsVegetable",
       "promotional_sliders": [],
       "created_at": "2021-03-08T07:18:25.000000Z",

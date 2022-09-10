@@ -10,7 +10,7 @@ import { paginate } from 'src/common/pagination/paginate';
 const categories = plainToClass(Category, categoriesJson);
 const options = {
   keys: ['name', 'type.slug'],
-  threshold: 0.3,
+  threshold: 0.0,
 };
 const fuse = new Fuse(categories, options);
 @Injectable()

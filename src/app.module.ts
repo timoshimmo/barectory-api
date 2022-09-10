@@ -22,6 +22,7 @@ import { RefundsModule } from './refunds/refunds.module';
 import { AuthorsModule } from './authors/authors.module';
 import { ManufacturersModule } from './manufacturers/manufacturers.module';
 import { NewslettersModule } from './newsletters/newsletters.module';
+import { BlogsModule } from './blogs/blogs.module';
 import { FirebaseAuthStrategy } from './firebase/firebase-auth.strategy';
 import { ConfigModule } from '@nestjs/config';
 
@@ -50,6 +51,7 @@ import { ConfigModule } from '@nestjs/config';
     AuthorsModule,
     ManufacturersModule,
     NewslettersModule,
+    BlogsModule,
     ConfigModule.forRoot({
        isGlobal: true, // no need to import into other modules
      }),

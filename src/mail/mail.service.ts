@@ -37,9 +37,9 @@ export class MailService {
      });
   }
 
-  async sendVerifyEmail(user: Customer) {
+  async sendVerifyEmail(user: Customer, redirectUrl: String) {
 
-    const url = `barectory.com/verified`;
+    //const url = `barectory.com/verified`;
 
     await this.mailerService.sendMail({
       to: user.email,
@@ -48,7 +48,7 @@ export class MailService {
       template: './registration', // `.hbs` extension is appended automatically
       context: { // ✏️ filling curly brackets with content
         uid: user.uid,
-        url
+        url: redirectUrl
       },
     })
     .then((r) => {

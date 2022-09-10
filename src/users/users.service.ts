@@ -196,9 +196,7 @@ export class UsersService {
     let result = false;
     let uMobileNo = null;
     let picurl = null;
-
-    console.log("UPDATE DATA: " + JSON.stringify(updateUserDto, null, 2));
-
+    //console.log("UPDATE DATA: " + JSON.stringify(updateUserDto, null, 2));
     if(updateUserDto.profile.contact) {
       uMobileNo = updateUserDto.profile.contact;
       if(uMobileNo.charAt(0) === '0') {
