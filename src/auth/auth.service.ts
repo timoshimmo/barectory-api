@@ -111,7 +111,6 @@ export class AuthService {
         })
         .then(async(userRecord) => {
           // See the UserRecord reference doc for the contents of userRecord.
-
           const profile: Profile = {
             id: 1,
             avatar: null,
@@ -265,6 +264,20 @@ export class AuthService {
   ): Promise<CoreResponse> {
 
     console.log(forgetPasswordInput);
+
+    const actionCodeSettings = {
+       url: "https://barectory.com" // URL you want to be redirected to after email verification
+     }
+
+  /*   const actionCodeSettings = {
+        url: "http://localhost:3003/verified" // URL you want to be redirected to after email verification
+      }*/
+
+    const actionLink = await admin.auth().generatePasswordResetLink(forgetPasswordInput.email, actionCodeSettings)
+    await this.mailService.sendResetEmail(forgetPasswordInput.email, actionLink);
+    console.log('Successfully sent reset link');
+
+
     return {
       success: true,
       message: 'Password change successful',

@@ -37,7 +37,7 @@ export class MailService {
      });
   }
 
-  async sendVerifyEmail(user: Customer, redirectUrl: String) {
+  async sendVerifyEmail(user: Customer, redirectUrl: string) {
 
     //const url = `barectory.com/verified`;
 
@@ -48,6 +48,28 @@ export class MailService {
       template: './registration', // `.hbs` extension is appended automatically
       context: { // ✏️ filling curly brackets with content
         uid: user.uid,
+        url: redirectUrl
+      },
+    })
+    .then((r) => {
+       console.log(r, 'email is sent');
+     })
+     .catch((e) => {
+       console.log(e, 'error sending email');
+     });
+
+  }
+
+  async sendResetEmail(email: string, redirectUrl: string) {
+
+    //const url = `barectory.com/verified`;
+
+    await this.mailerService.sendMail({
+      to: email,
+      // from: '"Support Team" <support@example.com>', // override default from
+      subject: 'Reset Password',
+      template: './reset', // `.hbs` extension is appended automatically
+      context: { // ✏️ filling curly brackets with content
         url: redirectUrl
       },
     })
