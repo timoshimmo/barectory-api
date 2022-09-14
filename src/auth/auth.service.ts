@@ -13,6 +13,7 @@ import {
   OtpLoginDto,
   OtpResponse,
   VerifyOtpDto,
+  AuthErrorResponse,
   OtpDto,
 } from './dto/create-auth.dto';
 import { v4 as uuidv4 } from 'uuid';
@@ -149,17 +150,19 @@ export class AuthService {
 
   }
 
-  async createCustomer(createUserInput: RegisterDto): Promise<AuthResponse> {
-    const db = admin.firestore();
+  async createCustomer(createUserInput: RegisterDto): Promise<AuthErrorResponse> {
+    //const db = admin.firestore();
     let token;
+    let permission;
+    let error;
   /*  const actionCodeSettings = {
       url: redirectUrl // URL you want to be redirected to after email verification
     }*/
     try {
 
-        const docRef = db.collection('customer');
+        //const docRef = db.collection('customer');
 
-        admin
+        await admin
         .auth()
         .createUser({
           email: createUserInput.email,
@@ -189,7 +192,7 @@ export class AuthService {
             name: createUserInput.name
           };
 
-          await docRef.doc(userRecord.uid).set(user).catch(console.error);
+          //await docRef.doc(userRecord.uid).set(user).catch(console.error);
 
           const actionCodeSettings = {
              url: "https://barectory.com/verified" // URL you want to be redirected to after email verification
@@ -201,19 +204,28 @@ export class AuthService {
 
           const actionLink = await admin.auth().generateEmailVerificationLink(user.email, actionCodeSettings)
           await this.mailService.sendVerifyEmail(user, actionLink);
+
           console.log('Successfully created new user');
-          //token = userRecord.uid;
+          token = 'jwt token';
+          permission = ['customer'];
+          error = '';
           //return result;
+
         });
 
+
       } catch (e) {
-          throw e;
+          //throw e;
           console.log('Error:', e.message);
+          token = '';
+          permission = [];
+          error = e.message;
       }
 
       return {
-        token: 'jwt token',
-        permissions: ['customer'],
+        token: token,
+        permissions: permission,
+        error: error,
       };
 
   }

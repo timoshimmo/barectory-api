@@ -145,7 +145,7 @@ async create(createOrderInput: CreateOrderDto) {
         throw e;
       }
 
-      await this.mailService.sendOrderSummary(newOrder);
+      this.mailService.sendOrderSummary(newOrder);
 
 
       return newOrder;

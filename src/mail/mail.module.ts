@@ -38,4 +38,4 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
   providers: [MailService],
   exports: [MailService], // 👈 export for DI
 })
-export class ConnectMailModule {}
+export class MailModule {}
