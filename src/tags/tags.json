@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "FIrst Edition",
+    "slug": "first-edition",
+    "icon": null,
+    "image": [],
+    "details": null,
+    "type_id": 1,
+    "created_at": "2021-12-08T13:40:17.000000Z",
+    "updated_at": "2021-12-08T13:40:17.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "settings": {
+        "isHome": true,
+        "layoutType": "modern",
+        "productCard": "neon"
+      },
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Second Edition",
+    "slug": "second-edition",
+    "icon": null,
+    "image": [],
+    "details": null,
+    "type_id": 8,
+    "created_at": "2021-12-08T13:40:37.000000Z",
+    "updated_at": "2021-12-08T13:40:37.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 8,
+      "name": "Books",
+      "settings": {
+        "isHome": false,
+        "layoutType": "compact",
+        "productCard": "radon"
+      },
+      "slug": "books",
+      "icon": "BookIcon",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Third Edition",
+    "slug": "third-edition",
+    "icon": null,
+    "image": [],
+    "details": null,
+    "type_id": 8,
+    "created_at": "2021-12-08T13:40:49.000000Z",
+    "updated_at": "2021-12-08T13:40:49.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 8,
+      "name": "Books",
+      "settings": {
+        "isHome": false,
+        "layoutType": "compact",
+        "productCard": "radon"
+      },
+      "slug": "books",
+      "icon": "BookIcon",
+      "promotional_sliders": [],
+      "created_at": "2021-12-07T16:30:18.000000Z",
+      "updated_at": "2021-12-08T13:06:56.000000Z"
+    }
+  }
+]

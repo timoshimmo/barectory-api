@@ -1,0 +1,240 @@
+[
+  {
+    "id": 1,
+    "name": "Drinks",
+    "settings": {
+      "isHome": true,
+      "layoutType": "modern",
+      "productCard": "neon"
+    },
+    "slug": "drinks",
+    "icon": null,
+    "promotional_sliders": [
+      {
+        "id": 902,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312918/barectory/Desktop_Ad_1.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312918/barectory/Desktop_Ad_1.jpg"
+      },
+      {
+        "id": 903,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312924/barectory/Desktop_Ad_2.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312924/barectory/Desktop_Ad_2.jpg"
+      },
+      {
+        "id": 601,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_1.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_1.jpg"
+      },
+      {
+        "id": 602,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315656/barectory/Mobile_Ad_2.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315656/barectory/Mobile_Ad_2.jpg"
+      },
+      {
+        "id": 904,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312919/barectory/Desktop_Ad_3.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312919/barectory/Desktop_Ad_3.jpg"
+      },
+      {
+        "id": 905,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312914/barectory/Desktop_Ad_4.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312914/barectory/Desktop_Ad_4.jpg"
+      },
+      {
+        "id": 603,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_3.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_3.jpg"
+      },
+      {
+        "id": 604,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_4.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_4.jpg"
+      },
+      {
+        "id": 906,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312918/barectory/Desktop_Ad_5.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312918/barectory/Desktop_Ad_5.jpg"
+      },
+      {
+        "id": 907,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312916/barectory/Desktop_Ad_6.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312916/barectory/Desktop_Ad_6.jpg"
+      },
+      {
+        "id": 604,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315656/barectory/Mobile_Ad_5.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315656/barectory/Mobile_Ad_5.jpg"
+      },
+      {
+        "id": 605,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315779/barectory/Mobile_Ad_6.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315779/barectory/Mobile_Ad_6.jpg"
+      }
+    ],
+    "created_at": "2021-03-08T07:18:25.000000Z",
+    "updated_at": "2021-08-18T17:12:14.000000Z",
+    "banners": [
+      {
+        "id": 12,
+        "type_id": 8,
+        "title": "Barectory",
+        "description": "Get your healthy foods & snacks delivered at your doorsteps all day everyday",
+        "image": {
+          "id": 907,
+          "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312527/barectory/Desktop_Banner_1.jpg",
+          "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312527/barectory/Desktop_Banner_1.jpg",
+          "mobile": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312523/barectory/Mobile_Banner_1.jpg"
+        },
+        "created_at": "2021-07-17T13:21:55.000000Z",
+        "updated_at": "2021-07-17T13:21:55.000000Z"
+      },
+      {
+          "id": 13,
+          "type_id": 8,
+          "title": "Barectory",
+          "description": "Get your healthy foods & snacks delivered at your doorsteps all day everyday",
+          "image": {
+            "id": 908,
+            "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312529/barectory/Desktop_Banner_2.jpg",
+            "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312529/barectory/Desktop_Banner_2.jpg",
+            "mobile": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312523/barectory/Mobile_Banner_2.jpg"
+          },
+          "created_at": "2021-08-18T18:45:54.000000Z",
+          "updated_at": "2021-08-18T18:45:54.000000Z"
+      },
+      {
+          "id": 14,
+          "type_id": 8,
+          "title": "Barectory",
+          "description": "Get your healthy foods & snacks delivered at your doorsteps all day everyday",
+          "image": {
+            "id": 909,
+            "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312524/barectory/Desktop_Banner_3.jpg",
+            "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312524/barectory/Desktop_Banner_3.jpg",
+            "mobile": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312526/barectory/Mobile_Banner_3.jpg"
+          },
+          "created_at": "2021-08-18T18:45:54.000000Z",
+          "updated_at": "2021-08-18T18:45:54.000000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Grocery",
+    "settings": {
+      "isHome": true,
+      "layoutType": "modern",
+      "productCard": "neon"
+    },
+    "slug": "grocery",
+    "icon": "FruitsVegetable",
+    "promotional_sliders": [
+      {
+        "id": 902,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312918/barectory/Desktop_Ad_1.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312918/barectory/Desktop_Ad_1.jpg"
+      },
+      {
+        "id": 903,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312924/barectory/Desktop_Ad_2.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312924/barectory/Desktop_Ad_2.jpg"
+      },
+      {
+        "id": 601,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_1.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_1.jpg"
+      },
+      {
+        "id": 602,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315656/barectory/Mobile_Ad_2.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315656/barectory/Mobile_Ad_2.jpg"
+      },
+      {
+        "id": 904,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312919/barectory/Desktop_Ad_3.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312919/barectory/Desktop_Ad_3.jpg"
+      },
+      {
+        "id": 905,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312914/barectory/Desktop_Ad_4.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312914/barectory/Desktop_Ad_4.jpg"
+      },
+      {
+        "id": 603,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_3.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_3.jpg"
+      },
+      {
+        "id": 604,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_4.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315655/barectory/Mobile_Ad_4.jpg"
+      },
+      {
+        "id": 906,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312918/barectory/Desktop_Ad_5.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312918/barectory/Desktop_Ad_5.jpg"
+      },
+      {
+        "id": 907,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312916/barectory/Desktop_Ad_6.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312916/barectory/Desktop_Ad_6.jpg"
+      },
+      {
+        "id": 604,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315656/barectory/Mobile_Ad_5.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315656/barectory/Mobile_Ad_5.jpg"
+      },
+      {
+        "id": 605,
+        "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315779/barectory/Mobile_Ad_6.jpg",
+        "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653315779/barectory/Mobile_Ad_6.jpg"
+      }
+    ],
+    "created_at": "2021-03-08T07:18:25.000000Z",
+    "updated_at": "2021-08-18T17:12:14.000000Z",
+    "banners": [
+      {
+        "id": 12,
+        "type_id": 8,
+        "title": "Barectory",
+        "description": "Get your healthy foods & snacks delivered at your doorsteps all day everyday",
+        "image": {
+          "id": 907,
+          "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312527/barectory/Desktop_Banner_1.jpg",
+          "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312527/barectory/Desktop_Banner_1.jpg",
+          "mobile": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312523/barectory/Mobile_Banner_1.jpg"
+        },
+        "created_at": "2021-07-17T13:21:55.000000Z",
+        "updated_at": "2021-07-17T13:21:55.000000Z"
+      },
+      {
+          "id": 13,
+          "type_id": 8,
+          "title": "Barectory",
+          "description": "Get your healthy foods & snacks delivered at your doorsteps all day everyday",
+          "image": {
+            "id": 908,
+            "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312529/barectory/Desktop_Banner_2.jpg",
+            "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312529/barectory/Desktop_Banner_2.jpg",
+            "mobile": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312523/barectory/Mobile_Banner_2.jpg"
+          },
+          "created_at": "2021-08-18T18:45:54.000000Z",
+          "updated_at": "2021-08-18T18:45:54.000000Z"
+      },
+      {
+          "id": 14,
+          "type_id": 8,
+          "title": "Barectory",
+          "description": "Get your healthy foods & snacks delivered at your doorsteps all day everyday",
+          "image": {
+            "id": 909,
+            "original": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312524/barectory/Desktop_Banner_3.jpg",
+            "thumbnail": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312524/barectory/Desktop_Banner_3.jpg",
+            "mobile": "https://res.cloudinary.com/westpaybankit/image/upload/v1653312526/barectory/Mobile_Banner_3.jpg"
+          },
+          "created_at": "2021-08-18T18:45:54.000000Z",
+          "updated_at": "2021-08-18T18:45:54.000000Z"
+      }
+    ]
+  }
+]
