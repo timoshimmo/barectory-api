@@ -4,13 +4,13 @@ import { CreateUserDto } from './dto/create-user.dto';
 import { GetUsersDto, UserPaginator } from './dto/get-users.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { UpdateAdminDto } from './dto/update-admin.dto';
-import { Category } from 'src/categories/entities/category.entity';
-import { Product } from 'src/products/entities/product.entity';
-import productsJson from '@db/products.json';
+//import { Category } from 'src/categories/entities/category.entity';
+//import { Product } from 'src/products/entities/product.entity';
+//import productsJson from '@db/products.json';
 import Fuse from 'fuse.js';
 import * as admin from 'firebase-admin';
 
-const products = plainToClass(Product, productsJson);
+//const products = plainToClass(Product, productsJson);
 
 enum Permission {
   SUPER_ADMIN = 'Super admin',
